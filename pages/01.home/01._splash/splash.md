@@ -21,11 +21,11 @@ limit_reveal: '0'
 [reveal="fadein duration-10000"]
 [landscape]
 [huge]
-# Hotdoy
+# Zynthian
 [/huge]
 [/landscape]
 [portrait]
-# Hotdoy
+# Zynthian
 [/portrait]
 [/reveal]
 [reveal="fadein delay-3000 duration-5000"]
