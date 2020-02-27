@@ -1,0 +1,11 @@
+state: enabled
+email: fernando@zynthian.org
+fullname: Jofemodo
+title: Administrator
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$/2nQLuKUf2wxBUobm5nxyuvkQvUeOpD/Vjx7tObkSdZ/IMfN3R/Uq

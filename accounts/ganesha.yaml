@@ -1,0 +1,15 @@
+state: enabled
+_json:
+  avatar: '[]'
+  state: '"enabled"'
+email: irene@ganeshaproduccions.com
+fullname: 'Irene Ganesha'
+title: null
+language: en
+twofa_enabled: false
+twofa_secret: F2H46MSW2PRXMHMZWGCBUHUEJVZPO6FX
+access:
+  site: {  }
+  admin: {  }
+  admin-addon-user-manager: {  }
+hashed_password: $2y$10$.EqtUyIZWJqEjOG1HBs4z.T638V.pSHygaVAqAhQ6J5yRxBBG0//y

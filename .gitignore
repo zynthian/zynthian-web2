@@ -1,5 +1,5 @@
 plugins/*
-accounts/
+#accounts/
 #data/*
 themes/*
 !themes/zynthian
