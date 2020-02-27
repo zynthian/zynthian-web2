@@ -3,6 +3,19 @@
 This Website is built using Hotdoy Skeleton as base template. 
 For better maintainance, [inheritance is used for theme customization](https://getgrav.org/blog/theme-development-with-inheritance) (themes/zynthian).
 
+Installation from scratch:
+
+* git clone https://github.com/getgrav/grav.git zynthian-web2
+* cd zynthian-web2
+* mv user user.bak
+* git clone git@github.com:zynthian/zynthian-web2.git user
+* ./bin/grav install
+
+Local run:
+
+  php -S localhost:8000 system/router.php
+
+
 --------------
 
 # Hotdoy skeleton for Grav CMS
