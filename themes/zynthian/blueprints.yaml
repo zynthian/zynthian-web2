@@ -1,0 +1,8 @@
+name: Zynthian
+version: 0.0.1
+description: A custom theme for Zynthian Web. 
+icon: angellist
+author:
+  name: Ganesha + Jofemodo
+homepage: https://zynthian.org
+license: MIT
