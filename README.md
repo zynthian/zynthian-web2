@@ -3,6 +3,8 @@
 This Website is built using Hotdoy Skeleton as base template. 
 For better maintainance, [inheritance is used for theme customization](https://getgrav.org/blog/theme-development-with-inheritance) (themes/zynthian).
 
+--------------
+
 # Hotdoy skeleton for Grav CMS
 
 ## A FAIR WARNING:
