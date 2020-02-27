@@ -4,7 +4,7 @@ git:
         path: user/plugins/admin
         branch: master
     admin-addon-user-manager:
-        url: https://github.com/getgrav/grav-plugin-admin-addon-user-manager
+        url: https://github.com/david-szabo97/grav-plugin-admin-addon-user-manager
         path: user/plugins/admin-addon-user-manager
         branch: master
     email:
@@ -44,7 +44,7 @@ git:
         path: user/plugins/devtools
         branch: master
     hotdoy:
-        url: https://github.com/getgrav/grav-theme-hotdoy
+        url: https://github.com/hotdoy/grav-theme-hotdoy
         path: user/themes/hotdoy
         branch: master
 
