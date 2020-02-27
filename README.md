@@ -5,17 +5,15 @@ For better maintainance, [inheritance is used for theme customization](https://g
 
 Installation from scratch:
 
-'''
-git clone https://github.com/getgrav/grav.git zynthian-web2
-cd zynthian-web2
-mv user user.bak
-git clone git@github.com:zynthian/zynthian-web2.git user
-./bin/grav install
-'''
+    git clone https://github.com/getgrav/grav.git zynthian-web2
+    cd zynthian-web2
+    mv user user.bak
+    git clone git@github.com:zynthian/zynthian-web2.git user
+    ./bin/grav install
 
 Local run:
 
->php -S localhost:8000 system/router.php
+    php -S localhost:8000 system/router.php
 
 
 --------------
