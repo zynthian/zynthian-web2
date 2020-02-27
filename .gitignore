@@ -1,6 +1,6 @@
 plugins/*
 accounts/
-data/*
+#data/*
 themes/*
 !themes/zynthian
 config/backups.yaml
