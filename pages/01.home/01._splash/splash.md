@@ -21,11 +21,11 @@ limit_reveal: '0'
 [reveal="fadein duration-10000"]
 [landscape]
 [huge]
-# Zynthian
+# ZYNTHIAN
 [/huge]
 [/landscape]
 [portrait]
-# Zynthian
+# ZYNTHIAN
 [/portrait]
 [/reveal]
 [reveal="fadein delay-3000 duration-5000"]
