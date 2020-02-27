@@ -1,6 +1,8 @@
+*~
 plugins/*
 #accounts/
-#data/*
+data/*
+!data/nodelete.txt
 themes/*
 !themes/zynthian
 config/backups.yaml
