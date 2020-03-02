@@ -1,15 +1,24 @@
 state: enabled
-_json:
-  avatar: '[]'
-  state: '"enabled"'
-email: irene@ganeshaproduccions.com
-fullname: 'Irene Ganesha'
-title: null
+email: irene@ganeshaproduccions.con
+fullname: ganesha
+title: Admin
+access:
+  site:
+    login: 'true'
+  admin:
+    super: 'true'
+    login: 'true'
+  admin-addon-user-manager: {  }
+hashed_password: $2y$10$mI33g0bBbIlqPBytnDP79e1yY54RzFCreYbCdGqYcXRvOaXgxKPki
+password: null
 language: en
 twofa_enabled: false
-twofa_secret: F2H46MSW2PRXMHMZWGCBUHUEJVZPO6FX
-access:
-  site: {  }
-  admin: {  }
-  admin-addon-user-manager: {  }
-hashed_password: $2y$10$.EqtUyIZWJqEjOG1HBs4z.T638V.pSHygaVAqAhQ6J5yRxBBG0//y
+twofa_secret: U4LW3OE4GXGORJ7QBPFRZMJPRWANVNQJ
+avatar:
+  user/accounts/avatars/nQYMyAKwLHDN8U1.png:
+    name: nQYMyAKwLHDN8U1.png
+    type: image/png
+    size: 469043
+    path: user/accounts/avatars/nQYMyAKwLHDN8U1.png
+info: null
+groups: null
