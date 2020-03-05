@@ -1,6 +1,6 @@
 ---
 title: header
-media_order: 'grav.svg,nightsky-landscape.mp4'
+media_order: nightsky-landscape.mp4
 align_h: center
 align_v: center
 bg_video: nightsky-landscape.mp4
@@ -21,14 +21,14 @@ limit_reveal: '0'
 [reveal="fadein duration-10000"]
 [landscape]
 [huge]
-# ZYNTHIAN
+# Open Synth Platform
+Imagine having all the sounds you ever dreamed of in the palm of your hand.
+[Learn More](../some-page?classes=button,button-secondary)  [Buy Kits](../some-page?classes=button,button-primary)
 [/huge]
 [/landscape]
 [portrait]
-# ZYNTHIAN
+# Open Synth Platform
+Imagine having all the sounds you ever dreamed of in the palm of your hand.
+[Learn More](../some-page?classes=button,button-secondary)  [Buy Kits](../some-page?classes=button,button-primary)
 [/portrait]
-[/reveal]
-[reveal="fadein delay-3000 duration-5000"]
-for
-[[div style="width:100px;margin:0 auto;"]![](grav.svg)[/div]](https://getgrav.org/)
 [/reveal]

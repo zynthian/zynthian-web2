@@ -8,6 +8,8 @@ taxonomies:
   - tag
 metadata:
   description: 'Zynthian Website'
+  # keywords: 'HTML, CSS, Grav, Theme, One Page'
+  # robots: 'noindex, nofollow'
 summary:
   enabled: true
   format: short

@@ -1,8 +1,199 @@
 name: Zynthian
 version: 0.0.1
-description: A custom theme for Zynthian Web. 
+description: A custom theme for Zynthian Web.
 icon: angellist
 author:
   name: Ganesha + Jofemodo
 homepage: https://zynthian.org
 license: MIT
+
+
+form:
+  validation: loose
+  fields:
+
+    theme:
+      type: section
+      title: Theme
+
+    meta_theme:
+      type: colorpicker
+      label: Meta Theme
+
+    color_bg:
+      type: colorpicker
+      label: Color BG
+      default: '#ffffff'
+
+    color_fg:
+      type: colorpicker
+      label: Color FG
+      default: '#313131'
+
+    color_hl:
+      type: colorpicker
+      label: Color HL
+      default: '#0059ff'
+
+    color_hl_inverted:
+      type: colorpicker
+      label: Color HL Inverted
+      default: '#ffffff'
+
+    color_loader:
+      type: colorpicker
+      label: Color Loader
+      help: Will use the color-bg of current page if not set. You can also overwrite this value per page.
+
+    navigation:
+      type: section
+      title: Navigation
+
+    site_logo:
+      type: textarea
+      rows: 13
+      label: Site Logo
+      help: 'Inline SVG code.'
+
+    color_nav_fg:
+      type: colorpicker
+      label: Color Nav FG
+      default: '#313131'
+
+    color_nav_panel_bg:
+      type: colorpicker
+      label: Color Nav Panel FG
+      default: '#ffffff'
+
+    color_nav_panel_fg:
+      type: colorpicker
+      label: Color Nav Panel FG
+      default: '#313131'
+
+    organization:
+      type: section
+      title: Organization
+
+    org_name:
+      type: text
+      label: Name
+      help: The name by which the organization should be recognized.
+
+    org_logo:
+      type: file
+      label: Logo
+      destination: 'user/assets/hotdoy/organization'
+      multiple: false
+      help: 'Used in schema.org implmentation to represent your organization. Will not appear on the front-end.'
+
+    analytics:
+      type: section
+      title: Analytics
+
+    google_tracking_id:
+      type: text
+      label: Google Analytics Tracking ID
+
+    tracking:
+      type: toggle
+      label: Send Theme Usage Statistics
+      help: Send information to the dev behind the theme and help him help you.
+      highlight: 1
+      default: 1
+      options:
+        1: 'Yes'
+        0: 'No'
+
+    google_maps:
+      type: section
+      title: Google Maps
+
+    google_maps_api_key:
+      type: text
+      label: Google Maps API Key
+
+    google_maps_snazzy:
+      type: textarea
+      rows: 13
+      label: Snazzy Maps
+
+    google_maps_icon:
+      type: file
+      label: Icon
+      destination: 'user/assets/hotdoy/google-maps-icon'
+      multiple: false
+
+    facebook:
+      type: section
+      title: Facebook
+
+    facebook_app_id:
+      type: text
+      label: Facebook App Id
+
+    snipcart:
+      type: section
+      title: Snipcart
+
+    snipcart_api_key:
+      type: text
+      label: Snipcart API Key
+
+    price_prefix:
+      type: text
+      label: Price Prefix
+
+    price_suffix:
+      type: text
+      label: Price Suffix
+
+    image-processing:
+      type: section
+      title: Image Processing
+
+    lazyload:
+      type: toggle
+      label: Lazyload Images
+      highlight: 1
+      default: 1
+      options:
+        1: 'Yes'
+        0: 'No'
+
+    placeholder:
+      type: toggle
+      label: Use Low Resolution Placeholder While Lazyloading
+      highlight: 1
+      default: 1
+      options:
+        1: 'Yes'
+        0: 'No'
+
+    browser:
+      type: section
+      title: Browser Behaviour
+
+    links:
+      type: select
+      label: Link rel (experimental)
+      default: 0
+      help: Adds link rel tag in the head of the document for all links starting with "/" (presumed same site links) and lest the browser heuristically execute the selected command.
+      options:
+        0: 'disabled'
+        prerender: 'prerender'
+        preconnect: 'preconnect'
+        dns-prefetch: 'dns-prefetch'
+
+    misc:
+      type: section
+      title: Misc
+
+    reveal_content:
+      type: toggle
+      label: Reveal Content
+      help: Reveal content as you scroll.
+      highlight: 1
+      default: 1
+      options:
+        1: 'Yes'
+        0: 'No'
