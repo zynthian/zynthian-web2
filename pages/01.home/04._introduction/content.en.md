@@ -8,13 +8,18 @@ padding_bottom: none
 margin_bottom: none
 role: default
 limit_reveal: '0'
+body_classes: row
 align: left
 width: tight
 margin: top
 padding: none
 ---
 
-[tight]
+[column]
+## Flectit reserabo tonto el rabo
+[/column]
+
+[column class="column-50 column-offset-25"]
 ## Flectit reserabo tonto el rabo
 
 Lorem markdownum illae, [mox postquam](http://caput.net/captum), certaminis,
@@ -25,6 +30,4 @@ novoque**: siquid Telamonius victa variatus mirabile o. Non tertius omnia:
 viderat deus: fugat crepitantia quae aridus, hora iram rasa convexum nuper nec:
 illa.Coniunx nostro contemptus favent. Rediret mihi quae; nec arvis nymphae servabunt
 templa et locutus, et protinus, domino ignibus: tumultu.
-[/tight]
-
-
+[/column]

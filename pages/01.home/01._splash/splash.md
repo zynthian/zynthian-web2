@@ -23,7 +23,7 @@ limit_reveal: '0'
 [huge]
 # Open Synth Platform
 Imagine having all the sounds you ever dreamed of in the palm of your hand.
-[Learn More](../some-page?classes=button,button-secondary)  [Buy Kits](../some-page?classes=button,button-primary)
+[tight][Learn More](../some-page?classes=button,button-secondary)  [Buy Kits](../some-page?classes=button,button-primary)[/tight]
 [/huge]
 [/landscape]
 [portrait]

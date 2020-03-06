@@ -1,4 +1,4 @@
-title: Zynthian
+title: 'Zynthian: Open Synth Platform'
 default_lang: en
 author:
   name: 'Ganesha + Jofemodo'
@@ -7,9 +7,7 @@ taxonomies:
   - category
   - tag
 metadata:
-  description: 'Zynthian Website'
-  # keywords: 'HTML, CSS, Grav, Theme, One Page'
-  # robots: 'noindex, nofollow'
+  description: 'Zynthian is an Open Synth Platform based in Raspberry Pi, Linux and Open Source Synthesizers'
 summary:
   enabled: true
   format: short
