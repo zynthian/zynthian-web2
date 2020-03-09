@@ -12,10 +12,10 @@ html{
     position: relative;
     font-family: var(--font-base);
     height: var(--nav-height);
-    color: #313131;
-    color: var(--color-nav-fg, #313131);
-    background-color: #ffffff;
-    background-color: var(--color-nav-bg, #ffffff);
+    color: #000000;
+    color: var(--color-nav-fg, #000000);
+    background-color: #FFFFFF;
+    background-color: var(--color-nav-bg, #FFFFFF);
     z-index: 5000;
 }
 
@@ -90,7 +90,7 @@ a.nav-link:active {
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
-@media (min-width: 735px){
+@media (min-width: 768px){
     .nav-link.nav-link--selected:before{
         bottom: 0;
     }
@@ -119,8 +119,8 @@ PORTRAIT
     position: absolute;
     top: 16px;
     right: var(--gutter);
-    color: #313131;
-    color: var(--color-nav-panel-fg, #313131);
+    color: #000000;
+    color: var(--color-nav-panel-fg, #000000);
     cursor: pointer;
 }
 
@@ -138,8 +138,8 @@ PORTRAIT
     padding: 1rem;
     padding: var(--gutter);
     box-shadow: 0 7px 50px 5px rgba(0, 0, 0, 0.2);
-    background-color: #ffffff;
-    background-color: var(--color-nav-panel-bg, #ffffff);
+    background-color: #FFFFFF;
+    background-color: var(--color-nav-panel-bg, #FFFFFF);
 }
 
 .header__panel.header__panel--on{
@@ -159,7 +159,7 @@ PORTRAIT
     position: absolute;
     top: 16px;
     left: var(--gutter);
-    color: var(--color-nav-panel-fg, #313131);
+    color: var(--color-nav-panel-fg, #000000);
 }
 
 .header__panel-logo svg{
@@ -170,10 +170,10 @@ PORTRAIT
 .header__panel .nav-link{
     display: block;
     margin-left: 0;
-    font-family: var(--font-alt);
+    font-family: var(--font-alt-bold);
     font-size: 2rem;
-    color: #313131;
-    color: var(--color-nav-panel-fg, #313131);
+    color: #000000;
+    color: var(--color-nav-panel-fg, #000000);
 }
 
 
@@ -193,7 +193,7 @@ CART
 .snipcart-items-count{
     position: absolute;
     font-size: 10px;
-    color: #fff;
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     text-align: center;

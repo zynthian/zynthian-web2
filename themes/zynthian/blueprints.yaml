@@ -23,22 +23,27 @@ form:
     color_bg:
       type: colorpicker
       label: Color BG
-      default: '#ffffff'
+      default: '#FFFFFF'
 
     color_fg:
       type: colorpicker
-      label: Color FG
-      default: '#313131'
+      label: Color FG (Base)
+      default: '#000000'
+
+    color_sc:
+      type: colorpicker
+      label: Color SC (Secondary)
+      default: '#C00127'
 
     color_hl:
       type: colorpicker
-      label: Color HL
-      default: '#0059ff'
+      label: Color HL (Highlight)
+      default: '#000000'
 
     color_hl_inverted:
       type: colorpicker
       label: Color HL Inverted
-      default: '#ffffff'
+      default: '#FFFFFF'
 
     color_loader:
       type: colorpicker
@@ -47,7 +52,7 @@ form:
 
     navigation:
       type: section
-      title: Navigation
+      title: Header
 
     site_logo:
       type: textarea
@@ -57,18 +62,59 @@ form:
 
     color_nav_fg:
       type: colorpicker
-      label: Color Nav FG
-      default: '#313131'
+      label: Color Header FG
+      default: '#000000'
 
     color_nav_panel_bg:
       type: colorpicker
-      label: Color Nav Panel FG
-      default: '#ffffff'
+      label: Color Header Panel FG
+      default: '#FFFFFF'
 
-    color_nav_panel_fg:
-      type: colorpicker
-      label: Color Nav Panel FG
-      default: '#313131'
+    footer:
+      type: section
+      title: Footer
+
+    about_desc:
+      type: textarea
+      rows: 4
+      label: About Us Description
+      help: Short description "about us"
+
+    org_desc:
+      type: textarea
+      rows: 4
+      label: Description
+      help: The description of the organization should be recognized.
+
+    policy_link:
+      type: text
+      label: Privacy Policy Link
+      help: Link for Privacy Policy.
+
+    github_link:
+      type: text
+      label: Github Link
+      help: Link for Github.
+
+    youtube_link:
+      type: text
+      label: Youtube Link
+      help: Link for Youtube.
+
+    twitter_link:
+      type: text
+      label: Twitter Link
+      help: Link for Twitter.
+
+    instagram_link:
+      type: text
+      label: Instagram Link
+      help: Link for Instagram.
+
+    facebook_link:
+      type: text
+      label: Facebook Link
+      help: Link for Facebook.
 
     organization:
       type: section

@@ -1,0 +1,28 @@
+<footer class="footer">
+    <div class="footer__main row">
+        <div class="column column-5">
+            {% set site_logo = theme.site_logo ? theme.site_logo : site.title %}
+            <div class="footer__logo">
+                {{ site_logo }}
+                {{ theme.org_desc }}
+            </div>
+            {{ theme.about_desc }}
+        </div>
+        <div class="column column-7">
+        </div>
+    </div>
+	<div class="footer__secondary row">
+        <div class="column column-6">
+            <p><a href="{{ theme.policy_link }}" target="_blank" rel="noopener noreferrer">Privacy Policy</a></p>
+        </div>
+        <div class="column column-6">
+            <ul>
+                {% if theme.github_link is not empty %}<li><a href="{{ theme.github_link }}" target="_blank" rel="noopener noreferrer">git</a></li>{% endif %}
+                {% if theme.youtube_link is not empty %}<li><a href="{{ theme.youtube_link }}" target="_blank" rel="noopener noreferrer">youtube</a></li>{% endif %}
+                {% if theme.twitter_link is not empty %}<li><a href="{{ theme.twitter_link }}" target="_blank" rel="noopener noreferrer">twitter</a></li>{% endif %}
+                {% if theme.instagram_link is not empty %}<li><a href="{{ theme.instagram_link }}" target="_blank" rel="noopener noreferrer">instagram</a></li>{% endif %}
+                {% if theme.facebook_link is not empty %}<li><a href="{{ theme.facebook_link }}" target="_blank" rel="noopener noreferrer">facebook</a></li>{% endif %}
+            </ul>
+
+        </div>
+</footer>

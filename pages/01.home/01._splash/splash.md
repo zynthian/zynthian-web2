@@ -1,5 +1,5 @@
 ---
-title: header
+title: 'Open Synth Platform'
 media_order: nightsky-landscape.mp4
 align_h: center
 align_v: center
@@ -20,15 +20,13 @@ limit_reveal: '0'
 
 [reveal="fadein duration-10000"]
 [landscape]
-[huge]
 # Open Synth Platform
 Imagine having all the sounds you ever dreamed of in the palm of your hand.
-[tight][Learn More](../some-page?classes=button,button-secondary)  [Buy Kits](../some-page?classes=button,button-primary)[/tight]
-[/huge]
+[btn-secondary href="#"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/" class="btn--secondary"]Buy Kit[/btn-primary] 
 [/landscape]
 [portrait]
 # Open Synth Platform
 Imagine having all the sounds you ever dreamed of in the palm of your hand.
-[Learn More](../some-page?classes=button,button-secondary)  [Buy Kits](../some-page?classes=button,button-primary)
+[btn-secondary href="#"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/" class="btn--secondary"]Buy Kit[/btn-primary] 
 [/portrait]
 [/reveal]

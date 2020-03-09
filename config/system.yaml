@@ -11,8 +11,7 @@ username_regex: '^[a-z0-9_-]{3,16}$'
 pwd_regex: '(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
 intl_enabled: true
 languages:
-  supported:
-    - en
+  supported: null
   default_lang: null
   include_default_lang: true
   pages_fallback_only: false

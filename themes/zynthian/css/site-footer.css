@@ -1,0 +1,9 @@
+footer{
+	/*border-top: solid 1px grey;*/
+	position: relative;
+	margin-top: var(--rhythm);
+}
+
+.footer__logo svg g{
+    fill:#000000;
+}

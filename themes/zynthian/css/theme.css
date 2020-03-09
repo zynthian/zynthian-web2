@@ -1,0 +1,171 @@
+html{
+	--width-tight: 700px;
+	--width-site: 1400px;
+	--width-full: 100%;
+	--gutter: 1rem;
+	--rhythm: 6rem;
+
+    --color-bg: #FFFFFF;
+	--color-fg: #000000;
+	--color-sc: #C00127;
+	--color-hl: #000000;
+	--color-hl-inverted: #FFFFFF;
+
+	--color-nav-bg: transparent;
+	--color-nav-fg: #000000;
+	--color-nav-panel-bg: transparent;
+	--color-nav-panel-fg: #000000;
+}
+
+@media (min-width: 768px) {
+	html{
+		--rhythm: 8rem;
+	}
+}
+
+
+/*
+***************************************
+My CSS Reset/Base
+https://bitsofco.de/my-css-reset-base/
+***************************************
+*/
+
+/*Resetting margins, paddings, and borders*/
+
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/*Typography*/
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+* {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+a,
+a:visited {
+    color: inherit;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+/*Layout & box sizing*/
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/*Resetting specific element styles*/
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img,
+video,
+object {
+    max-width: 100%;
+}
+
+img {
+    border-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: "";
+    content: none;
+}
+
+
+/*Attributes & states*/
+
+[hidden] {
+    display: none !important;
+}
+
+[disabled] {
+    cursor: not-allowed;
+}
+
+:focus:not(:focus-visible) {
+    outline: none;
+}
+
+
+/*Screen reader only utility*/
+
+.sr-only {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    left: -9999px;
+    top: -9999px;
+}

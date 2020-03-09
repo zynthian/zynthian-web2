@@ -1,24 +1,22 @@
 ---
-title: 'Build your Zynthian'
+title: 'Built your Zynthian'
 media_order: circle-built.svg
-image: circle-built.svg
-image_alt: 'Icon of differnet tools'
-image_width: 100
-reverse: '1'
+content_position: center
+date: '10:14 09-03-2020'
 margin_top: full
 padding_top: none
 padding_bottom: none
 margin_bottom: none
 role: default
 limit_reveal: '0'
-body_classes: exposition
-margin: top
-padding: none
-display_title: '0'
+body_classes: 'basic-concepts row-center custom-list'
+content:
+    items: '@self.modular'
 ---
 
+[column  class="column-3 text-center"]![](circle-built.svg)[/column]
+[column class="column-8"]
 ## Build your Zynthian
-
 Zynthian is not available as a finished product. You have to build your own unit. But don't be afraid! It's an easy task that anybody can carry out, and you get a bunch of advantages by doing this way:
 
 + You can repair your unit. Every single part is available separatelly.
@@ -27,5 +25,6 @@ Zynthian is not available as a finished product. You have to build your own unit
 +  Moreover, you may learn something interesting in the process ...
 
 You can choose between build your device from scratch or use one of the kits that we offer, adapted to the different skill levels.
-
+[/column]
+[column class="column-1"][/column]
 
