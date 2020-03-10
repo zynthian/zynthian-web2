@@ -1,8 +1,8 @@
 html{
-	--width-tight: 700px;
-	--width-site: 1400px;
+	--width-tight: 767px;
+	--width-site: 1200px;
 	--width-full: 100%;
-	--gutter: 1rem;
+	--gutter: 1.5rem;
 	--rhythm: 6rem;
 
     --color-bg: #FFFFFF;

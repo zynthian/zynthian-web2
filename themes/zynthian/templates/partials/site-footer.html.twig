@@ -1,28 +1,89 @@
 <footer class="footer">
-    <div class="footer__main row">
-        <div class="column column-5">
-            {% set site_logo = theme.site_logo ? theme.site_logo : site.title %}
-            <div class="footer__logo">
-                {{ site_logo }}
-                {{ theme.org_desc }}
+    <div class="footer__main modular modular--content row-center">
+        <div class="content__ctn">
+            <div class="row">
+                <div class="column column-5">
+                    {% set site_logo = theme.site_logo ? theme.site_logo : site.title %}
+                    <div class="footer__logo">
+                        {{ site_logo }}
+                        {{ theme.org_desc }}
+                    </div>
+                    <div class="footer__about">
+                        {{ theme.about_desc }}
+                    </div>
+                </div>
+                <div class="column column-7">
+                    <div class="footer__form">
+                        FORM
+                    </div>
+                </div>
             </div>
-            {{ theme.about_desc }}
-        </div>
-        <div class="column column-7">
         </div>
     </div>
-	<div class="footer__secondary row">
-        <div class="column column-6">
-            <p><a href="{{ theme.policy_link }}" target="_blank" rel="noopener noreferrer">Privacy Policy</a></p>
+    <div class="footer__secondary modular modular--content row-center">
+        <div class="content__ctn">
+            <div class="row">
+                <div class="column column-6">
+                    <p class="text-center"><a href="{{ theme.policy_link }}" target="_blank" rel="noopener noreferrer">Privacy Policy</a></p>
+                </div>
+                <div class="column column-6">
+                    <ul class="inline-list">
+                        {% if theme.github_link is not empty %}
+                            <li>
+                                {# <a href="{{ theme.github_link }}" target="_blank" rel="noopener noreferrer">{{ media['user://pages/images/icon-github.svg'].html() }}</a> #}
+                                <a href="{{ theme.github_link }}" target="_blank" rel="noopener noreferrer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="31" height="33" viewBox="0 0 31 33">
+                                      <path fill="none" stroke-linecap="round" stroke-linejoin="round" d="M10.6530748,26.9796844 C3.04373566,29.2246498 3.04373566,23.2380754 -6.39488462e-14,22.4897536 M21.3061496,31.4696152 L21.3061496,25.6776045 C21.4216337,24.233938 20.9005584,22.8111026 19.8755939,21.7713647 C24.6542588,21.2475394 29.6764227,19.4665336 29.6764227,11.2948595 C29.6760321,9.20528619 28.858711,7.1958503 27.3936209,5.68244608 C28.0873733,3.85430572 28.0383207,1.83360164 27.2566528,0.0400997322 C27.2566528,0.0400997322 25.4608488,-0.483725525 21.3061496,2.25513225 C17.8180424,1.32544979 14.1411821,1.32544979 10.6530748,2.25513225 C6.49837563,-0.483725525 4.7025716,0.0400997322 4.7025716,0.0400997322 C3.92090375,1.83360164 3.87185111,3.85430572 4.56560349,5.68244608 C3.08958514,7.20707643 2.27142221,9.23467415 2.28268461,11.3397589 C2.28268461,19.4515671 7.30496558,21.232573 12.0836306,21.816264 C11.0710095,22.8453016 10.5509139,24.2491379 10.6530748,25.6776045 L10.6530748,31.4696152" transform="translate(0 1)"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if theme.youtube_link is not empty %}
+                            <li>
+                                <a href="{{ theme.youtube_link }}" target="_blank" rel="noopener noreferrer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="32" viewBox="0 0 46 32">
+                                      <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" transform="translate(.244 1)">
+                                        <path d="M44.08,4.7597793 C43.5964216,2.85978433 42.1163965,1.35927468 40.2,0.826077398 C36.76,3.57047725e-13 23,3.57047725e-13 23,3.57047725e-13 C23,3.57047725e-13 9.24,3.57047725e-13 5.8,0.904751436 C3.88360351,1.43794871 2.40357843,2.93845837 1.92,4.83845333 C1.29042911,8.27170084 0.982471854,11.7545105 1,15.2430949 C0.977558588,18.757946 1.28553538,22.2673132 1.92,25.7264104 C2.45270061,27.5659202 3.92406771,28.9979828 5.8,29.5027642 C9.24,30.4075157 23,30.4075157 23,30.4075157 C23,30.4075157 36.76,30.4075157 40.2,29.5027642 C42.1163965,28.9695669 43.5964216,27.4690573 44.08,25.5690623 C44.7047143,22.1616671 45.0126522,18.7054099 45,15.2430949 C45.0224414,11.7282437 44.7144646,8.21887651 44.08,4.7597793 Z"></path>
+                                        <polygon points="18.5 21.675 30 15.243 18.5 8.811"></polygon>
+                                      </g>
+                                    </svg>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if theme.twitter_link is not empty %}
+                            <li>
+                                <a href="{{ theme.twitter_link }}" target="_blank" rel="noopener noreferrer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="39" height="31" viewBox="0 0 39 31">
+                                      <path fill="none" stroke-linecap="round" stroke-linejoin="round" d="M37.0526316,0.699655969 C35.4398063,1.81844618 33.6540764,2.67414119 31.7642105,3.23378814 C29.6865003,0.88439552 26.3383073,0.0605152258 23.3803477,1.17079492 C20.4223881,2.28107462 18.4838741,5.08933747 18.5263158,8.20267475 L18.5263158,9.85897028 C12.5148039,10.0122644 6.82446368,7.19559821 3.36842105,2.3559515 C3.36842105,2.3559515 -3.36842105,17.2626113 11.7894737,23.8877935 C8.32088853,26.2032388 4.18889585,27.3642408 7.10542736e-14,27.2003845 C15.1578947,35.4818622 33.6842105,27.2003845 33.6842105,8.15298588 C33.6826596,7.69163078 33.6375537,7.23141377 33.5494737,6.77826058 C35.2683842,5.11118767 36.4813935,3.00639994 37.0526316,0.699655969 Z" transform="translate(.812 -.043)"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if theme.instagram_link is not empty %}
+                            <li>
+                                <a href="{{ theme.instagram_link }}" target="_blank" rel="noopener noreferrer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="33" viewBox="0 0 34 33">
+                                      <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" transform="translate(1.432 1)">
+                                        <rect width="32" height="31.47" rx="5"></rect>
+                                        <path d="M22.4,14.7435147 C22.8049959,17.4294017 21.4128414,20.067929 18.9466024,21.2886815 C16.4803635,22.509434 13.4960777,22.0371812 11.5437423,20.1172049 C9.59140695,18.1972286 9.11119493,15.2624058 10.3525218,12.8370437 C11.5938488,10.4116815 14.2768454,9.04260127 17.008,9.44088455 C19.7967628,9.84756883 21.9864615,12.0009743 22.4,14.7435147 Z"></path>
+                                        <line x1="24.8" x2="24.816" y1="7.081" y2="7.081"></line>
+                                      </g>
+                                    </svg>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if theme.facebook_link is not empty %}
+                            <li>
+                                <a href="{{ theme.facebook_link }}" target="_blank" rel="noopener noreferrer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="33" viewBox="0 0 20 33">
+                                      <path fill="none" stroke-linecap="round" stroke-linejoin="round" d="M17.6,-4.156675e-13 L12.8,-4.156675e-13 C8.381722,-4.156675e-13 4.8,3.52235666 4.8,7.86740379 L4.8,12.5878461 L-4.61852778e-14,12.5878461 L-4.61852778e-14,18.8817691 L4.8,18.8817691 L4.8,31.4696152 L11.2,31.4696152 L11.2,18.8817691 L16,18.8817691 L17.6,12.5878461 L11.2,12.5878461 L11.2,7.86740379 C11.2,6.99839437 11.9163444,6.29392304 12.8,6.29392304 L17.6,6.29392304 L17.6,-4.156675e-13 Z" transform="translate(1 1)"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="column column-6">
-            <ul>
-                {% if theme.github_link is not empty %}<li><a href="{{ theme.github_link }}" target="_blank" rel="noopener noreferrer">git</a></li>{% endif %}
-                {% if theme.youtube_link is not empty %}<li><a href="{{ theme.youtube_link }}" target="_blank" rel="noopener noreferrer">youtube</a></li>{% endif %}
-                {% if theme.twitter_link is not empty %}<li><a href="{{ theme.twitter_link }}" target="_blank" rel="noopener noreferrer">twitter</a></li>{% endif %}
-                {% if theme.instagram_link is not empty %}<li><a href="{{ theme.instagram_link }}" target="_blank" rel="noopener noreferrer">instagram</a></li>{% endif %}
-                {% if theme.facebook_link is not empty %}<li><a href="{{ theme.facebook_link }}" target="_blank" rel="noopener noreferrer">facebook</a></li>{% endif %}
-            </ul>
-
-        </div>
+    </div>
 </footer>

@@ -1,4 +1,26 @@
 
+/*
+***************************************
+CUSTOM CSS FOR ZYNTHIAN
+(child-theme of Hotdoy)
+***************************************
+*/
+
+
+/*--------------------------------------------------------------
+SUMARY
+----------------------------------------------------------------
+# Columns Grdi
+# General & Tricks
+# Buttons
+# Splash
+# Homepage
+
+
+
+--------------------------------------------------------------*/
+
+
 
 /*
 ***************************************
@@ -74,14 +96,16 @@ NOT SUPPORTED: Safari 8 (MacOS X 10.10)
             align-self: center;
 }
 
-@media (min-width: 735px) {
+@media only screen and (min-width: 768px) {
     .row {
         flex-direction: row;
     }
+
     .row .column {
         margin-bottom: inherit;
-        padding: 0 1.0rem;
+        padding: 0 1rem;
     }
+
     .row .column.column-offset-1 {
         margin-left: 8.33%;
     }
@@ -185,34 +209,9 @@ NOT SUPPORTED: Safari 8 (MacOS X 10.10)
 
 
 
-/*
-***************************************
-CUSTOM CSS FOR ZYNTHIAN
-(child-theme of Hotdoy)
-***************************************
-*/
-
-
-/*--------------------------------------------------------------
-SUMARY
-----------------------------------------------------------------
-# General & Tricks
-# Buttons
-# Splits
-# Homepage
-
-
-
---------------------------------------------------------------*/
-
-
 /*--------------------------------------------------------------
 # General & Tricks
 --------------------------------------------------------------*/
-
-a{
-    transition: all 0.2s ease-in-out;
-}
 
 .text-right{
     text-align: right;
@@ -239,12 +238,52 @@ a{
   padding-right: 6px;
 }
 
+.custom-list li li::before {
+  content: "=>";
+  padding-right: 6px;
+}
+
+.inline-list{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-left: 0;
+}
+
+.inline-list li{
+    display: block;
+    flex: 0 1 auto;
+    list-style-type: none;
+    padding-bottom: 0;
+}
 
 .content--center > .row > *{
     margin: 0
 }
 
+@media only screen and (min-width: 768px) {
+    .text-right-large{
+        text-align: right;
+    }
 
+    .text-left-large{
+        text-align: left;
+    }
+
+    .text-center-large{
+        text-align: center;
+    }
+    .float-right-large{
+        float: right;
+        display: block;
+    }
+
+    .float-left-large{
+        float: left;
+        display: block;
+    }
+
+}
 
 
 /*--------------------------------------------------------------
@@ -252,6 +291,10 @@ a{
 --------------------------------------------------------------*/
 
 .btn{
+    font-size: 1em;
+}
+
+.modular--splash .btn{
     font-size: 1.188em;
 }
 
@@ -264,8 +307,8 @@ a{
     background: var(--color-hl);
     border: 1px solid var(--color-hl);
     color: var(--color-hl-inverted);
-    border-radius: 10px;
-    padding: 0.65em 1.5em;
+    border-radius: 6px;
+    padding: 0.5em 1.75em;
 }
 
 .btn--secondary> a {
@@ -273,8 +316,8 @@ a{
     background: var(--color-hl-inverted);
     border: 1px solid var(--color-hl-inverted);
     color: var(--color-hl);
-    border-radius: 10px;
-    padding: 0.65em 1.5em;
+    border-radius: 6px;
+    padding: 0.5em 1.75em;
 }
 
 .btn.btn--primary .material-icons {
@@ -302,13 +345,31 @@ a{
 
 
 
+.ghost{}
+
+
 
 
 
 /*--------------------------------------------------------------
-# Splits
+# Splash
 --------------------------------------------------------------*/
 
+.modular--splash::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.50) 1%, rgba(0,0,0,0.00) 100%);
+    z-index: 10000;
+}
+
+.splash__content-ctn{
+    z-index: 20000;
+}
 
 
 
@@ -324,3 +385,65 @@ a{
     max-width: 205px;
 }
 
+.kit__card > div{
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    padding: 2em;
+    color: var(--color-hl-inverted);
+    height: 500px;
+}
+
+.kit__card > div::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.50) 1%, rgba(0,0,0,0.00) 100%);
+    z-index: 0;
+}
+
+.kit__card > div *{
+    position: relative;
+    z-index: 10;
+}
+
+.kit__card .content-group h2{
+    padding-bottom: 0.25em;
+}
+
+.kit__card .content-group h5{
+    padding-bottom: 0.25em;
+    font-family: var(--font-light);
+}
+
+.kit__card .button-group {
+    margin-top: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.kitv3{
+    background: url(../../../pages/images/kit-v3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.kitv2{
+    background: url(../../../pages/images/kit-v2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.hard-soft img{
+    padding-bottom: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+    .hard-soft .column-offset-1.column-5{
+        margin-bottom: var(--rhythm)
+    }
+}

@@ -28,30 +28,30 @@ h6{
 
 h1{
     font-family: var(--font-special);
-    font-size: 3em;
+    font-size: 4.125em;
     padding-bottom: 0.25em;
 }
 
 h2{
-    font-size: 2.25em;
+    font-size: 3.125em;
     padding-bottom: 0.5em;
 }
 
 h3{
-    font-size: 1.875rem;
+    font-size: 2.25rem;
 }
 
 h4{
-    font-size: 1.375rem;
+    font-size: 1.875rem;
 }
 
 h5{
-    font-size: 1.188rem;
+    font-size: 1.375rem;
 }
 
 h6{
     font-family: var(--font-base-bold);
-    font-size: 1rem;
+    font-size: 1.188rem;
 }
 
 p{
@@ -70,6 +70,20 @@ small{
     font-size: 0.813rem;
 }
 
+a{
+    transition: all 0.2s ease-in-out;
+}
+
+li a,
+p a{
+    color: var(--color-sc);
+}
+
+li a:hover,
+p a:hover{
+    color: var(--color-fg);
+}
+
 sup{
     font-size: xx-small;
     vertical-align: super;
@@ -81,6 +95,11 @@ ul{
     margin-left: 1.875rem;
     padding-bottom: 1.375em;
     padding-top: 0.5em;
+}
+
+ul ul{
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
 }
 
 li{
