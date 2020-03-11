@@ -1,10 +1,10 @@
 ---
 title: Splash
-media_order: 'technical-specifications-hero.jpg,technical-specifications-hero_small.jpg'
+media_order: zynthian-hero.jpg
 align_h: center
 align_v: center
-bg_image: technical-specifications-hero.jpg
-bg_image_landscape: technical-specifications-hero_small.jpg
+bg_image: studio-production-hero.jpg
+bg_image_landscape: studio-production-hero_small.jpg
 bg_fit: cover
 bg_veil: 0
 min_height: 50
@@ -19,4 +19,11 @@ role: header
 limit_reveal: '0'
 ---
 
-# Technical Specifications
+[landscape]
+# Studio / Production
+## Subtitle
+[/landscape]
+[portrait]
+# Studio / Production
+[/portrait]
+

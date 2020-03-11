@@ -1,0 +1,26 @@
+{% macro main(pages, theme) %}
+
+{# 	{% if theme.use_custom_navigation %}
+	{% for p in pages.children if p.template == 'navigation' %}
+
+	{% endfor %}
+
+	{% else %} #}
+	<ul class="inline-list">
+		{% for p in pages.children.visible %}
+		    {% set current_page = (p.active or p.activeChild) ? 'nav-link--selected' : '' %}
+		    <li><a class="nav-link {{ current_page }}" href="{{ p.url }}">{{ p.menu }}</a></li>
+		{% endfor %}
+		{% if theme.snipcart_api_key %}
+		    <li>
+		    	<a class="snipcart-checkout nav-link">
+			        <div class="cart">
+			            <span class="material-icons cart-icon">shopping_cart</span>
+			            <span class="snipcart-items-count"></span>
+			        </div>
+		    	</a>
+		    </li>
+		{% endif %}
+	</ul>
+	{# {% endif %} #}
+{% endmacro %}

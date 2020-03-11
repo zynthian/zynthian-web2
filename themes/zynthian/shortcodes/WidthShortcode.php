@@ -6,14 +6,29 @@ class WidthShortcode extends Shortcode
 {
     public function init()
     {
-        $this->shortcode->getHandlers()->add('column', function(ShortcodeInterface $sc) {
+        $this->shortcode->getHandlers()->add('tight', function(ShortcodeInterface $sc) {
             $class = $sc->getParameter('class', $this->getBbCode($sc));
-            return '<div class="column ' . $class . '">' . $sc->getContent() . '</div>';
+            return '<div class="tight ' . $class . '">' . $sc->getContent() . '</div>';
+        });
+
+         $this->shortcode->getHandlers()->add('site', function(ShortcodeInterface $sc) {
+            $class = $sc->getParameter('class', $this->getBbCode($sc));
+            return '<div class="site ' . $class . '">' . $sc->getContent() . '</div>';
+        });
+
+        $this->shortcode->getHandlers()->add('full', function(ShortcodeInterface $sc) {
+            $class = $sc->getParameter('class', $this->getBbCode($sc));
+            return '<div class="full ' . $class . '">' . $sc->getContent() . '</div>';
         });
 
         $this->shortcode->getHandlers()->add('article', function(ShortcodeInterface $sc) {
             $class = $sc->getParameter('class', $this->getBbCode($sc));
             return '<article class="' . $class . '">' . $sc->getContent() . '</article>';
+        });
+
+        $this->shortcode->getHandlers()->add('column', function(ShortcodeInterface $sc) {
+            $class = $sc->getParameter('class', $this->getBbCode($sc));
+            return '<div class="column ' . $class . '">' . $sc->getContent() . '</div>';
         });
 
         $this->shortcode->getHandlers()->add('content-group', function(ShortcodeInterface $sc) {
@@ -25,6 +40,5 @@ class WidthShortcode extends Shortcode
             $class = $sc->getParameter('class', $this->getBbCode($sc));
             return '<div class="button-group ' . $class . '">' . $sc->getContent() . '</div>';
         });
-
     }
 }

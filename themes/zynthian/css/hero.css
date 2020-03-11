@@ -63,7 +63,7 @@
 	width: 100%;
 }
 
-@media (max-width: 735px){
+@media only screen and (max-width: 735px){
 	.hero__ctn{
 		flex-direction: column-reverse;
 	}
@@ -83,7 +83,7 @@
 
 .hero__ctn--reverse {}
 
-@media (min-width: 768px){
+@media only screen and (min-width: 768px){
 	.hero__ctn--reverse{
 		flex-direction: row-reverse;
 	}

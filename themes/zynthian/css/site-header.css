@@ -2,7 +2,7 @@ html{
     --nav-height: 4rem;
 }
 
-@media (min-width: 735px) {
+@media only screen and (min-width: 735px) {
     html{
         --nav-height: 6rem;
     }
@@ -47,18 +47,6 @@ html{
     width: auto;
 }
 
-.nav-link{
-    margin-left: 1rem;
-    color: inherit;
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: transform 0.1s;
-    position: relative;
-    display: inline-block;
-}
-
-
-
 
 
 /*
@@ -75,11 +63,19 @@ a.nav-link:active {
     transform: translateY(2px);
 }
 
-.nav-link.nav-link--selected:before{
+a.nav-link{
+    color: var(--color-hl-inverted);
+}
+
+a.nav-link:hover{
+    color: var(--color-sc);
+}
+
+.nav-link.nav-link--selected::before{
     content: " ";
     height: 1px;
     width: 100%;
-    background-color: var(--color-nav-panel-fg);
+    background-color: var(--color-sc);
     position: absolute;
     bottom: 10px;
     left: 0px;
@@ -90,17 +86,30 @@ a.nav-link:active {
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
-@media (min-width: 768px){
-    .nav-link.nav-link--selected:before{
-        bottom: 0;
+
+@media only screen and (min-width: 768px){
+
+    .nav-link:hover::before{
+        content: " ";
+        height: 2px;
+        width: 100%;
+        background-color: var(--color-sc);
+        position: absolute;
+        bottom: -3px;
+        left: 0px;
+
+    }
+
+    .nav-link.nav-link--selected::before{
+        bottom: -3px;
+        height: 2px;
     }
 }
+
 @keyframes nav-link-selected {
     from {opacity: 0; transform: translateY(5px);}
     to {opacity: 0.7; transform: translateY(0px);}
 }
-
-
 
 
 
@@ -176,8 +185,15 @@ PORTRAIT
     color: var(--color-nav-panel-fg, #000000);
 }
 
-
-
+.nav-link{
+    margin-left: 1rem;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: transform 0.1s;
+    position: relative;
+    display: inline-block;
+}
 
 
 /*
@@ -214,8 +230,6 @@ CART
 
 
 
-
-
 /*
 ###########################################################
 MODULAR ROLE
@@ -232,3 +246,24 @@ MODULAR ROLE
 .splash--header{
     margin-top: calc(var(--nav-height) * -1 - var(--gutter));
 }
+
+
+
+/*
+###########################################################
+NAVIGATION
+###########################################################
+*/
+
+
+
+.nav-link a:hover{
+    margin-left: 1rem;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: transform 0.1s;
+    position: relative;
+    display: inline-block;
+}
+

@@ -15,7 +15,7 @@ ARTICLE
 	max-width: var(--width-tight, 635px);
 	text-align: left;
 }
-@media (min-width: 768px){
+@media only screen and (min-width: 768px){
 	.article__header{
 		text-align: center;
 	}
@@ -40,7 +40,7 @@ ARTICLE
 	margin-right: auto;
 	max-width: var(--width-site);
 }
-@media (min-width: 768px){
+@media only screen and (min-width: 768px){
 	.article__media-ctn{
 		padding-left: var(--gutter);
 		padding-right: var(--gutter);
@@ -58,7 +58,7 @@ ARTICLE
 	font-family: var(--font-base-italic);
 	text-align: right;
 }
-@media (min-width: 768px){
+@media only screen and (min-width: 768px){
 	.article__media-caption{
 		padding-left: 0;
 		padding-right: 0;

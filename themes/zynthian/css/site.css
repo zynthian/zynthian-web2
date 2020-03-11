@@ -1,0 +1,313 @@
+/*
+###########################################################
+BODY
+###########################################################
+*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	min-height: 100vh;
+	color: var(--color-fg);
+	background-color: var(--color-bg);
+	overflow-y: scroll;
+}
+
+::selection {
+	background: var(--color-hl);
+	color: white;
+}
+
+
+/*
+###########################################################
+SECTION WIDTH, GUTTERS, AND RHYTHM
+###########################################################
+*/
+
+.tight{
+	width: 100%;
+	max-width: var(--width-tight);
+}
+
+.site{
+	width: 100%;
+	max-width: var(--width-site);
+}
+
+.full{
+	width: 100%;
+	max-width: var(--width-full);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gutter {
+	padding-left: var(--gutter);
+	padding-right: var(--gutter);
+}
+
+@media only screen and (min-width: 768px) {
+	.gutter{
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+
+
+/*
+###########################################################
+PAGE
+###########################################################
+*/
+
+.page{
+	margin-top: var(--gutter);
+}
+
+
+
+/*
+###########################################################
+UTILS
+###########################################################
+*/
+
+.landscape,
+.desktop{
+	display: block;
+}
+
+@media only screen and (max-width: 767px) {
+	.landscape,
+	.desktop{
+		display: none;
+	}
+}
+
+.portrait,
+.mobile{
+	display: block;
+}
+
+@media only screen and (min-width: 768px) {
+	.portrait,
+	.mobile{
+		display: none;
+	}
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	 -khtml-user-select: none;
+	   -moz-user-select: none;
+		-ms-user-select: none;
+			user-select: none;
+}
+
+.display-none {
+  display: none;
+}
+
+.fill{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+/*fix for empty p shortcodes tends to leave behind*/
+p:empty{
+	display: none;
+}
+
+.center{
+	text-align: center;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+/*
+###########################################################
+MISC ELEMENTS
+###########################################################
+*/
+
+hr{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	border: transparent;
+    border-top: 1px solid var(--color-fg);
+    opacity: 0.2;
+}
+
+.modular hr{
+	margin-top: var(--rhythm);
+	margin-bottom: var(--rhythm);
+	border: transparent;
+    border-top: 1px solid var(--color-fg);
+    opacity: 0.2;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+img.lazyload,
+img.lazyloading{
+	image-rendering: pixelated;
+}
+
+code{
+    display: inline-block;
+    background-color: #f6f9fc;
+    border: 1px solid #e6edf5;
+    color: var(--color-fg);
+    border-radius: 4px;
+    padding: 0 4px;
+    font-family: Courier New, Courier, monospace;
+    word-break: break-all;
+}
+
+#tracking{
+	display: none;
+}
+
+#snipcart{
+	z-index: 9000;
+	position: absolute;
+}
+
+.pagination__loader{
+  	width: 100%;
+    margin: 2rem;
+    display: flex;
+    color: lightgrey;
+    justify-content: center;
+}
+
+
+
+/*
+###########################################################
+MARKDOWN NOTICES
+###########################################################
+*/
+
+.notices {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.notices p a{
+	color: inherit;
+	text-decoration: underline;
+}
+
+.notices.yellow {
+    background: #fcf8f2;
+    color: #df8a13;
+}
+
+.notices.red {
+    background: #f443360d;
+    color: #F44336;
+}
+
+.notices.blue {
+    background: #2196f317;
+    color: #2196F3;
+}
+
+.notices.green {
+    background: #00968814;
+    color: #009688;
+}
+
+.notices.dev{
+	font-family: courier;
+	text-align: center;
+	font-weight: bold;
+	background: #f443360d;
+    color: #F44336;
+}
+
+
+
+/*
+###########################################################
+MODULAR
+###########################################################
+*/
+
+
+.modular{
+	position: relative;
+	margin: 0;
+	background-color: var(--color-bg);
+	color: var(--color-fg);
+	z-index: 1000;
+}
+
+@media only screen and (min-width: 768px) {
+	.modular:after{
+		margin: 0 auto;
+	}
+}
+
+.mt{margin-top: var(--rhythm);}
+.mt_2{margin-top: calc(var(--rhythm) * 0.5);}
+.pt{padding-top: var(--rhythm);}
+.pt_2{padding-top: calc(var(--rhythm) * 0.5);}
+.pb{padding-bottom: var(--rhythm);}
+.pb_2{padding-bottom: calc(var(--rhythm) * 0.5);}
+.mb{margin-bottom: var(--rhythm);}
+.mb_2{margin-bottom: calc(var(--rhythm) * 0.5);}
+
+
+
+
+/*
+###########################################################
+EMBED
+###########################################################
+*/
+
+.embed.youtube,
+.embed.vimeo{
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+	width: 100%;
+	margin-top: 1rem;
+}
+
+.embed.youtube iframe,
+.embed.vimeo iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

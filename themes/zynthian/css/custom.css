@@ -257,6 +257,11 @@ NOT SUPPORTED: Safari 8 (MacOS X 10.10)
     padding-bottom: 0;
 }
 
+.black-bg.modular{
+    background-color:var(--color-hl) !important;
+    color: var(--color-hl-inverted);
+}
+
 .content--center > .row > *{
     margin: 0
 }
@@ -320,40 +325,93 @@ NOT SUPPORTED: Safari 8 (MacOS X 10.10)
     padding: 0.5em 1.75em;
 }
 
+.btn--primary_ghost > a {
+    display: flex;
+    background: var(--color-hl-inverted);
+    border: 1px solid var(--color-hl-inverted);
+    color: var(--color-hl);
+    border-radius: 6px;
+    padding: 0.5em 1.75em;
+}
+
+.btn--secondary_ghost> a {
+    display: flex;
+    background: transparent;
+    border: 1px solid var(--color-hl-inverted);
+    color: var(--color-hl-inverted);
+    border-radius: 6px;
+    padding: 0.5em 1.75em;
+}
+
 .btn.btn--primary .material-icons {
     padding-left: 0.5rem;
 }
 
 .btn.btn--primary:hover,
-.btn.btn--secondary:hover{
+.btn.btn--secondary:hover,
+.btn.btn--primary_ghost:hover,
+.btn.btn--secondary_ghost:hover{
     transform: none;
 }
 
 .btn.btn--primary:hover a,
-.btn.btn--secondary:hover a{
+.btn.btn--secondary:hover a,
+.btn.btn--primary_ghost:hover a,
+.btn.btn--secondary_ghost:hover a{
     box-shadow: none;
     background: var(--color-sc);
     border: 1px solid var(--color-sc);
     color: var(--color-hl-inverted);
 }
 
-
 .btn.btn--primary:active,
-.btn.btn--secondary:active{
+.btn.btn--secondary:active,
+.btn.btn--primary_ghost:active,
+.btn.btn--secondary_ghost:active{
     transform: translateY(-1px);
 }
-
-
-
-.ghost{}
-
-
-
 
 
 /*--------------------------------------------------------------
 # Splash
 --------------------------------------------------------------*/
+
+:not(.body--home) .modular--splash {
+    min-height: 100% !important;
+    height: 350px;
+}
+
+.body--home .modular--splash {
+    min-height: 900px !important;
+    height: 100vh;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    :not(.body--home) .modular--splash {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    :not(.body--home) .modular--splash {
+        height: 275px;
+    }
+
+    :not(.body--home) .modular--splash h1 {
+        padding-bottom: 0;
+    }
+
+    /*:not(.body--home) .modular--splash h2 {
+        display: none;
+    }*/
+}
+
+:not(.body--home) .splash__content-ctn--hcenter.splash__content-ctn--vcenter{
+    margin-top: 0;
+}
 
 .modular--splash::before {
     content: "";
@@ -367,9 +425,21 @@ NOT SUPPORTED: Safari 8 (MacOS X 10.10)
     z-index: 10000;
 }
 
+:not(.body--home) .modular--splash::before {
+    height: 100%;
+    background: rgba(0,0,0,0.50);
+}
+
 .splash__content-ctn{
     z-index: 20000;
 }
+
+.splash__content h2{
+    font-family: var(--font-light);
+    font-size: 1.375rem;
+    padding-bottom: 2em;
+}
+
 
 
 
@@ -417,7 +487,6 @@ NOT SUPPORTED: Safari 8 (MacOS X 10.10)
 
 .kit__card .content-group h5{
     padding-bottom: 0.25em;
-    font-family: var(--font-light);
 }
 
 .kit__card .button-group {
@@ -446,4 +515,118 @@ NOT SUPPORTED: Safari 8 (MacOS X 10.10)
     .hard-soft .column-offset-1.column-5{
         margin-bottom: var(--rhythm)
     }
+}
+
+.video-block img{
+    max-height: 150px;
+    width: auto;
+}
+
+.video-block.mt_2{
+    margin-top: calc(var(--rhythm) * 0.25);
+}
+
+.timeline:before {
+  content: '';
+  position:absolute;
+  height:100%;
+  left:20px;
+  width:2px;
+  top:0;
+  background:#fff;
+  z-index:1;
+}
+
+.timeline{
+  position:relative;
+  margin: 50px auto;
+  width:calc(100% - 20px);
+  padding:50px 0;
+}
+
+.timeline ul{
+  margin:0;
+  padding:0 ;
+}
+
+.timeline ul li{
+  list-style:none;
+  box-sizing:border-box;
+  line-height:normal;
+  position:relative;
+  width:100%;
+  padding: 3em 0 3em 5em;
+  float:right;
+  text-align:left;
+  clear:both;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.timeline ul li::before{
+  content: "";
+  background: url(../../../pages/images/uses-cases-detail.svg) no-repeat center center;
+  position:absolute;
+  width:90px;
+  height:90px;
+  left:-24px;
+  top:50px;
+  z-index: 10;
+}
+
+.timeline__image,
+.timeline__content{
+    flex:1;
+}
+
+.timeline__content h3{
+    padding-bottom: 1rem;
+}
+
+.timeline__content h5{
+    padding-bottom: 1.375em;
+}
+
+.timeline__content a{
+    display: block;
+    clear: both;
+    padding-top: 1em;
+}
+
+
+@media only screen and (min-width: 768px){
+    .timeline ul li{
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    .timeline__image{
+        padding-left: 1.875em;
+    }
+
+    .timeline__content h3{
+        padding-top: 0.75em;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 767px){
+  .timeline{
+    width:100%;
+  }
+
+  .timeline:before{
+    left:20px;
+  }
+
+  .timeline ul li{
+    width:100%;
+    text-align:left;
+    padding-left:50px;
+    top:-18px;
+    left:16px;
+  }
+
 }

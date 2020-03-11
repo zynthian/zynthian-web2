@@ -1,9 +1,11 @@
 html{
 	--width-tight: 767px;
-	--width-site: 1200px;
+	--width-site: 1400px;
 	--width-full: 100%;
-	--gutter: 1.5rem;
+	--gutter: 1.375rem;
 	--rhythm: 6rem;
+
+    --base-font-size: 16px;
 
     --color-bg: #FFFFFF;
 	--color-fg: #000000;
@@ -17,10 +19,17 @@ html{
 	--color-nav-panel-fg: #000000;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 	html{
 		--rhythm: 8rem;
+        --base-font-size: 18px;
 	}
+}
+
+@media only screen and (max-width: 480px) {
+    html{
+        --rhythm: 4rem;
+    }
 }
 
 

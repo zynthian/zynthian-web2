@@ -24,10 +24,11 @@ footer p a:hover{
 
 .footer__main{
     position: relative;
-    padding-top: calc(var(--rhythm) / 2);
-    padding-bottom: calc(var(--rhythm) / 3);
+    padding-top: var(--rhythm);
+    padding-bottom: var(--rhythm);
     background: var(--color-hl);
     color: var(--color-hl-inverted);
+    font-size: 16px;
 }
 
 .footer__logo svg{
@@ -52,6 +53,7 @@ footer p a:hover{
 .footer__secondary{
     padding-top: var(--gutter);
     padding-bottom: var(--gutter);
+    font-size: 16px;
 }
 
 .footer__secondary ul{
@@ -71,7 +73,7 @@ footer p a:hover{
     stroke:var(--color-sc);
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .footer__secondary p,
     .footer__secondary ul{
         padding-top: 0;
@@ -88,6 +90,11 @@ footer p a:hover{
 
     .footer__secondary .inline-list li{
         margin-left: 1.188em;
+    }
+
+    .footer__main{
+        padding-top: calc(var(--rhythm) / 3);
+        padding-bottom: calc(var(--rhythm) / 3);
     }
 }
 
