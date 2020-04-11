@@ -5,8 +5,9 @@ For better maintainance, [inheritance is used for theme customization](https://g
 
 Installation from scratch:
 
-    git clone https://github.com/getgrav/grav.git zynthian-web2
-    cd zynthian-web2
+    wget https://getgrav.org/download/core/grav-admin/1.6.23 -O grav.zip
+    unzip grav.zip
+    cd grav-admin
     mv user user.bak
     git clone git@github.com:zynthian/zynthian-web2.git user
     ./bin/grav install
