@@ -4,6 +4,7 @@ This Website is built using Hotdoy Skeleton as base template.
 For better maintainance, [inheritance is used for theme customization](https://getgrav.org/blog/theme-development-with-inheritance) (themes/zynthian).
 
 Installation from scratch:
+
     wget https://getgrav.org/download/core/grav-admin/1.6.23 -O grav.zip
     unzip grav.zip
     cd grav-admin
