@@ -1,8 +1,8 @@
 ---
 title: 'Uses cases'
-media_order: 'use-cases-2.jpg,use-cases-1.jpg,use-cases-3.jpg'
+media_order: 'use-cases-1.jpg,use-cases-2.jpg,use-cases-3.jpg'
 content_position: center
-date: '10:14 09-03-2020'
+date: '10:14 27-03-2020'
 margin_top: none
 padding_top: none
 padding_bottom: none
@@ -23,28 +23,25 @@ content:
 ---
 
 [div class="timeline"]
-* [figure class="timeline__image"][![Zynthian over a Keayboard](use-cases-1.jpg)](#)[/figure]
+* [figure class="timeline__image"][![Zynthian over a Keayboard](use-cases-1.jpg)](/keyboard-expander)[/figure]
 [span class="timeline__content"]
 ### Keyboard Expander
 ##### Let your keyboard to play the sound you want.
 Grand & Electric Pianos, Organs, Vintage Synthesizers, Virtual Analog Synthesizers, Soundfonts, ...
-[[Learn More]](#)[/span]
+[[Learn More]](/keyboard-expander)[/span]
 
-
-* [figure class="timeline__image"][![Zynthian & Mic](use-cases-2.jpg)](#)[/figure]
+* [figure class="timeline__image"][![Zynthian & Mic](use-cases-2.jpg)](/effects-unit)[/figure]
 [span class="timeline__content"]
 ### Effects Unit
 ##### Would you like a custom FX-chain for every song?
 Reverb, Echo, Delay, Chorus, Distortion, EQ, Compressor, Wah, ...
-[[Learn More]](#)
-[/span]
+[[Learn More]](/effects-unit)[/span]
 
-* [figure class="timeline__image"][![Zynthian connected](use-cases-3.jpg)](#)[/figure]
+* [figure class="timeline__image"][![Zynthian connected](use-cases-3.jpg)](/studio-production)[/figure]
 [span class="timeline__content"]
 ### Studio / Production
 ##### A powerful tool in a small container
 Multi-timbric, MOD-UI, PureData, MIDI network, MIDI & Audio recorder, MIDI processor & router, ...
-[[Learn More]](#)
-[/span]
+[[Learn More]](/studio-production)[/span]
 
 [/div]

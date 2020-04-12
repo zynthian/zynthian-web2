@@ -1,5 +1,5 @@
 ---
-title: 'Built your Zynthian'
+title: 'Build your Zynthian'
 media_order: circle-built.svg
 content_position: center
 date: '10:14 09-03-2020'
