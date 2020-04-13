@@ -10,7 +10,39 @@ role: default
 limit_reveal: '0'
 ---
 
-Zynthian is a new class of musical device. A sonic tool capable of synthetizing amazing sounds, emulating vintage synthesizers or acoustic instruments and processing audio input with countless effects and filters. 
-Also, it's a powerful MIDI processor and router, equipped with standard MIDI ports, MIDI-USB and network interfaces.
-You can use it for live performing, studio production or as a tool for sound exploration.
-Zynthian is a community-driven project and it's 100% open source. Free software on Open hardware. Completely configurable and fully hackable! Free as in Freedom. An Open Platform for Sound Synthesis & Processing. 
+Zynthian includes more than 30 Synth Engines and thousands of presets:
+
++ ZynAddSubFX (Virtual Analog Synthetizer)
++ FluidSynth (SF2 & SF3 SoundFonts)
++ LinuxSampler (SFZ & GIG SoundFonts)
++ setBfree (Hammond B3 + Leslie)
++ MDA ePiano (Rhodes)
++ Dexed (DX-7)
++ Pianoteq (Steinwey Model D & B, C.Benchstein, Ant.Petrof,  Rhodes, Wurlintzer, Clavinet, ...)
++ Aeolus (Pipe Organ)
++ OBXd (Oberheim OB-X)
++ Helm (Virtual Analog Synthetizer)
++ Raffo (MiniMoog)
++ TAL Noize Maker (Virtual Analog Synthetizer)
++ MDA JX-10
++ ...
+
+Also includes hundreds of effects:
+
++ Reverb
++ Chorus
++ Flanger
++ Delay
++ Distortion
++ Granulator
++ ...
+
+It can run any LV2 plugin, so the list of Synth Engines & Effects are ever growing.
+
+The amazing (but non-free) Pianoteq physical modeler is supported and a demo version is included. Of course, you can easily upgrade to the licensed version.
+
+The MIDI learning workflow is quick & easy and allows you to manage everything from your MIDI keyboard/controller, or several of them if you like. Program Change (buttons) can be assigned to presets, and CC (knobs) to parameters.
+
+Latency and jitter is low enough. 
+
+

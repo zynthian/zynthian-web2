@@ -20,9 +20,9 @@ content:
 Zynthian is not available as a finished product. You have to build your own unit. But don't be afraid! It's an easy task that anybody can carry out, and you get a bunch of advantages by doing this way:
 
 + You can repair your unit. Every single part is available separatelly.
-+  You can customize your unit, adapting it to your needs.
-+  You can upgrade your unit, re-using parts, reducing waste and saving money.  
-+  Moreover, you may learn something interesting in the process ...
++ You can customize your unit, adapting it to your needs.
++ You can upgrade your unit, re-using parts, reducing waste and saving money.
++ Moreover, you may learn something interesting in the process ...
 
 You can choose between build your device from scratch or use one of the kits that we offer, adapted to the different skill levels.
 [/column]

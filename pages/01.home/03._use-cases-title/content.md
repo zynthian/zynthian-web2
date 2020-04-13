@@ -1,5 +1,5 @@
 ---
-title: 'Uses cases title'
+title: 'Use cases title'
 media_order: 'use-cases-2.jpg,use-cases-1.jpg,use-cases-3.jpg'
 content_position: center
 date: '10:14 09-03-2020'
@@ -22,4 +22,4 @@ content:
     items: '@self.modular'
 ---
 
-## Uses-cases
+## Use-cases
