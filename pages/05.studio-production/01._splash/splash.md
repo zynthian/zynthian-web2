@@ -21,7 +21,7 @@ limit_reveal: '0'
 
 [landscape]
 # Studio / Production
-## Subtitle
+## A powerful tool in a small container
 [/landscape]
 [portrait]
 # Studio / Production

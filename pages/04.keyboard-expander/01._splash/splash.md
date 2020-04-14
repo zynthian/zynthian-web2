@@ -21,7 +21,7 @@ limit_reveal: '0'
 
 [landscape]
 # Keyboard Expander
-## Subtitle
+## Let your fingers play the sound you want.
 [/landscape]
 [portrait]
 # Keyboard Expander

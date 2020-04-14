@@ -1,22 +1,6 @@
 ---
-title: 'Modular Form'
-content_position: center
-margin_top: full
-padding_top: none
-padding_bottom: none
-margin_bottom: none
-role: default
-limit_reveal: '0'
-process:
-    markdown: true
-    twig: true
-align: left
-width: tight
-margin: top
-padding: none
-display_title: '0'
 form:
-    name: demo-form-modular
+    name: contact-form
     classes: ajax-form
     action: /home
     fields:
@@ -61,11 +45,4 @@ form:
         -
             message: 'Horray! You just submitted a form trough a modular!'
 ---
-
-[tight]
-## Questions, issues or requests?
-Hit me up!
-
-{% include "forms/form.html.twig" with { form: forms('demo-form-modular') } %}
-[/tight]
 

@@ -26,7 +26,7 @@ content:
 * [figure class="timeline__image"][![Zynthian over a Keayboard](use-cases-1.jpg)](/keyboard-expander)[/figure]
 [span class="timeline__content"]
 ### Keyboard Expander
-##### Let your fingers play the sound you want. Control the sound as much as you want.
+##### Let your fingers play the sound you want.
 Acoustic & Electric Pianos, Organs, Vintage Synthesizers, Virtual Analog Synthesizers, Soundfonts, ...<br>
 <br>
 Pianoteq is supported and a demo version included.<br>

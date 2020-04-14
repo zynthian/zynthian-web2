@@ -82,3 +82,22 @@ html{
   --font-alt: 'Lato Black', sans-serif;
   --font-special: 'Audiowide', sans-serif;
 }
+
+/*
+###########################################################
+CUSTOM STYLES
+###########################################################
+*/
+
+form#contact-form button.button {
+  color: #000000;
+  background-color: #FFFFFF;
+  font-weight: bold;
+}
+
+form#contact-form button.button:hover {
+  color: #FFFFFF;
+  background-color: #C03030;
+}
+
+

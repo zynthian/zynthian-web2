@@ -21,7 +21,7 @@ limit_reveal: '0'
 
 [landscape]
 # Effects Unit
-## Subtitle
+## Would you like a custom FX-chain for every song?
 [/landscape]
 [portrait]
 # Effects Unit

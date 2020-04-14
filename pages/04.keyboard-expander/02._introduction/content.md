@@ -39,7 +39,7 @@ Also includes hundreds of effects:
 
 It can run any LV2 plugin, so the list of Synth Engines & Effects are ever growing.
 
-The amazing (but non-free) Pianoteq physical modeler is supported and a demo version is included. Of course, you can easily upgrade to the licensed version.
+The amazing (but non-free) Pianoteq physical modeller is supported and a demo version is included. Of course, you can easily upgrade to the licensed version.
 
 The MIDI learning workflow is quick & easy and allows you to manage everything from your MIDI keyboard/controller, or several of them if you like. Program Change (buttons) can be assigned to presets, and CC (knobs) to parameters.
 
