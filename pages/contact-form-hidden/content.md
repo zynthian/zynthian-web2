@@ -7,20 +7,20 @@ form:
         -
             name: email
             label: Email
-            placeholder: email@email.com
+            placeholder: bob@moog.sky
             type: email
             validate:
                 required: true
         -
             name: name
             label: Name
-            placeholder: 'Bob Morane'
+            placeholder: 'Bob Moog'
             type: text
         -
             name: message
             type: textarea
             label: Message
-            placeholder: 'Write something nice'
+            placeholder: 'Write something...'
     buttons:
         -
             type: submit
@@ -31,18 +31,18 @@ form:
                 from: '{{ config.plugins.email.from }}'
                 to:
                     - '{{ config.plugins.email.to }}'
-                subject: 'CONTACT - {{ form.value.email|e }}'
+                subject: 'Zynthian Contact from {{ form.value.email|e }}'
                 body: '{% include ''forms/data.html.twig'' %}'
         -
             email:
                 from: '{{ config.plugins.email.from }}'
                 to:
                     - '{{ form.value.email }}'
-                subject: 'Message received! 👌'
-                body: '{% include "emails/demo-confirmation.html.twig" %}'
+                subject: 'Zynthian: Message received! 👌'
+                body: '{% include "emails/confirmation.html.twig" %}'
         -
             reset: true
         -
-            message: 'Horray! You just submitted a form trough a modular!'
+            message: 'Your message has been sent! You will receive an answer very soon ...'
 ---
 

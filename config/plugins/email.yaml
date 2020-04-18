@@ -1,0 +1,29 @@
+enabled: true
+from: contact-webform@zynthian.org
+from_name: 'Zynthian Contact'
+to: info@zynthian.org
+to_name: 'Zynthian Team'
+queue:
+  enabled: false
+  flush_frequency: '* * * * *'
+  flush_msg_limit: 10
+  flush_time_limit: 100
+mailer:
+  engine: smtp
+  smtp:
+    server: mail.zynthian.org
+    port: 587
+    encryption: tls
+    user: contact@zynthian.org
+    password: 6VPbHyCj
+  sendmail:
+    bin: '/usr/sbin/sendmail -bs'
+content_type: text/html
+debug: true
+charset: null
+cc: null
+cc_name: null
+bcc: null
+reply_to: null
+reply_to_name: null
+body: null
