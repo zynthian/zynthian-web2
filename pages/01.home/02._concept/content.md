@@ -21,6 +21,7 @@ Zynthian is a new class of musical device. A powerful **multi-timbric synthesize
 + **SoundFonts**: SF2, SF3, SFZ and GIG formats are supported. A 4GB collection of soundfonts is included.
 + **Lots of Effects**: reverbs, delays, echos, choruses, distortions, EQs, compressors, wahwah, flangers, granulators, vocoders, auto-tune...
 + **[MOD-UI](https://wiki.moddevices.com/wiki/MOD_Web_GUI_User_Guide?target=_blank) & [Pure Data](http://www.pd-tutorial.com/english/index.html?target=_blank)**
++ **Step Sequencer, Audio & MIDI recorder/player, ...**
 
 You can use it for live performing, studio production, acoustic conditioning or as a tool for sound exploration.
 

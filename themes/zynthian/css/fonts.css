@@ -83,33 +83,4 @@ html{
   --font-special: 'Audiowide', sans-serif;
 }
 
-/*
-###########################################################
-CUSTOM STYLES
-###########################################################
-*/
-
-html {
-  scroll-behavior: smooth;
-}
-
-h3 a.anchorjs-link {
-  display: none;
-}
-
-footer.footer h2 {
-  font-family: 'Audiowide';
-}
-
-form#contact-form button.button {
-  color: #000000;
-  background-color: #FFFFFF;
-  font-weight: bold;
-}
-
-form#contact-form button.button:hover {
-  color: #FFFFFF;
-  background-color: #C03030;
-}
-
 

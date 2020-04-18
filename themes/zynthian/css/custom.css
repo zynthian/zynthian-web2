@@ -630,3 +630,46 @@ NOT SUPPORTED: Safari 8 (MacOS X 10.10)
   }
 
 }
+
+
+/*--------------------------------------------------------------
+# Custom Styles by Jofemodo
+--------------------------------------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+h3 a.anchorjs-link {
+  display: none;
+}
+
+div.first>p:first-child::first-letter {
+  font-family: 'audiowide';
+  font-size: 400%;
+  line-height: 20%;
+  color: var(--color-hl);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+audio {
+  width: 100%;
+}
+
+footer.footer h2 {
+  font-family: 'Audiowide';
+}
+
+form#contact-form button.button {
+  color: #000000;
+  background-color: #FFFFFF;
+  font-weight: bold;
+}
+
+form#contact-form button.button:hover {
+  color: #FFFFFF;
+  background-color: #C03030;
+}
+
+
