@@ -1,6 +1,5 @@
 ---
 title: Content
-media_order: 'BodySoulByJoostRhodes.mp3, PianoteqMidiDemoSteinweyD.mp3, SalamanderGrandPianoDemoByHumi.mp3 setBfreeDrawbarsManipulationByBaggypants.mp3, PatMathenyByMauroBorgadelloRhodesStrings.mp3, LovelornManFracescoNutiByMauroBorgadello.mp3'
 content_position: center
 date: '09:57 09-03-2020'
 margin_top: half
@@ -45,7 +44,7 @@ Default latency and jitter is low enough for most of players, but if you are loo
 [youtube="https://youtu.be/hiCLN25199M"]
 <br>
 ## Audio
-Rhodes (emulation)
+<small>Rhodes (emulation)</small>
 ![Body & Soul, by Joost (Pianoteq Fender Rhodes)](BodySoulByJoostRhodes.mp3)
 <br>
 <p align="right">
