@@ -632,6 +632,7 @@ NOT SUPPORTED: Safari 8 (MacOS X 10.10)
 }
 
 
+
 /*--------------------------------------------------------------
 # Custom Styles by Jofemodo
 --------------------------------------------------------------*/
@@ -642,6 +643,14 @@ html {
 
 h3 a.anchorjs-link {
   display: none;
+}
+
+.use-case h2 {
+  font-family: var(--font-special);
+}
+
+.use-case p {
+  display: block; 
 }
 
 div.first>p:first-child::first-letter {

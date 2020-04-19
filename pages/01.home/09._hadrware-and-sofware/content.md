@@ -29,7 +29,7 @@ content:
 * Based on Raspberry Pi and Open Hardware
 * Audio Input/Output Stereo 16 bits, up to 192 KHz
 * Touchscreen 3.5''
-* [[More...]](...)
+* [[More...]](/technical-specifications)
 [/column]
 
 [column class="column-5 text-right-large"]
@@ -39,8 +39,8 @@ content:
 * Based on GNU-Linux and Free Software
 * Real-time processing for low latency and jitter
 * Remote Control & Web Configuration Tool
-* [[More...]](...)
+* [[More...]](/technical-specifications)
 
-[btn-primary href="#"]Download[/btn-primary]
+[btn-primary href="https://os.zynthian.org"]Download[/btn-primary]
 [/column]
 
