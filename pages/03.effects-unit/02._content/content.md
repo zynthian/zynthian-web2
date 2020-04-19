@@ -49,7 +49,7 @@ Rhodes (emulation)
 ![Body & Soul, by Joost (Pianoteq Fender Rhodes)](BodySoulByJoostRhodes.mp3)
 <br>
 <p align="right">
- <a hred="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
+ <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
 [/column]
 

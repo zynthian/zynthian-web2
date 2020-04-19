@@ -41,6 +41,6 @@ Steinwey Model D (emulation)
 ![Pianoteq MIDI demo (Steinwey Model D)](PianoteqMidiDemoSteinweyD.mp3)
 <br>
 <br>
-<p align="right"><a hred="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a></p>
+<p align="right"><a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a></p>
 [/column]
 

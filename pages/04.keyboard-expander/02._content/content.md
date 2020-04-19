@@ -62,7 +62,7 @@ Multi-Layered (DX7 EP + Strings + Pad)
 <br>
 <br>
 <p align="right">
- <a hred="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
+ <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
 [/column]
 
