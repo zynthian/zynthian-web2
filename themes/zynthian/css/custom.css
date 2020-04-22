@@ -641,6 +641,7 @@ html {
   scroll-behavior: smooth;
 }
 
+.splash__content h2 a.anchorjs-link, 
 h1 a.anchorjs-link,
 h3 a.anchorjs-link {
   display: none;
