@@ -401,6 +401,7 @@ NOT SUPPORTED: Safari 8 (MacOS X 10.10)
     }
 
     :not(.body--home) .module--splash h1 {
+        margin-top: 80px;
         padding-bottom: 0;
     }
 
