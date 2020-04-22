@@ -1,6 +1,6 @@
 ---
 title: 'Open Synth Platform'
-media_order: 'nightsky-landscape.mp4,zynthian-hero.jpg'
+media_order: 'zynthian-hero.jpg'
 align_h: center
 align_v: center
 bg_image: zynthian-hero.jpg

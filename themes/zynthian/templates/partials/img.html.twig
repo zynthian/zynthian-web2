@@ -1,0 +1,34 @@
+{% set image = image|default('') %}
+{% set alt = alt|default('') %}
+{% set class = class|default('') %}
+{% set style = style|default('') %}
+{% set loading = loading|default('lazy') %}
+{% set filetype =  image.url|split('.')|last %}
+{% set reveal = reveal|default(false) %}
+{% set src = image.url %}
+{% set use_lazyload = theme.lazyload|default(true) %}
+{% set use_placeholder = theme.placeholder|default(true) %}
+
+{% if filetype == 'svg' %}
+	<img 
+	src="{{ src }}"
+	{% if loading %}loading="{{ loading }}"{% endif %}
+	{% if class %}class="{{ class }}"{% endif %}
+	{% if style %}style="{{ style }}"{% endif %}
+	{% if alt %}alt="{{ alt }}"{% endif %}>
+{% else %}
+	{% set src_ph = image.cropResize(16, 16).url %}
+	<img 
+	{% if use_lazyload %}
+	{% if use_placeholder %}src="{{ src_ph }}"{% endif %}
+	data-src="{{ src }}"
+	{% else %}
+	src="{{ src }}" 
+	{% endif %}
+	{% if loading %}loading="{{ loading }}"{% endif %}
+	{% if class or use_lazyload %}class="{% if use_lazyload %}lazyload{% endif %} {{ class }}"{% endif %}
+	{% if reveal %}data-reveal="{{ reveal }}"{% endif %}
+	{% if style %}style="{{ style }}"{% endif %}
+	{% if alt %}alt="{{ alt }}"{% endif %}>
+{% endif %}
+
