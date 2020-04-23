@@ -14,11 +14,15 @@ limit_reveal: '0'
 [column class="column-offset-1 column-6 first"]
 Zynthian includes more than 30 synth-engines, hundreds of effects and thousands of presets. You can play the music style you want, recreating vintage instruments or exploring new sounds and textures. You can combine several engines and presets, adjust the synth-engine parameters and add effects and filters.
 
-Zynthian supports the LV2-plugin standard, so the list of Synth Engines & Effects is ever growing. The amazing (but non-free) [Pianoteq](https://www.modartt.com/pianoteq?target=_blank) physical modeller is also supported and a demo version is included. Of course, you can easily upgrade to the licensed version.
+Zynthian supports the LV2 plugin-format, so the list of synth-engines & effects is ever growing. The amazing (but non-free) [Pianoteq](https://www.modartt.com/pianoteq?target=_blank) physical modeller is also supported and a demo version is included.
 
-The MIDI learning workflow is quick & easy, what allows you to manage everything from your MIDI keyboard/controller. Program Change (buttons) can be assigned to presets, and CC (knobs) to parameters.
+The MIDI-learning workflow is quick & easy, allowing you to manage everything from your keyboards/controllers.  Buttons/pads (program-change) can be assigned to presets, and knobs/faders (CC) to parameters.
 
-You can connect several MIDI keyboard/controllers to your zynthian: It has standard MIDI-IN/THRU/OUT connectors and 4 USB ports.
+The **Stage Mode** has been designed for players who like to use a single master keyboard. Fast preset changes and smooth transitions between then. No cutted sounds. You start playing a new preset while the last notes from the old one are still releasing. Or even keep some notes pressed/sustained while changing to a new preset and the notes will continue to sound until you release the key/pedal.
+  
+Of course, you can connect several keyboard/controllers and use **Multi-timbral Mode**: Zynthian has the standard MIDI-IN/THRU/OUT connectors and 4 USB ports. On **Multi-timbral Mode** every layer is controlled by a MIDI channel. You can play a bass-synth on your left-hand while improvising with a Wurly in your right-hand. Or you may want a step-sequencer controlling the Drum & Bass line while you play a lead ...
+
+The _MIDI-clone_ feature is the key to combine several layers while keeping independent control over the parameters you want. You can transpose every layer, and split can be configured using the MIDI filter.
 
 Default latency and jitter is low enough for most of players, but if you are looking for extra-low latency, the configuration can be tweaked too.
 <br>

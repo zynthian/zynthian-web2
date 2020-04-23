@@ -12,15 +12,17 @@ limit_reveal: '0'
 ---
 
 [column class="column-offset-1 column-6 first"]
-Zynthian includes more than 30 synth-engines, hundreds of effects and thousands of presets. You can play the music style you want, recreating vintage instruments or exploring new sounds and textures. You can combine several engines and presets, adjust the synth-engine parameters and add effects and filters.
+Zynthian includes hundreds of effects & filters that you can combine as you like. You can play the music style you want, recreating vintage sounds or exploring new textures. 
 
-Zynthian supports the LV2-plugin standard, so the list of Synth Engines & Effects is ever growing. The amazing (but non-free) [Pianoteq](https://www.modartt.com/pianoteq?target=_blank) physical modeller is also supported and a demo version is included. Of course, you can easily upgrade to the licensed version.
+The native Zynthian-UI allows you to manage up to 16 independent FX-chains. With the advanced MOD-UI web interface, you can create the more bizarre pedalboards. Limit is in your brain!
 
-The MIDI learning workflow is quick & easy, what allows you to manage everything from your MIDI keyboard/controller. Program Change (buttons) can be assigned to presets, and CC (knobs) to parameters.
+Zynthian supports the LV2-plugin standard, so the list of supported effects is ever growing.
 
-You can connect several MIDI keyboard/controllers to your zynthian: It has standard MIDI-IN/THRU/OUT connectors and 4 USB ports.
+The MIDI-learning workflow is quick & easy. You can adjust the parameters you want from your favorite MIDI controller. Program Change (buttons) can be assigned to presets, and CC (knobs) to parameters.
 
-Default latency and jitter is low enough for most of players, but if you are looking for extra-low latency, the configuration can be tweaked too.
+Official Zynthian Kits have 2 balanced audio-inputs with independent gain-control ranging from -12db to 32dB. Read the full specifications [here](/technical-specifications).
+
+Default latency and jitter is low enough for most of players, but if you are looking for extra-low latency, the configuration can be tweaked.
 <br>
 <br>
 
@@ -40,13 +42,20 @@ Default latency and jitter is low enough for most of players, but if you are loo
 [/column]
 
 [column class="column-offset-1 column-4"]
-## Video
-[youtube="https://youtu.be/hiCLN25199M"]
-<br>
 ## Audio
-<small>Rhodes (emulation)</small>
-![Body & Soul, by Joost (Pianoteq Fender Rhodes)](BodySoulByJoostRhodes.mp3)
+<small>Clean Guitar, by Rodrigo Amaral</small>
+![CleanGuitarByRodrigoAmaral.mp3](CleanGuitarByRodrigoAmaral.mp3)
 <br>
+<small>Crunch Guitar, by Rodrigo Amaral</small>
+![CrunchGuitarByRodrigoAmaral.mp3](CrunchGuitarByRodrigoAmaral.mp3)
+<br>
+<small>Lead Guitar, by Rodrigo Amaral</small>
+![LeadGuitarByRodrigoAmaral.mp3](LeadGuitarByRodrigoAmaral.mp3)
+<br>
+<small>Kalimba Mistery Forest Dream, by Jofemodo</small>
+![ElectroKalimbaMisteryForestDreamByJofemodo.mp3](ElectroKalimbaMisteryForestDreamByJofemodo.mp3)
+<br>
+
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>

@@ -12,45 +12,47 @@ limit_reveal: '0'
 ---
 
 [column class="column-offset-1 column-6 first"]
-Zynthian includes more than 30 synth-engines, hundreds of effects and thousands of presets. You can play the music style you want, recreating vintage instruments or exploring new sounds and textures. You can combine several engines and presets, adjust the synth-engine parameters and add effects and filters.
+Zynthian is a tiny but powerful tool for production and fast song proto-typing. It includes more than 30 synth-engines, hundreds of effects and thousands of presets. It's fully multi-timbral, being able to manage up to 16 independent layers, composed of audio generator (synthesizer) and FX chain.
 
-Zynthian supports the LV2-plugin standard, so the list of Synth Engines & Effects is ever growing. The amazing (but non-free) [Pianoteq](https://www.modartt.com/pianoteq?target=_blank) physical modeller is also supported and a demo version is included. Of course, you can easily upgrade to the licensed version.
+Out-the-box, zynthian supports MIDI over network (Apple/RTP-MIDI & IP-Multicast protocols) and it allows WIFI and wired networks. Of course, it has the standard MIDI-IN/THRU/OUT connectors, and 4 USB ports are included too. Read the full specifications [here](/technical-specifications). 
 
-The MIDI learning workflow is quick & easy, what allows you to manage everything from your MIDI keyboard/controller. Program Change (buttons) can be assigned to presets, and CC (knobs) to parameters.
+Audio routing can be modified, allowing to send audio between layers.
 
-You can connect several MIDI keyboard/controllers to your zynthian: It has standard MIDI-IN/THRU/OUT connectors and 4 USB ports.
+Zynthian supports the LV2-plugin standard, so the list of Synth Engines & Effects is ever growing.
 
-Default latency and jitter is low enough for most of players, but if you are looking for extra-low latency, the configuration can be tweaked too.
+The MIDI-learning workflow is quick & easy, what allows you to manage everything from your keyboards & controllers. Program Change (buttons) can be assigned to presets, and CC (knobs) to parameters.
+
+Default latency and jitter is low enough for most of use-cases, but if you are looking for extra-low latency, the configuration can be tweaked.
 <br>
 <br>
-[/column]
 
-[column class="column-offset-1 column-4"]
 ## Video
 [youtube="https://youtu.be/hiCLN25199M"]
 [youtube="https://youtu.be/eQQlt13YX00"]
 [youtube="https://youtu.be/T3izkId4KS0"]
 [youtube="https://youtu.be/dj5jG5Xq834"]
-<br>
+[/column]
+
+[column class="column-offset-1 column-4"]
 ## Audio
 <small>Zynthianic Trance, by JTunes</small>
 ![ZynthianicTranceByJtunes.mp3](ZynthianicTranceByJtunes.mp3)
-<small>PPG13, by Can Trell</small>
-![PPG13ByCanTrell.mp3](PPG13ByCanTrell.mp3)
-<small>The Weight, by BaggyPants</small>
-![TheWeightByBaggyPants.mp3](TheWeightByBaggyPants.mp3)
-<small>RTPMidi Celebration, by JTunes</small>
-![RTPMidiCelebrationByJTunes.mp3](RTPMidiCelebrationByJTunes.mp3)
-<small>Monsieur The Actor, by R.Generalov</small>
-![MonsieurTheActorByRomanGeneralov.mp3](MonsieurTheActorByRomanGeneralov.mp3)
-<small>Epic EnteR, by R.Generalov</small>
-![EpicEnteRByRomanGeneralov.mp3](EpicEnteRByRomanGeneralov.mp3)
-<small>Vasculab COMPD, by Can Trell</small>
-![VasculabCOMPDByCanTrell.mp3](VasculabCOMPDByCanTrell.mp3)
-<small>Electro, by Humi</small>
-![ElectroByHumi.mp3](ElectroByHumi.mp3)
 <small>Trip Jazz Demo, by Humi</small>
 ![TripJazzdemoByHumi.mp3](TripJazzdemoByHumi.mp3)
+<small>PPG13, by Can Trell</small>
+![PPG13ByCanTrell.mp3](PPG13ByCanTrell.mp3)
+<small>RTPMidi Celebration, by JTunes</small>
+![RTPMidiCelebrationByJTunes.mp3](RTPMidiCelebrationByJTunes.mp3)
+<small>The Weight, by BaggyPants</small>
+![TheWeightByBaggyPants.mp3](TheWeightByBaggyPants.mp3)
+<small>Monsieur The Actor, by R.Generalov</small>
+![MonsieurTheActorByRomanGeneralov.mp3](MonsieurTheActorByRomanGeneralov.mp3)
+<small>Vasculab COMPD, by Can Trell</small>
+![VasculabCOMPDByCanTrell.mp3](VasculabCOMPDByCanTrell.mp3)
+<small>Epic EnteR, by R.Generalov</small>
+![EpicEnteRByRomanGeneralov.mp3](EpicEnteRByRomanGeneralov.mp3)
+<small>Electro, by Humi</small>
+![ElectroByHumi.mp3](ElectroByHumi.mp3)
 <small>BlueBox is Roughly Great, by Nicolaz</small>
 ![BlueBoxIsRoughlyGreatByNicolaz.mp3](BlueBoxIsRoughlyGreatByNicolaz.mp3)
 <small>Mr Tchaikovsky, by sm7x7</small>
