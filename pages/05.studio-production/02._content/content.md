@@ -12,28 +12,41 @@ limit_reveal: '0'
 ---
 
 [column class="column-offset-1 column-6 first"]
-Zynthian is a tiny but powerful tool for production and fast song proto-typing. It includes more than 30 synth-engines, hundreds of effects and thousands of presets. It's fully multi-timbral, being able to manage up to 16 independent layers, composed of audio generator (synthesizer) and FX chain.
+Zynthian is a tiny but powerful tool for production and fast song-prototyping. It includes more than 30 synth-engines, hundreds of effects and thousands of presets. It's fully multi-timbral, being able to manage up to 16 independent layers, composed of synthesizer + FX-chain. It supports the LV2-plugin standard, so the list of Synth Engines & Effects is ever growing.
 
-Out-the-box, zynthian supports MIDI over network (Apple/RTP-MIDI & IP-Multicast protocols) and it allows WIFI and wired networks. Of course, it has the standard MIDI-IN/THRU/OUT connectors, and 4 USB ports are included too. Read the full specifications [here](/technical-specifications). 
+Zynthian can be controlled from DAWs and sequencers. It has standard MIDI-IN/THRU/OUT connectors, 4 USB ports, WIFI and wired networks, supporting MIDI over network (Apple/RTP-MIDI & IP-multicast) and TouchOSC protocols. Read the full specifications [here](/technical-specifications).
 
-Audio routing can be modified, allowing to send audio between layers.
+Step-Sequencer, MIDI-learning, MIDI-filter, Audio & MIDI recorders. PureData & MOD-UI are integrated too.
 
-Zynthian supports the LV2-plugin standard, so the list of Synth Engines & Effects is ever growing.
-
-The MIDI-learning workflow is quick & easy, what allows you to manage everything from your keyboards & controllers. Program Change (buttons) can be assigned to presets, and CC (knobs) to parameters.
-
-Default latency and jitter is low enough for most of use-cases, but if you are looking for extra-low latency, the configuration can be tweaked.
+Default latency and jitter is low enough for most of use-cases, but if you are looking for extra-low latency, audio configuration can be tweaked.
 <br>
 <br>
 
-## Video
-[youtube="https://youtu.be/hiCLN25199M"]
-[youtube="https://youtu.be/eQQlt13YX00"]
-[youtube="https://youtu.be/T3izkId4KS0"]
-[youtube="https://youtu.be/dj5jG5Xq834"]
+## Synth Engines
++ ZynAddSubFX (Virtual Analog Synthetizer)
++ FluidSynth (SF2 & SF3 SoundFonts)
++ LinuxSampler (SFZ & GIG SoundFonts)
++ setBfree (Hammond B3 + Leslie)
++ MDA ePiano (Rhodes)
++ Dexed (DX-7)
++ Pianoteq (Acoustic & Electric Pianos)
++ Aeolus (Pipe Organ)
++ OBXd (Oberheim OB-X)
++ Helm (Virtual Analog Synthetizer)
++ Raffo (MiniMoog)
++ TAL Noize Maker (Virtual Analog Synthetizer)
++ MDA JX-10
++ and many more ...
 [/column]
 
 [column class="column-offset-1 column-4"]
+## Video
+[youtube="https://youtu.be/hiCLN25199M"]
+<!--[youtube="https://youtu.be/eQQlt13YX00"]-->
+[youtube="https://youtu.be/T3izkId4KS0"]
+<!--[youtube="https://youtu.be/dj5jG5Xq834"]-->
+<br>
+
 ## Audio
 <small>Zynthianic Trance, by JTunes</small>
 ![ZynthianicTranceByJtunes.mp3](ZynthianicTranceByJtunes.mp3)
@@ -41,20 +54,22 @@ Default latency and jitter is low enough for most of use-cases, but if you are l
 ![TripJazzdemoByHumi.mp3](TripJazzdemoByHumi.mp3)
 <small>PPG13, by Can Trell</small>
 ![PPG13ByCanTrell.mp3](PPG13ByCanTrell.mp3)
-<small>RTPMidi Celebration, by JTunes</small>
-![RTPMidiCelebrationByJTunes.mp3](RTPMidiCelebrationByJTunes.mp3)
 <small>The Weight, by BaggyPants</small>
 ![TheWeightByBaggyPants.mp3](TheWeightByBaggyPants.mp3)
 <small>Monsieur The Actor, by R.Generalov</small>
 ![MonsieurTheActorByRomanGeneralov.mp3](MonsieurTheActorByRomanGeneralov.mp3)
 <small>Vasculab COMPD, by Can Trell</small>
 ![VasculabCOMPDByCanTrell.mp3](VasculabCOMPDByCanTrell.mp3)
+<small>BlueBox is Roughly Great, by Nicolaz</small>
+![BlueBoxIsRoughlyGreatByNicolaz.mp3](BlueBoxIsRoughlyGreatByNicolaz.mp3)
+
+<!--
+<small>RTPMidi Celebration, by JTunes</small>
+![RTPMidiCelebrationByJTunes.mp3](RTPMidiCelebrationByJTunes.mp3)
 <small>Epic EnteR, by R.Generalov</small>
 ![EpicEnteRByRomanGeneralov.mp3](EpicEnteRByRomanGeneralov.mp3)
 <small>Electro, by Humi</small>
 ![ElectroByHumi.mp3](ElectroByHumi.mp3)
-<small>BlueBox is Roughly Great, by Nicolaz</small>
-![BlueBoxIsRoughlyGreatByNicolaz.mp3](BlueBoxIsRoughlyGreatByNicolaz.mp3)
 <small>Mr Tchaikovsky, by sm7x7</small>
 ![MrTchaikovskyBySm7x7.mp3](MrTchaikovskyBySm7x7.mp3)
 <small>Of Course My Lord, by R.Generalov</small>
@@ -63,6 +78,7 @@ Default latency and jitter is low enough for most of use-cases, but if you are l
 ![FirstRealSynthByCanTrell.mp3](FirstRealSynthByCanTrell.mp3)
 <small>For Wyleu, by Humi</small>
 ![ForWyleuByHumi.mp3](ForWyleuByHumi.mp3)
+-->
 <br>
 <br>
 <p align="right"><a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a></p>

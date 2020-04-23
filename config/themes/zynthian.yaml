@@ -38,7 +38,7 @@ google_maps_icon: {  }
 org_desc: '<p>An Open Platform for Sound Synthesis. Based on Raspberry Pi and Linux, its hardware specification is public and software is Open Source.</p>'
 about_desc: "<h4>About Us</h4>\r\n<p>Our core members are located around the world, joined by th idea of bla bla bla.</p>\r\n<p>Meet who is behind…</p>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>"
 policy_linkt: '<h4> About Us</h4>'
-policy_link: 'https://shop.zynthian.org/page/privacy-policy'
+policy_link: /privacy
 github_link: 'https://github.com/zynthian'
 youtube_link: 'https://www.youtube.com/channel/UCc9Tv__HdwQjPjKUd5mIhaw'
 twitter_link: 'https://twitter.com/zynthianbox'

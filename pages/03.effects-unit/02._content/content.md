@@ -18,11 +18,11 @@ The native Zynthian-UI allows you to manage up to 16 independent FX-chains. With
 
 Zynthian supports the LV2-plugin standard, so the list of supported effects is ever growing.
 
-The MIDI-learning workflow is quick & easy. You can adjust the parameters you want from your favorite MIDI controller. Program Change (buttons) can be assigned to presets, and CC (knobs) to parameters.
+The MIDI-learning workflow is quick & easy. You can adjust the parameters you want from your favorite MIDI controller. Buttons/pads (program-change) can be assigned to presets, and knobs/faders (CC) to parameters.
 
 Official Zynthian Kits have 2 balanced audio-inputs with independent gain-control ranging from -12db to 32dB. Read the full specifications [here](/technical-specifications).
 
-Default latency and jitter is low enough for most of players, but if you are looking for extra-low latency, the configuration can be tweaked.
+Default latency and jitter is low enough for most of players, but if you are looking for extra-low latency, audio configuration can be tweaked.
 <br>
 <br>
 
@@ -39,6 +39,7 @@ Default latency and jitter is low enough for most of players, but if you are loo
 + Granulator
 + Vocoder
 + Auto-tune
++ and many more ...
 [/column]
 
 [column class="column-offset-1 column-4"]
