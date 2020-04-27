@@ -169,7 +169,7 @@ CARD
 }
 @media only screen and (min-width: 768px){
   .product-card{
-    width: calc(33.333% - var(--gutter));
+    width: calc(25% - var(--gutter));
   }
 }
 
@@ -192,6 +192,7 @@ CARD
   height: 100%;
   object-fit: cover;
   object-position: center;
+  border-radius: 5%;
 }
 
 .product-card__info{
@@ -207,7 +208,11 @@ CARD
   }
 }
 
-/*.product-card__title{}*/
+.product-card__title{
+  font-family: 'audiowide';
+  font-size: 18px;
+  font-weight: bold;
+}
 
 .product-card__price{
   opacity: 0.5;

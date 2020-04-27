@@ -47,7 +47,7 @@ The Zynthian UI allows to create up to 16 audio FX-chains. With MOD-UI, you can 
 [span class="timeline__content"]
 ### Studio / Production
 ##### A powerful tool in a small container
-Fully multi-timbric, MIDI learning, MIDI network, MIDI filter & router, Step-Sequencer, Audio & MIDI recorder, ...<br>
+Fully multi-timbral, MIDI learning, MIDI network, MIDI filter & router, Step-Sequencer, Audio & MIDI recorder, ...<br>
 <br>
 Explore sonic landscapes and go beyond the limits with Pure Data generative capabilities.
 [[Learn More]](/studio-production)[/span]

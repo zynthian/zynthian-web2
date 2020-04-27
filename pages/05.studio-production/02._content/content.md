@@ -16,7 +16,7 @@ Zynthian is a tiny but powerful tool for production and fast song-prototyping. I
 
 Zynthian can be controlled from DAWs and sequencers. It has standard MIDI-IN/THRU/OUT connectors, 4 USB ports, WIFI and wired networks, supporting MIDI over network (Apple/RTP-MIDI & IP-multicast) and TouchOSC protocols. Read the full specifications [here](/technical-specifications).
 
-Step-Sequencer, MIDI-learning, MIDI-filter, Audio & MIDI recorders. PureData & MOD-UI are integrated too.
+Step-Sequencer, MIDI-learning, MIDI-filter & router, Audio & MIDI recorders. PureData & MOD-UI are integrated too.
 
 Default latency and jitter is low enough for most of use-cases, but if you are looking for extra-low latency, audio configuration can be tweaked.
 <br>
@@ -42,7 +42,7 @@ Default latency and jitter is low enough for most of use-cases, but if you are l
 [column class="column-offset-1 column-4"]
 ## Video
 [youtube="https://youtu.be/hiCLN25199M"]
-<!--[youtube="https://youtu.be/eQQlt13YX00"]-->
+[youtube="https://youtu.be/eQQlt13YX00"]
 [youtube="https://youtu.be/T3izkId4KS0"]
 <!--[youtube="https://youtu.be/dj5jG5Xq834"]-->
 <br>
