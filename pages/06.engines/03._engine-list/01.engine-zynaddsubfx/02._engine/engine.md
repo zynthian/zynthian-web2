@@ -58,7 +58,7 @@ It's a quite complex and very powerful tool that will satisfy the most experienc
 ![Morning Sunshine, by JTunes](MorningSunshineByJTunes.mp3)
 <small>Space Choir, by JTunes</small>
 ![Space Choir1, by JTunes](SpaceChoir1ByJTunes.mp3)
-<small>Cosmic Synth Guitar, by JTunes (ZynAddSubFX)</small>
+<small>Cosmic Synth Guitar, by JTunes</small>
 ![Cosmic Synth Guitar, by JTunes ](CosmicSynthGuitarByJTunes.mp3)
 <small>Smooth Pillow, by Dhrupadiya (Multi-layer)</small>
 ![Smooth Pillow, by Dhrupadiya](SmoothPillowByDhrupadiya.mp3)
