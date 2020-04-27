@@ -26,6 +26,10 @@ It's capable of streaming audio samples directly from disk, what allows to manag
 ## Audio
 <small>Orion's Belt, MIDI Sequenced</small>
 ![Orion's Belt, MIDI Sequenced](OrionsBelt.ogg)
+<small>Demo, by Humi (Salamander Grand Piano SFZ)</small>
+![SalamanderGrandPianoDemoByHumi.mp3](SalamanderGrandPianoDemoByHumi.mp3)
+<small>Too many EPs, by Humi (Straight Rhodes SFZ)</small>
+![RhodesHammondByHumi.mp3](RhodesHammondByHumi.mp3)
 <br>
 <br>
 <p align="right">
