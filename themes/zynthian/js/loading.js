@@ -1,7 +1,7 @@
 function loading(){
 	let	b = document.body;
 	let e = document.getElementById('loader');
-	let out = e.dataset.out ? e.dataset.out : '20';
+	let out = e.dataset.out ? e.dataset.out : '0';
 	setTimeout(function(){ 
 		if (!!b.classList.contains('loading')) {
 			b.classList.add('loaded');
@@ -17,4 +17,16 @@ function loading(){
 	    })
 	}
 }
+
+window.addEventListener( "pageshow", function ( event ) {
+	var historyTraversal = event.persisted || 
+		( typeof window.performance != "undefined" && 
+		window.performance.navigation.type === 2 );
+	if ( historyTraversal ) {
+		// Handle page restore.
+		window.location.reload();
+		$(window).scrollTop(0);
+	}
+});
+
 loading();
