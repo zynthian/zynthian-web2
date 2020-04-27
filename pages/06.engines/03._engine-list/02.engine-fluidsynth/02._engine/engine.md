@@ -41,19 +41,16 @@ FluidSynth is a real-time software synthesizer based on the SoundFont-2 specific
 ![01-MCW-EmergentMusics.mp3](01-MCW-EmergentMusics.mp3)
 <small>Emergent Musics 02, by Mark Conway Wirt</small>
 ![02-MCW-EmergentMusics.mp3](02-MCW-EmergentMusics.mp3)
-<!--<small>Emergent Musics 03, by Mark Conway Wirt</small>
-![03-MCW-EmergentMusics.mp3](03-MCW-EmergentMusics.mp3)-->
 <small>Emergent Musics 09, by Mark Conway Wirt</small>
 ![09-MCW-EmergentMusics.mp3](09-MCW-EmergentMusics.mp3)
-<!--
+<!--<small>Emergent Musics 03, by Mark Conway Wirt</small>
+![03-MCW-EmergentMusics.mp3](03-MCW-EmergentMusics.mp3)
 <small>Over Unity 1, by Mark Conway Wirt</small>
 ![01-MarkConwayWirt-419.mp3](01-MarkConwayWirt-419.mp3)
 <small>Over Unity 6, by Mark Conway Wirt</small>
 ![06-MarkConwayWirt-730.mp3](06-MarkConwayWirt-730.mp3)
 <small>Over Unity 7, by Mark Conway Wirt</small>
-![07-MarkConwayWirt-627.mp3](07-MarkConwayWirt-627.mp3)
--->
-<br>
+![07-MarkConwayWirt-627.mp3](07-MarkConwayWirt-627.mp3)-->
 <br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
