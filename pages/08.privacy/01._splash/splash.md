@@ -1,10 +1,10 @@
 ---
 title: Splash
-media_order: 'engines-hero_small.jpg,engines-hero.jpg'
+media_order: 'privacy-hero_small.jpg,privacy-hero.jpg'
 align_h: center
 align_v: center
-bg_image: engines-hero.jpg
-bg_image_landscape: engines-hero_small.jpg
+bg_image: privacy-hero.jpg
+bg_image_landscape: privacy-hero_small.jpg
 bg_fit: cover
 bg_veil: 0
 min_height: 50
