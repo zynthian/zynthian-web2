@@ -21,7 +21,7 @@ limit_reveal: '0'
 
 [landscape]
 # ZynAddSubFX
-## Additive + Substractive + PAD + FX
+## Additive + Substractive + Pad + FXs
 [/landscape]
 [portrait]
 # ZynAddSubFX

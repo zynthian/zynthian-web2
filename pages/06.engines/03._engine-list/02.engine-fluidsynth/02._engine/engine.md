@@ -1,10 +1,6 @@
 ---
 title: 'FluidSynth'
-media_order: 'fluidsynth.jpg'
 date: '06:34 24-04-2020'
-id: fluidsynth
-image: fluidsynth.jpg
-description: 'FluidSynth is a real-time software synthesizer based on the SoundFont-2 specifications.'
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -51,11 +47,9 @@ FluidSynth is a real-time software synthesizer based on the SoundFont-2 specific
 ![06-MarkConwayWirt-730.mp3](06-MarkConwayWirt-730.mp3)
 <small>Over Unity 7, by Mark Conway Wirt</small>
 ![07-MarkConwayWirt-627.mp3](07-MarkConwayWirt-627.mp3)-->
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
-<br>
 <br>
 ## Links:
 + [Project's Website](https://fluidsynth.org)

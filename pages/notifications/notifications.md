@@ -3,9 +3,9 @@ title: Notifications
 notifications:
     -
         id: Intro
-        content: 'This website is under construction. Most of the content is placeholder and assets are temporary. If you don''t know about [GRAV](https://getgrav.org/), I suggest starting with the [official documentation](https://learn.getgrav.org/16) before going head on.'
+        content: 'The law obliges us to bother you with the obviousness that this page uses cookies. Read the details about our [privacy policy](/privacy).'
         bg_color: '#ffffff'
-        fg_color: '#0077ff'
+        fg_color: '#DD2020'
         target:
             - /home
         visible: '1'

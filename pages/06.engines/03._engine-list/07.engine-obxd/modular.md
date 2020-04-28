@@ -1,7 +1,10 @@
 ---
 title: OBX-D
-media_order: 'obxd.jpg'
-description: 'OBXD includes many features of the famous OB-X hardware synth of the 1980s'
+id: obxd
+description: 'OBXD is a softsynth inspired on some classic devices manufactured by Oberheim on 1980s'
+taxonomy:
+    category: synthesizer
+    tag: [free-software,synth-subs,ucase-kb,ucase-pr]
 content:
     items: '@self.modular'
 date: '17:38 24-04-2020'

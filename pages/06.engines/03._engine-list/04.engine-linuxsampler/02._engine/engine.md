@@ -1,10 +1,6 @@
 ---
 title: 'LinuxSampler'
-media_order: 'linuxsampler.jpg'
 date: '06:34 24-04-2020'
-id: linuxsampler
-image: linuxsampler.jpg
-description: 'LinuxSampler is a software sampler synthesizer that supports GIG & SFZ soundfont format.'
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -31,11 +27,9 @@ It's capable of streaming audio samples directly from disk, what allows to manag
 <small>Too many EPs, by Humi (Straight Rhodes SFZ)</small>
 ![RhodesHammondByHumi.mp3](RhodesHammondByHumi.mp3)
 <br>
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
-<br>
 <br>
 ## Links:
 + [Project's Website](https://linuxsampler.org)

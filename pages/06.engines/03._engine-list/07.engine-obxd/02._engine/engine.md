@@ -1,10 +1,6 @@
 ---
 title: 'OB-Xd'
-media_order: 'obxd.jpg'
 date: '06:34 24-04-2020'
-id: obxd
-image: obxd.jpg
-description: 'OBXD includes many features of the famous OB-X hardware synth of the 1980s'
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -50,11 +46,9 @@ The LFO section includes sine, square and sample-and-hold waveshapes, which can 
 <small>Withair</small>
 ![withair.ogg](withair.ogg)
 <br>
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
-<br>
 <br>
 ## Links:
 + [LinuxSynths Page](http://www.linuxsynths.com/ObxdPatchesDemos/obxd.html)

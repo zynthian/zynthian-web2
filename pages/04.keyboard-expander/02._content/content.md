@@ -25,56 +25,35 @@ Of course, you can use the **Multi-timbral Mode**, connecting several keyboards 
 The _MIDI-clone_ feature is the key to combine several layers while keeping independent control over the parameters you want. You can transpose every layer and split can be configured using the MIDI filter.
 
 Default latency and jitter is low enough for most of players, but if you are looking for extra-low latency, audio configuration can be tweaked too.
-<br>
-<br>
-
-## Synth Engines
-+ ZynAddSubFX (Virtual Analog Synthetizer)
-+ FluidSynth (SF2 & SF3 SoundFonts)
-+ LinuxSampler (SFZ & GIG SoundFonts)
-+ setBfree (Hammond B3 + Leslie)
-+ MDA ePiano (Rhodes)
-+ Dexed (DX-7)
-+ Pianoteq (Acoustic & Electric Pianos)
-+ Aeolus (Pipe Organ)
-+ OBXd (Oberheim OB-X)
-+ Helm (Virtual Analog Synthetizer)
-+ Raffo (MiniMoog)
-+ TAL Noize Maker (Virtual Analog Synthetizer)
-+ MDA JX-10
-+ and many more ...
 [/column]
 
 [column class="column-offset-1 column-4"]
 ## Audio
 <small>Body & Soul, by Joost (Rhodes - Pianoteq)</small>
-![Body & Soul, by Joost (Pianoteq Fender Rhodes)](BodySoulByJoostRhodes.mp3)
+![Body & Soul, by Joost (Pianoteq Fender Rhodes)](BodySoulByJoostRhodes.mp3?preload=metadata)
 <small>Blues Demo (Steinwey D - Pianoteq)</small>
-![Pianoteq MIDI demo (Steinwey D)](PianoteqMidiDemoSteinweyD.mp3)
+![Pianoteq MIDI demo (Steinwey D)](PianoteqMidiDemoSteinweyD.mp3?preload=metadata)
 <small>Demo by Humi (Salamander Grand Piano - LS)</small>
-![Salamander Grand Piano demo, by Humi](SalamanderGrandPianoDemoByHumi.mp3)
+![Salamander Grand Piano demo, by Humi](SalamanderGrandPianoDemoByHumi.mp3?preload=metadata)
 <small>Hammond Demo, by Baggypants (setBfree)</small>
-![Hammond Drawbars Manipulations, by Baggypants (setBfree)](setBfreeDrawbarsManipulationByBaggypants.mp3)
+![Hammond Drawbars Manipulations, by Baggypants (setBfree)](setBfreeDrawbarsManipulationByBaggypants.mp3?preload=metadata)
 <small>Rhodes & Hammond, by Humi (LS & setBfree)</small>
-![Rhodes & Hammond, by Humi](RhodesHammondByHumi.mp3)
+![Rhodes & Hammond, by Humi](RhodesHammondByHumi.mp3?preload=metadata)
 <small>Morning Sunshine, by JTunes (ZynAddSubFX)</small>
-![Morning Sunshine, by JTunes](MorningSunshineByJTunes.mp3)
+![Morning Sunshine, by JTunes](MorningSunshineByJTunes.mp3?preload=metadata)
 <small>Space Choir, by JTunes (ZynAddSubFX)</small>
-![Space Choir1, by JTunes](SpaceChoir1ByJTunes.mp3)
+![Space Choir1, by JTunes](SpaceChoir1ByJTunes.mp3?preload=metadata)
 <small>Cosmic Synth Guitar, by JTunes (ZynAddSubFX)</small>
-![Cosmic Synth Guitar, by JTunes ](CosmicSynthGuitarByJTunes.mp3)
+![Cosmic Synth Guitar, by JTunes ](CosmicSynthGuitarByJTunes.mp3?preload=metadata)
 <small>Pat Matheny Cover, by M.Borgadello (Rhodes + Strings)</small>
-![Pat Metheny, by Mauro Borgadello (Rhodes+Strings)](PatMathenyByMauroBorgadelloRhodesStrings.mp3)
+![Pat Metheny, by Mauro Borgadello (Rhodes+Strings)](PatMathenyByMauroBorgadelloRhodesStrings.mp3?preload=metadata)
 <small>Lovelorn Man (DX7 EP + Strings + Pad)</small>
-![Lovelorn Man (Francesco Nuti), by Mauro Bordello](LovelornManFracescoNutiByMauroBorgadello.mp3)
-<!--<small>Smooth Pillow, by Dhrupadiya (Multi-layer ZynAddSubFX)</small>
-![Smooth Pillow, by Dhrupadiya](SmoothPillowByDhrupadiya.mp3)-->
+![Lovelorn Man (Francesco Nuti), by Mauro Bordello](LovelornManFracescoNutiByMauroBorgadello.mp3?preload=metadata)
 <small>Relaxing, by Dhrupadiya (Multi-layer ZynAddSubFX)</small>
-![Relaxing Theme, by Dhrupadiya](RelaxingThemeByDhrupadiya.mp3)
-<br>
-<br>
+![Relaxing Theme, by Dhrupadiya](RelaxingThemeByDhrupadiya.mp3?preload=metadata)
+<!--<small>Smooth Pillow, by Dhrupadiya (Multi-layer ZynAddSubFX)</small>
+![Smooth Pillow, by Dhrupadiya](SmoothPillowByDhrupadiya.mp3?preload=metadata)-->
 <p align="right">
- <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
+ <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more demos...</a>
 </p>
 [/column]
-

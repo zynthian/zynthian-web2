@@ -1,10 +1,6 @@
 ---
 title: 'setBfree'
-media_order: 'setbfree.jpg'
 date: '06:34 24-04-2020'
-id: setbfree
-image: setbfree.jpg
-description: 'setBfree is a MIDI-controlled, software synthesizer designed to imitate the sound and properties of the electromechanical organs and sound modification devices that brought world-wide fame to the names and products of Laurens Hammond and Don Leslie.'
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -39,11 +35,9 @@ Interaction with the synth is done can be done via mouse/PC-keyboard and MIDI. T
 <small>Rhodes & Hammond, by Humi</small>
 ![Rhodes & Hammond, by Humi](RhodesHammondByHumi.mp3)
 <br>
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
-<br>
 <br>
 ## Links:
 + [Project's Website](https://setbree.org)

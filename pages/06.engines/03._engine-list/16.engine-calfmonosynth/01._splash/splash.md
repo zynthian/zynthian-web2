@@ -21,7 +21,7 @@ limit_reveal: '0'
 
 [landscape]
 # Calf Monosynth
-## Virtual Analog Monosynth
+## Monophonic Synthesizer
 [/landscape]
 [portrait]
 # Calf Monosynth

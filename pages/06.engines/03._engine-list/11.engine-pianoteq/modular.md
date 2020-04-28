@@ -1,7 +1,10 @@
 ---
 title: Pianoteq
-media_order: 'pianoteq6.jpg'
-description: 'Pianoteq is an award-winning virtual instrument capable of recreating the sound a wide range of acoustic & electro-acoustic instruments.'
+id: pianoteq
+description: 'Pianoteq is an award-winning virtual instrument capable of recreating, using accurate physical modelling, the sound a wide range of acoustic & electro-acoustic pianos.'
+taxonomy:
+    category: synthesizer
+    tag: [commercial-software,phys-model,ucase-kb]
 content:
     items: '@self.modular'
 date: '17:38 24-04-2020'

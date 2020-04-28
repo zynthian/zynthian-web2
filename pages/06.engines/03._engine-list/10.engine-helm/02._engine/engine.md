@@ -1,10 +1,6 @@
 ---
 title: 'Helm'
-media_order: 'helm.jpg'
 date: '06:34 24-04-2020'
-id: helm
-image: helm.jpg
-description: 'Helm is an open-source realtime monophonic/polyphonic softsynth.'
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -50,11 +46,9 @@ Preset management is quite straight-forward. The 'Browse' button near the curren
 <small>Pensive Alien Two</small>
 ![pensivealientwo.ogg](pensivealientwo.ogg)
 <br>
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
-<br>
 <br>
 ## Links:
 + [Website](https://tytel.org/helm)

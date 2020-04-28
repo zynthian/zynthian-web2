@@ -21,7 +21,7 @@ limit_reveal: '0'
 
 [landscape]
 # OB-Xd
-## OB-X/Xa/X8 Emulator
+## Oberheim Emulator
 [/landscape]
 [portrait]
 # OB-Xd

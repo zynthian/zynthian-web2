@@ -1,10 +1,6 @@
 ---
 title: 'MDA ePiano'
-media_order: 'rhodes.jpg'
 date: '06:34 24-04-2020'
-id: mdaepiano
-image: rhodes.jpg
-description: 'MDA ePiano is a simple but good electric piano virtual instrument.'
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -37,11 +33,9 @@ Back in the 20th century, plugins from Maxim Digital Audio (mda) were among the 
 <small>Demo MDA-ePiano, by Baggypants</small>
 ![DemoEPianoByBaggyPants.ogg](DemoEPianoByBaggyPants.ogg)
 <br>
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
-<br>
 <br>
 ## Links:
 + [MDA's Website](http://mda.smartelectronix.com)

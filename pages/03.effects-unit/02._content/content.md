@@ -25,42 +25,20 @@ The MIDI-learning workflow is quick & easy. You can adjust the parameters you wa
 Official Zynthian Kits have 2 balanced audio-inputs with independent gain-control ranging from -12db to 32dB. Read the full specifications [here](/technical-specifications). You can connect directly a wide rage of input devices, like dynamic microphones, electric & acoustic guitars, piezos, line-in, etc.
 
 Default latency and jitter is low enough for most of players, but if you are looking for extra-low latency, audio configuration can be tweaked.
-<br>
-<br>
-
-## Effects
-+ Reverb
-+ Chorus
-+ Flanger
-+ Phaser
-+ Delay
-+ Wah
-+ EQ
-+ Distortion
-+ Compressor
-+ Granulator
-+ Vocoder
-+ Auto-tune
-+ and many more ...
 [/column]
 
 [column class="column-offset-1 column-4"]
 ## Audio
 <small>Clean Guitar, by Rodrigo Amaral</small>
-![CleanGuitarByRodrigoAmaral.mp3](CleanGuitarByRodrigoAmaral.mp3)
-<br>
+![CleanGuitarByRodrigoAmaral.mp3](CleanGuitarByRodrigoAmaral.mp3?preload=metadata)
 <small>Crunch Guitar, by Rodrigo Amaral</small>
-![CrunchGuitarByRodrigoAmaral.mp3](CrunchGuitarByRodrigoAmaral.mp3)
-<br>
+![CrunchGuitarByRodrigoAmaral.mp3](CrunchGuitarByRodrigoAmaral.mp3?preload=metadata)
 <small>Lead Guitar, by Rodrigo Amaral</small>
-![LeadGuitarByRodrigoAmaral.mp3](LeadGuitarByRodrigoAmaral.mp3)
-<br>
+![LeadGuitarByRodrigoAmaral.mp3](LeadGuitarByRodrigoAmaral.mp3?preload=metadata)
 <small>Kalimba Mistery Forest Dream, by Jofemodo</small>
-![ElectroKalimbaMisteryForestDreamByJofemodo.mp3](ElectroKalimbaMisteryForestDreamByJofemodo.mp3)
+![ElectroKalimbaMisteryForestDreamByJofemodo.mp3](ElectroKalimbaMisteryForestDreamByJofemodo.mp3?preload=metadata)
 <br>
-
 <p align="right">
- <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
+ <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more demos...</a>
 </p>
 [/column]
-

@@ -1,10 +1,6 @@
 ---
 title: 'ZynAddSubFX'
-media_order: 'zynaddsubfx.jpg'
 date: '06:34 24-04-2020'
-id: zynaddsubfx
-image: zynaddsubfx.jpg
-description: 'ZynAddSubFX is an advanced Virtual Analog Synthesizer capable of modelling the more amazing sounds you can conceive. Its sound, warm and analog-like, will please the most exigent ears.'
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -65,11 +61,9 @@ It's a quite complex and very powerful tool that will satisfy the most experienc
 <small>Relaxing, by Dhrupadiya (Multi-layer)</small>
 ![Relaxing Theme, by Dhrupadiya](RelaxingThemeByDhrupadiya.mp3)
 <br>
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
-<br>
 <br>
 ## Links:
 + [Project's Website](https://zynaddsubfx.net)

@@ -1,10 +1,6 @@
 ---
 title: 'Raffo'
-media_order: 'minimoog.jpg'
 date: '06:34 24-04-2020'
-id: raffo
-image: minimoog.jpg
-description: ''
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -35,11 +31,9 @@ The glide control adjusts key-scaled portamento. Bipolar whole-tone pitchbend MI
 <small>Sonata Flair Sub</small>
 ![sonataflairsub.ogg](sonataflairsub.ogg)
 <br>
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
-<br>
 <br>
 ## Links:
 + [LinuxSynths Page](http://www.linuxsynths.com/RaffosynthPatchesDemos/raffosynth.html)

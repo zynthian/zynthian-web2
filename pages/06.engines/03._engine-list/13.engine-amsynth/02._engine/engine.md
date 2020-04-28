@@ -1,10 +1,6 @@
 ---
 title: 'AMSynth'
-media_order: 'amsynth.png'
 date: '06:34 24-04-2020'
-id: amsynth
-image: amsynth.png
-description: 'AmSynth is an Analog Modelling Synthesizer that uses a traditional subtractive synthesis approach to sound design'
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -63,13 +59,10 @@ AmSynth has unlimited polyphony capability, although 16-note polyphony is usuall
 <small>Soft Warning</small>
 ![softwarning.ogg](softwarning.ogg)
 <br>
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
 <br>
-<br>
-
 ## Links:
 + [Project's Website](https://amsynth.github.io)
 + [LinuxSynths Page](http://www.linuxsynths.com/amSynthdemos/amsynth.html)

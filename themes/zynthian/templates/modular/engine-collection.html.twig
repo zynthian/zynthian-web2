@@ -15,6 +15,7 @@
 {% block modular_content %}
 <div class="content__ctn {{ computed_position }}" data-reveal>
 	<section class="product-collection__grid-ctn mt">
+		{{ content }}
 		<div class="product-collection__grid" data-paginate>
 			{% for page in page.collection() %}
 				{% include 'partials/engine-card.html.twig' %}

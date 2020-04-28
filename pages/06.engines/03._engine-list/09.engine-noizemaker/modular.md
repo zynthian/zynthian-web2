@@ -1,7 +1,10 @@
 ---
 title: TAL NoizeMaker
-media_order: 'noizemaker.jpg'
-description: ''
+id: noizemaker
+description: 'NoizeM4k3r is a subtractive mono/polyphonic softsynth with up to 6 voices per sound'
+taxonomy:
+    category: synthesizer
+    tag: [free-software,synth-subs,ucase-kb,ucase-pr]
 content:
     items: '@self.modular'
 date: '17:38 24-04-2020'

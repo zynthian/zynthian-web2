@@ -1,10 +1,6 @@
 ---
 title: 'MDA JX-10'
-media_order: 'djx10.jpg'
 date: '06:34 24-04-2020'
-id: jx10
-image: djx10.jpg
-description: ''
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -58,11 +54,9 @@ Back in the 20th century, plugins from Maxim Digital Audio (mda) were among the 
 <small>Filter Demo</small>
 ![filterdemo.ogg](filterdemo.ogg)
 <br>
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
-<br>
 <br>
 ## Links:
 + [MDA's Website](http://mda.smartelectronix.com)

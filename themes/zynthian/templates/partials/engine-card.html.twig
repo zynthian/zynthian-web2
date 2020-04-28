@@ -1,13 +1,14 @@
-<article class="product-card">
+<article class="product-card" data-tag="{{ page.header.taxonomy.tag|join(',') }}">
 	<a class="product-card__link" href="{{ page.url }}">
 		<div class="product-card__image">
 			<div class="fill">
 				{% include 'partials/img.html.twig' with {'image': page.media.images|first} %}
 			</div>
+			<!--{{ page.header.description }}-->
 		</div>
 		<div class="product-card__info big">
 			<div class="product-card__title">{{ page.title }}</div>
-			<div class="product-card__description">{{ page.description }}</div>
+			<div class="product-card__description">{{ page.taxonomy[tag] }}</div>
 		</div>
 	</a>
 </article>

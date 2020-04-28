@@ -1,10 +1,6 @@
 ---
 title: 'Pianoteq'
-media_order: 'pianoteq6.jpg'
 date: '06:34 24-04-2020'
-id: pianoteq
-image: pianoteq6.jpg
-description: 'Pianoteq is an award-winning virtual instrument capable of recreating the sound a wide range of acoustic & electro-acoustic instruments.'
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -34,11 +30,9 @@ Steinway & Sons have approved the sound and playability of the Pianoteq virtual 
 <small>Blues Demo (Steinwey Model D)</small>
 ![Pianoteq MIDI demo (Steinwey Model D)](PianoteqMidiDemoSteinweyD.mp3)
 <br>
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
-<br>
 <br>
 ## Links:
 + [Pianoteq's Website](https://www.modartt.com/pianoteq)

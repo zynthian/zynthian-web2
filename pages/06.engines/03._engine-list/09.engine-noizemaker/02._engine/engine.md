@@ -1,10 +1,6 @@
 ---
 title: 'TAL NoizeMaker'
-media_order: 'noizemaker.jpg'
 date: '06:34 24-04-2020'
-id: noizemaker
-image: noizemaker.jpg
-description: 'NoizeM4k3r is a subtractive type, mono/polyphonic synth with up to 6 voices per sound'
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -84,11 +80,9 @@ Another powerful section of the TAL-NoizeM4k3r is the control section, which inc
 <small>On the Run</small>
 ![ontherun.ogg](ontherun.ogg)
 <br>
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
-<br>
 <br>
 ## Links:
 + [Official Website](https://tal-software.com/products/tal-noisemaker)

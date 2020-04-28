@@ -21,7 +21,7 @@ limit_reveal: '0'
 
 [landscape]
 # MDA JX-10
-## Virtual Analog Synthesizer
+## JX-8p/JX-10 Emulator
 [/landscape]
 [portrait]
 # MDA JX-10

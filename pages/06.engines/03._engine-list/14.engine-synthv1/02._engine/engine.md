@@ -1,10 +1,6 @@
 ---
 title: 'SynthV1'
-media_order: 'synthv1.png'
 date: '06:34 24-04-2020'
-id: synthv1
-image: synthv1.jpg
-description: 'SynthV1 is an old-school all-digital 4-oscillator subtractive polyphonic synthesizer with stereo FX.'
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -60,11 +56,9 @@ The "DEF" section has controls for setting pitchbend, modulation and velocity. T
 <small>Solohornthree</small>
 ![solohornthree.ogg](solohornthree.ogg)
 <br>
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
-<br>
 <br>
 ## Links:
 + [Project's Website](https://synthv1.sourceforge.io)

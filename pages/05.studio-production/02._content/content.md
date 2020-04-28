@@ -19,50 +19,24 @@ Zynthian can be controlled from DAWs and sequencers. It has standard MIDI-IN/THR
 Step-Sequencer, MIDI-learning, MIDI-filter & router, Audio & MIDI recorders. PureData & MOD-UI are integrated too.
 
 Default latency and jitter is low enough for most of use-cases, but if you are looking for extra-low latency, audio configuration can be tweaked.
-<br>
-<br>
-
-## Synth Engines
-+ ZynAddSubFX (Virtual Analog Synthetizer)
-+ FluidSynth (SF2 & SF3 SoundFonts)
-+ LinuxSampler (SFZ & GIG SoundFonts)
-+ setBfree (Hammond B3 + Leslie)
-+ MDA ePiano (Rhodes)
-+ Dexed (DX-7)
-+ Pianoteq (Acoustic & Electric Pianos)
-+ Aeolus (Pipe Organ)
-+ OBXd (Oberheim OB-X)
-+ Helm (Virtual Analog Synthetizer)
-+ Raffo (MiniMoog)
-+ TAL Noize Maker (Virtual Analog Synthetizer)
-+ MDA JX-10
-+ and many more ...
 [/column]
 
 [column class="column-offset-1 column-4"]
-## Video
-[youtube="https://youtu.be/hiCLN25199M"]
-[youtube="https://youtu.be/eQQlt13YX00"]
-[youtube="https://youtu.be/T3izkId4KS0"]
-<!--[youtube="https://youtu.be/dj5jG5Xq834"]-->
-<br>
-
 ## Audio
 <small>Zynthianic Trance, by JTunes</small>
-![ZynthianicTranceByJtunes.mp3](ZynthianicTranceByJtunes.mp3)
+![ZynthianicTranceByJtunes.mp3](ZynthianicTranceByJtunes.mp3?preload=metadata)
 <small>Trip Jazz Demo, by Humi</small>
-![TripJazzdemoByHumi.mp3](TripJazzdemoByHumi.mp3)
+![TripJazzdemoByHumi.mp3](TripJazzdemoByHumi.mp3?preload=metadata)
 <small>PPG13, by Can Trell</small>
-![PPG13ByCanTrell.mp3](PPG13ByCanTrell.mp3)
+![PPG13ByCanTrell.mp3](PPG13ByCanTrell.mp3?preload=metadata)
 <small>The Weight, by BaggyPants</small>
-![TheWeightByBaggyPants.mp3](TheWeightByBaggyPants.mp3)
+![TheWeightByBaggyPants.mp3](TheWeightByBaggyPants.mp3?preload=metadata)
 <small>Monsieur The Actor, by R.Generalov</small>
-![MonsieurTheActorByRomanGeneralov.mp3](MonsieurTheActorByRomanGeneralov.mp3)
+![MonsieurTheActorByRomanGeneralov.mp3](MonsieurTheActorByRomanGeneralov.mp3?preload=metadata)
 <small>Vasculab COMPD, by Can Trell</small>
-![VasculabCOMPDByCanTrell.mp3](VasculabCOMPDByCanTrell.mp3)
+![VasculabCOMPDByCanTrell.mp3](VasculabCOMPDByCanTrell.mp3?preload=metadata)
 <small>BlueBox is Roughly Great, by Nicolaz</small>
-![BlueBoxIsRoughlyGreatByNicolaz.mp3](BlueBoxIsRoughlyGreatByNicolaz.mp3)
-
+![BlueBoxIsRoughlyGreatByNicolaz.mp3](BlueBoxIsRoughlyGreatByNicolaz.mp3?preload=metadata)
 <!--
 <small>RTPMidi Celebration, by JTunes</small>
 ![RTPMidiCelebrationByJTunes.mp3](RTPMidiCelebrationByJTunes.mp3)
@@ -79,8 +53,6 @@ Default latency and jitter is low enough for most of use-cases, but if you are l
 <small>For Wyleu, by Humi</small>
 ![ForWyleuByHumi.mp3](ForWyleuByHumi.mp3)
 -->
-<br>
-<br>
-<p align="right"><a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a></p>
+<p align="right"><a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more demos...</a></p>
 [/column]
 

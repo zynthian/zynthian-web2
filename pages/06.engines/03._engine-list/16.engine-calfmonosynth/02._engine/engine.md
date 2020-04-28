@@ -1,10 +1,6 @@
 ---
 title: 'Calf Monosynth'
-media_order: 'calfmonosynth.jpg'
 date: '06:34 24-04-2020'
-id: calfmonosynth
-image: calfmonosyth.jpg
-description: 'Calf Monosynth is a simple monophonic synthesizer with 2 oscillators, multimode filter and an envelope.'
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -49,11 +45,9 @@ The third section is the modulation matrix, where different controls such as key
 <small>Wizard</small>
 ![wizard.ogg](wizard.ogg)
 <br>
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
-<br>
 <br>
 ## Links:
 + [Calf's Website](http://calf-studio-gear.org/)

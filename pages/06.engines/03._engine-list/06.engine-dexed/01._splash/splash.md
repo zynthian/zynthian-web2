@@ -21,7 +21,7 @@ limit_reveal: '0'
 
 [landscape]
 # Dexed
-## FM Digital Synthesizer
+## FM Synthesizer
 [/landscape]
 [portrait]
 # Dexed

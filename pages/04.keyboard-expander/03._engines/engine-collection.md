@@ -8,11 +8,14 @@ margin_bottom: none
 role: default
 limit_reveal: '0'
 content:
-    items: '@self.children'
+    items: 
+        '@taxonomy.tag': ucase-kb
     order:
         by: default
         dir: asc
-    pagination: true
-    limit: '32'
+    limit: '16'
+body_classes: 'use-case custom-list'
 ---
+## Synth-engines
+<br>
 

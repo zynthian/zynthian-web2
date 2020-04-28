@@ -1,10 +1,13 @@
 ---
 title: FluidSynth
-media_order: 'redwave.jpg'
-description: 'FluidSynth is a real-time software synthesizer based on the SoundFont-2 specifications.'
+id: 'fluidsynth'
+description: 'FluidSynth is a sample-based synthesizer that supports the SoundFont-2 (SF2) file format.'
+taxonomy:
+    category: synthesizer
+    tag: [free-software,synth-sample]
 content:
     items: '@self.modular'
-date: '17:38 10-03-2020'
 body_classes: modular
+date: '17:38 10-03-2020'
 ---
 

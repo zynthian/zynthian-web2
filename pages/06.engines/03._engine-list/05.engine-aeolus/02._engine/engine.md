@@ -1,10 +1,6 @@
 ---
 title: 'Aeolus'
-media_order: 'aeolus.jpg'
 date: '06:34 24-04-2020'
-id: aeolus
-image: aeolus.jpg
-description: 'Aeolus is a high quality pipe organ emulator using additive synthesis.'
 margin_top: half
 padding_top: none
 padding_bottom: none
@@ -47,11 +43,9 @@ Aeolus is not very CPU-hungry, and should run without problems on a e.g. a 1GHz,
 <small>J.S. Bach, Kommst Du nun, by Bert Visser</small>
 ![BWV650-bv.ogg](BWV650-bv.ogg)
 <br>
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
-<br>
 <br>
 ## Links:
 + [Project's Website](https://kokkinizita.linuxaudio.org/linuxaudio/aeolus/index.html)
