@@ -1,5 +1,5 @@
 ---
-title: Engine Collection
+title:
 date: '09:40 24-04-2020'
 margin_top: none
 padding_top: none

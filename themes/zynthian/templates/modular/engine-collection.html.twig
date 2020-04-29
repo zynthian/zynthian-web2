@@ -12,10 +12,12 @@
 
 {% set limit_reveal = limit_reveal|default(page.header.limit_reveal) %}
 
+{% do assets.addJs('theme://js/engines_filter.js') %}
+
 {% block modular_content %}
 <div class="content__ctn {{ computed_position }}" data-reveal>
+	<div class="product-collection__title">{{ page.header.title }}</div>
 	<section class="product-collection__grid-ctn mt">
-		{{ content }}
 		<div class="product-collection__grid" data-paginate>
 			{% for page in page.collection() %}
 				{% include 'partials/engine-card.html.twig' %}

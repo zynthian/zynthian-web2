@@ -116,10 +116,13 @@ COLLECTION
 /*.page--product-collection{}*/
 
 .product-collection__title{
-  margin: 3rem auto;
+  font-family: "audiowide";
+  font-size: 24px;
+  /*margin: 3rem auto;*/
+  margin-top: 3rem;
   padding: 0 var(--gutter);
   max-width: var(--width-tight);
-  text-align: center;
+  text-align: left;
 }
 
 .product-collection__intro{
@@ -144,7 +147,7 @@ COLLECTION
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  margin-top: calc(-1 * var(--gutter));
+  margin-top: calc(-5 * var(--gutter));
   margin-left: calc(-1 * var(--gutter));
 }
 
@@ -170,6 +173,16 @@ CARD
 @media only screen and (min-width: 768px){
   .product-card{
     width: calc(25% - var(--gutter));
+  }
+}
+@media only screen and (min-width: 1248px){
+  .product-card{
+    width: calc(20% - var(--gutter));
+  }
+}
+@media only screen and (min-width: 1888px){
+  .product-card{
+    width: calc(16.6% - var(--gutter));
   }
 }
 
@@ -204,7 +217,7 @@ CARD
 @media only screen and (min-width: 768px){
   .product-card__info{
     margin-top: 0.5rem;
-    max-width: 60%;
+    max-width: 90%;
   }
 }
 

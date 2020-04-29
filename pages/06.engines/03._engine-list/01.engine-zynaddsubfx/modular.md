@@ -4,7 +4,7 @@ id: zynaddsubfx
 description: 'ZynAddSubFX is an advanced synthesizer capable of modelling the more amazing sounds you can conceive.'
 taxonomy:
     category: synthesizer
-    tag: [free-software,synth-add,synth-subs,synth-pad,ucase-kb,ucase-pr]
+    tag: [free-software,synth-add,synth-sub,synth-pad,ucase-kb,ucase-pr]
 content:
     items: '@self.modular'
 body_classes: modular

@@ -1,5 +1,5 @@
 ---
-title: FX Collection
+title: Effects
 date: '09:40 24-04-2020'
 margin_top: none
 padding_top: none
@@ -14,10 +14,9 @@ content:
         by: default
         dir: asc
     limit: '16'
+content_position: left
 body_classes: 'use-case custom-list'
 ---
-## Effects
-<br>
 + Reverb
 + Chorus
 + Flanger
