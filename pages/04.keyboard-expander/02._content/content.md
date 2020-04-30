@@ -30,29 +30,29 @@ Default latency and jitter is low enough for most of players, but if you are loo
 [column class="column-offset-1 column-4"]
 ## Audio
 <small>Body & Soul, by Joost (Rhodes - Pianoteq)</small>
-![Body & Soul, by Joost (Pianoteq Fender Rhodes)](BodySoulByJoostRhodes.mp3?preload=metadata)
+![Body & Soul, by Joost (Pianoteq Fender Rhodes)](BodySoulByJoostRhodes.mp3)
 <small>Blues Demo (Steinwey D - Pianoteq)</small>
-![Pianoteq MIDI demo (Steinwey D)](PianoteqMidiDemoSteinweyD.mp3?preload=metadata)
+![Pianoteq MIDI demo (Steinwey D)](PianoteqMidiDemoSteinweyD.mp3)
 <small>Demo by Humi (Salamander Grand Piano - LS)</small>
-![Salamander Grand Piano demo, by Humi](SalamanderGrandPianoDemoByHumi.mp3?preload=metadata)
+![Salamander Grand Piano demo, by Humi](SalamanderGrandPianoDemoByHumi.mp3)
 <small>Hammond Demo, by Baggypants (setBfree)</small>
-![Hammond Drawbars Manipulations, by Baggypants (setBfree)](setBfreeDrawbarsManipulationByBaggypants.mp3?preload=metadata)
+![Hammond Drawbars Manipulations, by Baggypants (setBfree)](setBfreeDrawbarsManipulationByBaggypants.mp3)
 <small>Rhodes & Hammond, by Humi (LS & setBfree)</small>
-![Rhodes & Hammond, by Humi](RhodesHammondByHumi.mp3?preload=metadata)
+![Rhodes & Hammond, by Humi](RhodesHammondByHumi.mp3)
 <small>Morning Sunshine, by JTunes (ZynAddSubFX)</small>
-![Morning Sunshine, by JTunes](MorningSunshineByJTunes.mp3?preload=metadata)
+![Morning Sunshine, by JTunes](MorningSunshineByJTunes.mp3?preload=none)
 <small>Space Choir, by JTunes (ZynAddSubFX)</small>
-![Space Choir1, by JTunes](SpaceChoir1ByJTunes.mp3?preload=metadata)
+![Space Choir1, by JTunes](SpaceChoir1ByJTunes.mp3?preload=none)
 <small>Cosmic Synth Guitar, by JTunes (ZynAddSubFX)</small>
-![Cosmic Synth Guitar, by JTunes ](CosmicSynthGuitarByJTunes.mp3?preload=metadata)
+![Cosmic Synth Guitar, by JTunes ](CosmicSynthGuitarByJTunes.mp3?preload=none)
 <small>Pat Matheny Cover, by M.Borgadello (Rhodes + Strings)</small>
-![Pat Metheny, by Mauro Borgadello (Rhodes+Strings)](PatMathenyByMauroBorgadelloRhodesStrings.mp3?preload=metadata)
+![Pat Metheny, by Mauro Borgadello (Rhodes+Strings)](PatMathenyByMauroBorgadelloRhodesStrings.mp3?preload=none)
 <small>Lovelorn Man (DX7 EP + Strings + Pad)</small>
-![Lovelorn Man (Francesco Nuti), by Mauro Bordello](LovelornManFracescoNutiByMauroBorgadello.mp3?preload=metadata)
+![Lovelorn Man (Francesco Nuti), by Mauro Bordello](LovelornManFracescoNutiByMauroBorgadello.mp3?preload=none)
 <small>Relaxing, by Dhrupadiya (Multi-layer ZynAddSubFX)</small>
-![Relaxing Theme, by Dhrupadiya](RelaxingThemeByDhrupadiya.mp3?preload=metadata)
+![Relaxing Theme, by Dhrupadiya](RelaxingThemeByDhrupadiya.mp3?preload=none)
 <!--<small>Smooth Pillow, by Dhrupadiya (Multi-layer ZynAddSubFX)</small>
-![Smooth Pillow, by Dhrupadiya](SmoothPillowByDhrupadiya.mp3?preload=metadata)-->
+![Smooth Pillow, by Dhrupadiya](SmoothPillowByDhrupadiya.mp3?preload=none)-->
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more demos...</a>
 </p>
