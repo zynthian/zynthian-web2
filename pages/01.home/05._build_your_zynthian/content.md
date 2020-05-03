@@ -8,15 +8,15 @@ padding_top: none
 padding_bottom: none
 margin_bottom: none
 role: default
-limit_reveal: '0'
 body_classes: 'basic-concepts row-center custom-list'
+limit_reveal: '0'
 content:
     items: '@self.modular'
 ---
 
-[column  class="column-3 text-center"]![](circle-built.svg)[/column]
+[column  class="column-3 text-center show-large"]![](circle-built.svg)[/column]
 [column class="column-8"]
-## Build your Zynthian
+[div class="pre-title"]![](circle-built.svg?classes=show-small)<h2>Build your Zynthian</h2>[/div]  
 Zynthian is not available as a finished product. You have to build your own unit. But don't be afraid! It's an easy task that anybody can carry out, and you get a bunch of advantages by doing this way:
 
 + You can repair your unit. Every single part is available separatelly.

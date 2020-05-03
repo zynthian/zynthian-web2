@@ -24,19 +24,19 @@ Default latency and jitter is low enough for most of use-cases, but if you are l
 [column class="column-offset-1 column-4"]
 ## Audio
 <small>Zynthianic Trance, by JTunes</small>
-![ZynthianicTranceByJtunes.mp3](ZynthianicTranceByJtunes.mp3)
+![ZynthianicTranceByJtunes.mp3](ZynthianicTranceByJtunes.mp3?preload=metadata)
 <small>Trip Jazz Demo, by Humi</small>
-![TripJazzdemoByHumi.mp3](TripJazzdemoByHumi.mp3)
+![TripJazzdemoByHumi.mp3](TripJazzdemoByHumi.mp3?preload=metadata)
 <small>PPG13, by Can Trell</small>
-![PPG13ByCanTrell.mp3](PPG13ByCanTrell.mp3)
+![PPG13ByCanTrell.mp3](PPG13ByCanTrell.mp3?preload=metadata)
 <small>The Weight, by BaggyPants</small>
-![TheWeightByBaggyPants.mp3](TheWeightByBaggyPants.mp3)
+![TheWeightByBaggyPants.mp3](TheWeightByBaggyPants.mp3?preload=metadata)
 <small>Monsieur The Actor, by R.Generalov</small>
-![MonsieurTheActorByRomanGeneralov.mp3](MonsieurTheActorByRomanGeneralov.mp3?preload=none)
+![MonsieurTheActorByRomanGeneralov.mp3](MonsieurTheActorByRomanGeneralov.mp3?preload=metadata)
 <small>Vasculab COMPD, by Can Trell</small>
-![VasculabCOMPDByCanTrell.mp3](VasculabCOMPDByCanTrell.mp3?preload=none)
+![VasculabCOMPDByCanTrell.mp3](VasculabCOMPDByCanTrell.mp3?preload=metadata)
 <small>BlueBox is Roughly Great, by Nicolaz</small>
-![BlueBoxIsRoughlyGreatByNicolaz.mp3](BlueBoxIsRoughlyGreatByNicolaz.mp3?preload=none)
+![BlueBoxIsRoughlyGreatByNicolaz.mp3](BlueBoxIsRoughlyGreatByNicolaz.mp3?preload=metadata)
 <!--
 <small>RTPMidi Celebration, by JTunes</small>
 ![RTPMidiCelebrationByJTunes.mp3](RTPMidiCelebrationByJTunes.mp3)

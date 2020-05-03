@@ -11,7 +11,7 @@ body_classes: 'use-case custom-list'
 limit_reveal: '0'
 ---
 
-[column class="column-offset-1 column-6 first"]
+[column class="column-offset-1 column-6 main-cases"]
 Stomp-box ..
 
 Zynthian includes hundreds of effects & filters that you can combine as you like. You can play the music style you want, recreating vintage sounds or exploring new textures. 
@@ -27,7 +27,7 @@ Official Zynthian Kits have 2 balanced audio-inputs with independent gain-contro
 Default latency and jitter is low enough for most of players, but if you are looking for extra-low latency, audio configuration can be tweaked.
 [/column]
 
-[column class="column-offset-1 column-4"]
+[column class="column-offset-1 column-4 sidebar-cases"]
 ## Audio
 <small>Clean Guitar, by Rodrigo Amaral</small>
 ![CleanGuitarByRodrigoAmaral.mp3](CleanGuitarByRodrigoAmaral.mp3?preload=metadata)
@@ -37,8 +37,8 @@ Default latency and jitter is low enough for most of players, but if you are loo
 ![LeadGuitarByRodrigoAmaral.mp3](LeadGuitarByRodrigoAmaral.mp3?preload=metadata)
 <small>Kalimba Mistery Forest Dream, by Jofemodo</small>
 ![ElectroKalimbaMisteryForestDreamByJofemodo.mp3](ElectroKalimbaMisteryForestDreamByJofemodo.mp3?preload=metadata)
-<br>
-<p align="right">
- <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more demos...</a>
-</p>
+
+[div class="text-right link-extrademos"]
+<a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">[More Demos]</a>
+[/div]
 [/column]

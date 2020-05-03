@@ -6,7 +6,7 @@
 	{% endfor %}
 
 	{% else %} #}
-	<ul class="inline-list">
+	<ul class="menu-list">
 		{% for p in pages.children.visible %}
 		    {% set current_page = (p.active or p.activeChild) ? 'nav-link--selected' : '' %}
 		    <li><a class="nav-link {{ current_page }}" href="{{ p.url }}">{{ p.menu }}</a></li>

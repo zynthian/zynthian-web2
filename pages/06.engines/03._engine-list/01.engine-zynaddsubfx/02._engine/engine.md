@@ -51,7 +51,7 @@ It's a quite complex and very powerful tool that will satisfy the most experienc
 [column class="column-offset-1 column-4"]
 ## Audio
 <small>Morning Sunshine, by JTunes (Lead Pad)</small>
-![Morning Sunshine, by JTunes](MorningSunshineByJTunes.mp3?)
+![Morning Sunshine, by JTunes](MorningSunshineByJTunes.mp3)
 <small>Space Choir, by JTunes</small>
 ![Space Choir1, by JTunes](SpaceChoir1ByJTunes.mp3)
 <small>Cosmic Synth Guitar, by JTunes</small>

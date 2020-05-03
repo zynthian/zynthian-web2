@@ -1,8 +1,8 @@
 <footer class="footer">
-    <div class="footer__main module module--content row-center">
+    <div class="footer__main module module--content row-top">
         <div class="content__ctn">
             <div class="row">
-                <div class="column column-5">
+                <div class="column column-4">
                     {% set site_logo = theme.site_logo ? theme.site_logo : site.title %}
                     <div class="footer__logo">
                         {{ site_logo }}
@@ -12,9 +12,9 @@
                         {{ theme.about_desc }}
                     </div>
                 </div>
-                <div class="column column-7">
+                <div class="column column-offset-1 column-7">
                     <div class="footer__form">
-                        <h2>Contact</h2>
+                        <h3>Contact</h3>
                         {% include "forms/form.html.twig" with { form: forms('contact-form') } %}
                     </div>
                 </div>
