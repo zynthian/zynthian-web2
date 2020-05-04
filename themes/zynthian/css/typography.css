@@ -79,12 +79,13 @@ a{
 
 li a,
 p a{
-    color: var(--color-sc);
+    color: var(--color-sc) !important;
 }
 
 li a:hover,
 p a:hover{
-    color: var(--color-fg);
+    color: var(--color-fg) !important;
+    text-decoration: underline;
 }
 
 sup{

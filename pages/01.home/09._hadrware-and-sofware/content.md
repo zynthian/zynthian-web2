@@ -8,8 +8,8 @@ padding_top: none
 padding_bottom: none
 margin_bottom: none
 role: default
-limit_reveal: '0'
 body_classes: 'hard-soft basic-concepts row-bottom custom-list'
+limit_reveal: '0'
 meta_theme: ''
 color_nav_fg: ''
 color_loader: ''
@@ -23,8 +23,8 @@ content:
 ---
 
 [column class="column-offset-1 column-5"]
-![microchip icon](circle-hardware.svg?classes=float-left-large)
-## Hardware Specification
+![microchip icon](circle-hardware.svg?classes=float-left-large,show-large)
+[div class="pre-title"]![](circle-hardware.svg?classes=show-small)<h2>Hardware Specification</h2>[/div]
 
 * Based on Raspberry Pi and Open Hardware
 * Audio Input/Output Stereo 16 bits, up to 192 KHz
@@ -33,8 +33,8 @@ content:
 [/column]
 
 [column class="column-5 text-right-large"]
-![computer icon](circle-software.svg?classes=float-right-large)
-## Software
+![computer icon](circle-software.svg?classes=float-right-large,show-large)
+[div class="pre-title"]![](circle-software.svg?classes=show-small)<h2>Software</h2>[/div]
 
 * Based on GNU-Linux and Free Software
 * Real-time processing for low latency and jitter

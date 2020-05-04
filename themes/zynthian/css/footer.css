@@ -22,10 +22,15 @@ footer p a:hover{
     color: var(--color-sc);
 }
 
+footer h3{
+    font-family: var(--font-light);
+    padding-bottom: 0.5em;
+}
+
 .footer__main{
     position: relative;
-    padding-top: var(--rhythm);
-    padding-bottom: var(--rhythm);
+    padding-top: calc(var(--rhythm) / 2);
+    padding-bottom: calc(var(--rhythm) / 2);
     background: var(--color-hl);
     color: var(--color-hl-inverted);
     font-size: 16px;
@@ -41,19 +46,13 @@ footer p a:hover{
     padding-top: 2.25em;
 }
 
-.footer__about h4{
-    font-family: var(--font-light);
-    padding-bottom: 0.5em;
-}
-
 .footer__about p a{
     color: var(--color-hl-inverted)
 }
 
 .footer__secondary{
-    padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
-    font-size: 16px;
+    padding-top: calc(var(--gutter) / 1.5);
+    padding-bottom: calc(var(--gutter) / 2);
 }
 
 .footer__secondary ul{
@@ -65,15 +64,34 @@ footer p a:hover{
 }
 
 .footer__secondary .inline-list li{
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
 }
 
 .footer__secondary .inline-list li a:hover svg{
     stroke:var(--color-sc);
 }
 
+.footer__secondary p{
+    width: 100%;
+}
+
+.footer__secondary a{
+    color: var(--color-fg) !important;
+}
+
+.footer__secondary a:hover{
+    color: var(--color-sc) !important;
+}
+
 @media only screen and (min-width: 768px) {
+
+    .footer__secondary{
+        padding-top: var(--gutter);
+        padding-bottom: calc(var(--gutter) / 1.5);
+        font-size: 16px;
+    }
+
     .footer__secondary p,
     .footer__secondary ul{
         padding-top: 0;

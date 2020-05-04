@@ -10,7 +10,8 @@ role: default
 body_classes: 'use-case custom-list'
 limit_reveal: '0'
 ---
-[column class="column-offset-1 column-11"]
+
+[column class="column-12 text-center"]
 <div id="engines_filter">
 	<select id="cat">
 		<option value="synthesizer">Synthesizers</option>
