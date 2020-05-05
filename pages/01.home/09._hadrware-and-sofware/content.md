@@ -24,7 +24,7 @@ content:
 
 [column class="column-offset-1 column-5"]
 ![microchip icon](circle-hardware.svg?classes=float-left-large,show-large)
-[div class="pre-title"]![](circle-hardware.svg?classes=show-small)<h2>Hardware</h2>[/div]
+[div class="pre-title"]<h2>Hardware</h2> ![](circle-hardware.svg?classes=show-small)[/div]
 
 * Based on Raspberry Pi and Open Hardware
 * Audio Input/Output Stereo 16 bits, up to 192 KHz
@@ -34,7 +34,7 @@ content:
 
 [column class="column-5 text-right-large"]
 ![computer icon](circle-software.svg?classes=float-right-large,show-large)
-[div class="pre-title"]![](circle-software.svg?classes=show-small)<h2>Software</h2>[/div]
+[div class="pre-title"]<h2>Software</h2> ![](circle-software.svg?classes=show-small)[/div]
 
 * Based on GNU-Linux and Free Software
 * Real-time processing for low latency and jitter

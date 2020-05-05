@@ -1,38 +1,40 @@
 {% import 'partials/navigation.html.twig' as nav %}
 <header class="header">
-	<div class="header__wrapper">
+    <div class="header__wrapper">
 
-		{# landscape #}
-		<nav class="header__nav landscape">
-			<ul class="inline-list">
-				{% include 'partials/navigation-1.html.twig' %}
-			</ul>
-		</nav>
+        {# landscape #}
+        <nav class="header__nav landscape first-menu">
+            <ul class="inline-list">
+                {% include 'partials/navigation-1.html.twig' %}
+            </ul>
+        </nav>
 
-		{% set site_logo = theme.site_logo ? theme.site_logo : site.title %}
-		<a class="header__logo" href="{{ base_url == '' ? '/' : base_url }}">{{ site_logo }}</a>
+        {% set site_logo = theme.site_logo ? theme.site_logo : site.title %}
+        <a class="header__logo" href="{{ base_url == '' ? '/' : base_url }}">{{ site_logo }}</a>
 
-		<nav class="header__nav landscape">
-			<ul class="inline-list">
-				{% include 'partials/navigation-2.html.twig' %}
-			</ul>
-		</nav>
+        <nav class="header__nav landscape second-menu">
+            <ul class="inline-list">
+                {% include 'partials/navigation-2.html.twig' %}
+            </ul>
+        </nav>
 
-		{# portrait #}
-		<div class="header__toggle-on portrait">
-			<span class="material-icons">menu</span>
-		</div>
-		<nav class="header__panel portrait">
-			<a class="header__panel-logo" href="{{ base_url == '' ? '/' : base_url }}">{{ site_logo }}</a>
-			<div class="header__toggle-off">
-				<span class="material-icons">close</span>
-			</div>
-			<ul class="menu-list">
-				{% include 'partials/navigation-1.html.twig' %}
-				{% include 'partials/navigation-2.html.twig' %}
-			</ul>
-		</nav>
+        {# portrait #}
+        <div class="header__toggle-on portrait">
+            <span class="material-icons">menu</span>
+        </div>
+        <nav class="header__panel portrait">
+            <a class="header__panel-logo" href="{{ base_url == '' ? '/' : base_url }}">{{ site_logo }}</a>
+            <div class="header__toggle-off">
+                <span class="material-icons">close</span>
+            </div>
+            <div class="header__mobile-menu">
+	            <ul class="menu-list">
+	                {% include 'partials/navigation-1.html.twig' %}
+	                {% include 'partials/navigation-2.html.twig' %}
+	            </ul>
+        	</div>
+        </nav>
 
-	</div>
+    </div>
 </header>
 
