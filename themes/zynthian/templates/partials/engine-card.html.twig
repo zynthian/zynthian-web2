@@ -4,11 +4,10 @@
 			<div class="fill">
 				{% include 'partials/img.html.twig' with {'image': page.media.images|first} %}
 			</div>
-			<!--{{ page.header.description }}-->
 		</div>
 		<div class="product-card__info">
 			<h3 class="product-card__title">{{ page.title }}</h3>
-			<div class="product-card__description">{{ page.taxonomy[tag] }}</div>
+			<div class="product-card__description">{{ page.header.description }}</div>
 		</div>
 	</a>
 </article>

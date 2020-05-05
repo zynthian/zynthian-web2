@@ -1,0 +1,30 @@
+<li>
+	{% set p = page.find('/') %}
+	{% set sel = (p.active) ? 'nav-link--selected' : '' %}
+	{% set slash = (p.active) ? '' : '/' %}
+	<a class="nav-link {{ sel }}" href="{{ slash }}">Basics</a>
+	<ul>
+		<li><a class="nav-link" href="{{ slash }}#concept">Concept</a></li>
+		<li><a class="nav-link" href="{{ slash }}#use-cases">Use Cases</a></li>
+		<li><a class="nav-link" href="{{ slash }}#build-your-zynthian">Build</a></li>
+		<li><a class="nav-link" href="{{ slash }}#hardware">Hardware</a></li>
+		<li><a class="nav-link" href="{{ slash }}#software">Software</a></li>
+	</ul>
+</li>
+<li>
+	{% set p = page.find('/use-cases') %}
+	{% set sel = (p.active or p.activeChild) ? 'nav-link--selected' : '' %}
+	<a class="nav-link {{ sel }}" href="{{ slash }}#use-cases">{{ p.menu }}</a>
+	<ul>
+	{% for sp in p.children %}
+		{% set sel = (sp.active or sp.activeChild) ? 'nav-link--selected' : '' %}
+		<li><a class="nav-link {{ sel }}" href="{{ sp.url }}">{{ sp.menu }}</a></li>
+	{% endfor %}
+	</ul>
+</li>
+<li>
+	{% set p = page.find('/engines') %}
+	{% set sel = (p.active or p.activeChild) ? 'nav-link--selected' : '' %}
+	<a class="nav-link {{ sel }}" href="{{ p.url }}">{{ p.menu }}</a>
+</li>
+

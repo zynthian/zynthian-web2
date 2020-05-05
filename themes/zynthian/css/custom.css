@@ -368,6 +368,10 @@ html{
 }
 
 
+.header__nav { 
+    margin-top:4rem;
+}
+
 /*--------------------------------------------------------------
 # Buttons
 --------------------------------------------------------------*/
@@ -908,55 +912,20 @@ audio {
 # Engines
 --------------------------------------------------------------*/
 
-.product-card__image img{
-    border-radius: 6px;
+@media only screen and (min-width: 768px){
+  .product-card{
+    width: calc(25% - var(--gutter));
+  }
 }
-
-.product-card__info{
-    max-width: 100%;
-    margin-top: 1rem;
+@media only screen and (min-width: 1248px){
+  .product-card{
+    width: calc(20% - var(--gutter));
+  }
 }
-
-.product-card__title{
-    font-family: var(--font-base-bold);
-    font-size: normal;
-}
-
-.product-card__description{
-    font-size: 16px;
-}
-
-.product-collection__grid-ctn {
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 1.5rem;
-}
-
-.product-collection__grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 0 2rem;
-    flex-wrap: inherit;
-    position: relative;
-    margin-top: 0;
-    margin-left: 0;
-}
-
-.product-card {
-    margin: 0;
-    padding-bottom: var(--gutter);
-    width: 100% !important;
-    border-bottom: none;
-    padding-bottom: 3em;
-}
-
-/*.product-card__title{
-  font-family: 'audiowide';
-  font-weight: bold;
-}*/
-
-.product-card__price{
-  opacity: 0.5;
+@media only screen and (min-width: 1888px){
+  .product-card{
+    width: calc(16.6% - var(--gutter));
+  }
 }
 
 .product-card:hover{
@@ -966,6 +935,64 @@ audio {
   transform: translateY(-1px);
 }
 
+.product-card__image img{
+    border-radius: 5%;
+}
+
+.product-card__title{
+  /*font-family: var(--font-base-bold);*/
+  font-family: 'audiowide';
+  font-weight: normal;
+}
+
+.product-card__info{
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+.product-card__description{
+    font-size: 16px;
+}
+
+.product-collection__grid-ctn {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 2.5rem;
+}
+
+/*
+.product-collection__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 0 2rem;
+    flex-wrap: inherit;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+}
+*/
+.product-collection__grid {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.use-case .product-collection-ctn {
+    background-color: #E8E8E8;
+	margin-bottom: 0;
+}
+
+.use-case .product-collection__grid-ctn {
+    padding-top: 3.5rem;
+    padding-bottom: 4.5rem;
+    margin-top: 1.5rem;
+}
+
+.body--keyboard-expander footer,
+.body--studio-production footer,
+.body--effects-unit footer {
+    margin-top: 0;
+}
 
 /*--------------------------------------------------------------
 # Custom Styles by Jofemodo

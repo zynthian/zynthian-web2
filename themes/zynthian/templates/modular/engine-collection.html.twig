@@ -15,8 +15,8 @@
 {% do assets.addJs('theme://js/engines_filter.js') %}
 
 {% block modular_content %}
-<div class="content__ctn {{ computed_position }}" data-reveal>
-	<div class="product-collection__title">{{ page.header.title }}</div>
+<div class="content__ctn product-collection-ctn {{ computed_position }}" data-reveal>
+	<!--<div class="product-collection__title">{{ page.header.title }}</div>-->
 	<section class="product-collection__grid-ctn mt">
 		<div class="product-collection__grid" data-paginate>
 			{% for page in page.collection() %}

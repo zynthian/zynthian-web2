@@ -17,7 +17,7 @@ color_nav_panel_bg: '#FFFFFF'
 color_nav_panel_fg: '#000000'
 org_name: Zynthian
 google_tracking_id: null
-tracking: '1'
+tracking: '0'
 google_maps_api_key: null
 google_maps_snazzy: null
 facebook_app_id: null

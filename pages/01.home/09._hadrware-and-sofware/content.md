@@ -24,7 +24,7 @@ content:
 
 [column class="column-offset-1 column-5"]
 ![microchip icon](circle-hardware.svg?classes=float-left-large,show-large)
-[div class="pre-title"]![](circle-hardware.svg?classes=show-small)<h2>Hardware Specification</h2>[/div]
+[div class="pre-title"]![](circle-hardware.svg?classes=show-small)<h2>Hardware</h2>[/div]
 
 * Based on Raspberry Pi and Open Hardware
 * Audio Input/Output Stereo 16 bits, up to 192 KHz

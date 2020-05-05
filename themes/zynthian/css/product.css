@@ -116,11 +116,11 @@ COLLECTION
 /*.page--product-collection{}*/
 
 .product-collection__title{
-  font-family: "audiowide";
-  font-size: 24px;
+  font-size: 32px;
+  padding: 0 var(--gutter);
+  padding-left: 0;
   /*margin: 3rem auto;*/
   margin-top: 3rem;
-  padding: 0 var(--gutter);
   max-width: var(--width-tight);
   text-align: left;
 }
