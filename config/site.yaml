@@ -6,7 +6,6 @@ author:
 taxonomies:
   - category
   - tag
-  - menu
 metadata:
   description: 'Zynthian is an Open Synth Platform based in Raspberry Pi, Linux and Open Source Synthesizers'
 summary:
