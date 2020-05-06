@@ -1,4 +1,4 @@
-<li>
+<li class="haschildren">
 	{% set p = page.find('/') %}
 	{% set sel = (p.active) ? 'nav-link--selected' : '' %}
 	{% set slash = (p.active) ? '' : '/' %}
@@ -11,7 +11,7 @@
 		<li><a class="nav-link" href="{{ slash }}#software">Software</a></li>
 	</ul>
 </li>
-<li>
+<li class="haschildren">
 	{% set p = page.find('/use-cases') %}
 	{% set sel = (p.active or p.activeChild) ? 'nav-link--selected' : '' %}
 	<a class="nav-link {{ sel }}" href="{{ slash }}#use-cases">{{ p.menu }}</a>

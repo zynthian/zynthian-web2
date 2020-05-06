@@ -1,17 +1,18 @@
 <li>
-	<a class="nav-link" href="https://shop.zynthian.org/" target="_blank" rel="noopener noreferrer">Shop</a>
+	<a class="nav-link" href="https://shop.zynthian.org" target="_blank" rel="noopener noreferrer">Shop</a>
 </li>
 <li>
 	{% set p = page.find('/technical-specifications') %}
 	{% set sel = (p.active or p.activeChild) ? 'nav-link--selected' : '' %}
 	<a class="nav-link {{ sel }}" href="{{ p.url }}">{{ p.menu }}</a>
 </li>
-<li>
-	<a class="nav-link" href="#">Learn</a>
+<li class="haschildren">
+	<a class="nav-link" href="https://wiki.zynthian.org" target="_blank" rel="noopener noreferrer">Learn</a>
 	<ul>
-		<li><a class="nav-link" href="https://discourse.zynthian.org/" target="_blank" rel="noopener noreferrer">Discourse</a></li>
-		<li><a class="nav-link" href="https://wiki.zynthian.org/index.php/Zynthian_Wiki_Home" target="_blank" rel="noopener noreferrer">Wiki</a></li>
+		<li><a class="nav-link" href="https://discourse.zynthian.org" target="_blank" rel="noopener noreferrer">Discourse</a></li>
+		<li><a class="nav-link" href="https://wiki.zynthian.org" target="_blank" rel="noopener noreferrer">Wiki</a></li>
 		<li><a class="nav-link" href="https://github.com/zynthian" target="_blank" rel="noopener noreferrer">Github</a></li>
-		<li><a class="nav-link" href="https://blog.zynthian.org/" target="_blank" rel="noopener noreferrer">Blog</a></li>
+		<li><a class="nav-link" href="https://blog.zynthian.org" target="_blank" rel="noopener noreferrer">Blog</a></li>
 	</ul>
 </li>
+
