@@ -433,6 +433,17 @@ html{
     white-space: nowrap;
 }
 
+.header__nav li li .nav-link:hover::before,
+.header__nav li li  a.nav-link.nav-link--selected::before {
+    content: "";
+    height: 0;
+    width: 0;
+    background-color: transparent;
+    position: absolute;
+    bottom: initial;
+    left: initial;
+}
+
 .header__nav.second-menu li ul {
     left: initial;
     right: 0;
@@ -441,6 +452,21 @@ html{
 .header__nav.second-menu li li {
     text-align: right;
 }
+
+.header__nav li.haschildren > a::after{
+    font-family: 'Material Icons';
+    font-style: normal;
+    content: "\e5cf";
+    vertical-align: -3px;
+    margin-left: 4px;
+}
+
+/*.header__nav li.haschildren > a:hover::after{
+    font-family: 'Material Icons';
+    font-style: normal;
+    content: "\e5ce"
+}*/
+
 
 .header__logo{
     padding-left: calc(var(--rhythm) * 0.15);
@@ -941,15 +967,15 @@ html{
         text-align:left;
         top:0;
         left:0;
-        padding: 4.25em 0 3em 0;
+        padding: 0 0 3em 0;
     }
 
     .timeline ul li::before {
-        width: 3rem;
-        height: 3rem;
+        width: 40px;
+        height: 40px;
         left: 0;
         top: 0;
-        left: calc(50% - 1.5rem);
+        left: initial;
         right: 0;
     }
 
@@ -962,6 +988,18 @@ html{
         display: block;
         left: 0;
         top: 22px;
+    }
+
+    .timeline ul li h3{
+        z-index: 100;
+        background: #000000;
+        position: relative;
+        display: inline-block;
+        padding-right: 1rem;
+        padding-bottom: 0;
+        margin-bottom: 2rem;
+        line-height: 38px;
+        max-width: calc(100% - 56px);
     }
 
     .kit__card{
@@ -1068,10 +1106,54 @@ html{
 # Engines
 --------------------------------------------------------------*/
 
-#engines_filter{
+.engines-filter-wrapper{}
+
+#engines_filter_tag{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#engines_filter_tag label{
+    padding-bottom: 0.75rem;
+    padding-left: 1rem
+}
+
+#engines_filter_tag label:last-child{
+    padding-right: 0;
+}
+
+#engines_filter_tag input[type=checkbox] {
+  display: none;
+}
+
+#engines_filter_tag input[type=checkbox] + .label-name {
+  display: inline-block;
+  position: relative;
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  width: auto;
+  background: #FFFFFF;
+  color: #000000;
+  border:1px solid #000000;
+  cursor: pointer;
+  line-height: 1;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  font-size: 16px;
+}
+
+#engines_filter_tag input[type=checkbox] + .label-name:hover {
+  background: #666666;
+  color:#FFFFFF;
+  border:1px solid #666666;
+}
+
+#engines_filter_tag input[type=checkbox]:checked + .label-name {
+  background: #000000;
+  color: #FFFFFF;
+  border:1px solid #000000;
 }
 
 .product-card__image img{
@@ -1128,9 +1210,18 @@ html{
   transform: translateY(-1px);
 }
 
+@media only screen and (max-width: 767px){
+    #engines_filter_tag{
+        padding-top: 2rem;
+        justify-content: center;
+    }
 
-
-
+    #engines_filter_tag label{
+        padding-bottom: 1rem;
+        padding-right: 0.5rem
+        padding-left: 0.5rem
+    }
+}
 /*--------------------------------------------------------------
 # Uses Cases
 --------------------------------------------------------------*/
