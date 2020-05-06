@@ -11,12 +11,14 @@ body_classes: 'use-case custom-list'
 limit_reveal: '0'
 ---
 
-[column class="column-12 text-center"]
-<div id="engines_filter">
+[column class="column-12"]
+<div id="engines_filter_cat">
 	<select id="cat">
 		<option value="synthesizer">Synthesizers</option>
 		<option value="effect">Effects</option>
 	</select>
+</div>
+<div id="engines_filter_tag">
 	<label><input type="checkbox" id="tag" value="synth-mono">Monophonic</label>
 	<label><input type="checkbox" id="tag" value="synth-sample">Sampler</label>
 	<label><input type="checkbox" id="tag" value="synth-add">Additive</label>
