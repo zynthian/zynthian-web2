@@ -13,10 +13,8 @@ limit_reveal: '0'
 
 [column class="column-3"]
 <div id="engines_filter_cat">
-	<select id="cat">
-		<option value="synthesizer">Synthesizers</option>
-		<option value="effect">Effects</option>
-	</select>
+    <label><input type="radio" name="engine_cat" id="cat" value="synthesizer" checked="checked"><span class="label-name">Sinthesizers</span></label>
+    <label><input type="radio" name="engine_cat" id="cat" value="effect"><span class="label-name">Effects</span></label>
 </div>
 [/column]
 [column class="column-9"]

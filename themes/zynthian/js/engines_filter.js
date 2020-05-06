@@ -1,7 +1,7 @@
 function init_engines_filter(){
-	$(document).on('change', 'div#engines_filter input', function () {
+	$(document).on('change', 'div#engines_filter_tag input', function () {
 		var chklist = [];
-		$('div#engines_filter input:checked').each(function() {
+		$('div#engines_filter_tag input:checked').each(function() {
 			chklist.push($(this).val())
 		});
 		$('article.product-card').each(function() {
