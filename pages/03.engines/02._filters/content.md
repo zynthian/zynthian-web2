@@ -13,7 +13,7 @@ limit_reveal: '0'
 
 [column class="column-3"]
 <div id="engines_filter_cat">
-    <label><input type="radio" name="engine_cat" id="cat" value="synthesizer" checked="checked"><span class="label-name">Sinthesizers</span></label>
+    <label><input type="radio" name="engine_cat" id="cat" value="synthesizer" checked="checked"><span class="label-name">Synthesizers</span></label>
     <label><input type="radio" name="engine_cat" id="cat" value="effect"><span class="label-name">Effects</span></label>
 </div>
 [/column]
