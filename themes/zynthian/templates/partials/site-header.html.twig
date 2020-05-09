@@ -1,9 +1,8 @@
 {% import 'partials/navigation.html.twig' as nav %}
 <header class="header">
-    <div class="header__wrapper">
-
+    <div class="header__wrapper landscape">
         {# landscape #}
-        <nav class="header__nav landscape first-menu">
+        <nav class="header__nav  first-menu">
             <ul class="inline-list">
                 {% include 'partials/navigation-1.html.twig' %}
             </ul>
@@ -12,15 +11,22 @@
         {% set site_logo = theme.site_logo ? theme.site_logo : site.title %}
         <a class="header__logo" href="{{ base_url == '' ? '/' : base_url }}">{{ site_logo }}</a>
 
-        <nav class="header__nav landscape second-menu">
+        <nav class="header__nav second-menu">
             <ul class="inline-list">
                 {% include 'partials/navigation-2.html.twig' %}
             </ul>
         </nav>
+    </div>
 
-        {# portrait #}
-        <div class="header__toggle-on portrait">
-            <span class="material-icons">menu</span>
+    <div class="header__wrapper portrait">
+        <div class="logo-burguer">
+            {% set site_logo = theme.site_logo ? theme.site_logo : site.title %}
+            <a class="header__logo-mobile" href="{{ base_url == '' ? '/' : base_url }}">{{ site_logo }}</a>
+
+            {# portrait #}
+            <div class="header__toggle-on">
+                <span class="material-icons">menu</span>
+            </div>
         </div>
         <nav class="header__panel portrait">
             <a class="header__panel-logo" href="{{ base_url == '' ? '/' : base_url }}">{{ site_logo }}</a>
