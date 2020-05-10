@@ -1196,11 +1196,11 @@ header.header .portrait {
     padding-right: 0;
 }
 
-#engines_filter_tag input[type=checkbox] {
+#engines_filter_tag input[type=radio] {
   display: none;
 }
 
-#engines_filter_tag input[type=checkbox] + .label-name {
+#engines_filter_tag input[type=radio] + .label-name {
   display: inline-block;
   position: relative;
   border-radius: 6px;
@@ -1216,13 +1216,13 @@ header.header .portrait {
   font-size: 16px;
 }
 
-#engines_filter_tag input[type=checkbox] + .label-name:hover {
+#engines_filter_tag input[type=radio] + .label-name:hover {
   background: #666666;
   color:#FFFFFF;
   border:1px solid #666666;
 }
 
-#engines_filter_tag input[type=checkbox]:checked + .label-name {
+#engines_filter_tag input[type=radio]:checked + .label-name {
   background: #000000;
   color: #FFFFFF;
   border:1px solid #000000;
