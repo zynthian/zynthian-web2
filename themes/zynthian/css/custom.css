@@ -219,6 +219,24 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-sc);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-sc);
+}
+
 .text-right{
     text-align: right;
 }
@@ -358,6 +376,29 @@ html{
 # Header & Nav
 --------------------------------------------------------------*/
 
+.loader--intro {
+    background: var(--color-fg);
+}
+
+header.header .landscape {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: background 1s;
+}
+
+header.header .portrait {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: background 1s;
+}
+
+.header__logo{
+    width: 240px;
+    margin-right: 10px;
+    transition: width 1s;
+}
 
 .header__panel.header__panel--on .menu-list{
     list-style: none;
@@ -367,13 +408,14 @@ html{
     bottom: initial;
     align-items: flex-start;
     justify-content: center;
-    padding-top: calc(var(--rhythm) * 0.15);
-    padding-bottom: calc(var(--rhythm) * 0.15);
+    padding-top: calc(var(--rhythm) * 0.05);
+    padding-bottom: calc(var(--rhythm) * 0.05);
 }
 
 .header__nav .inline-list{
-    padding-top: 0;
+    padding-top: calc(var(--rhythm) * 0.05);
     padding-bottom: 0;
+    transition: padding-top 1s;
 }
 
 .header__nav a.nav-link {
@@ -394,6 +436,22 @@ html{
     line-height: 36px;
 }
 
+.solid_dropdown {
+    background-color: var(--color-fg);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    border-radius: 0 0 3% 3%;
+}
+
+.first-menu .solid_dropdown {
+    left: -2rem !important;
+}
+
+.second-menu .solid_dropdown {
+    right: -1rem !important;
+}
+
 .header__nav.second-menu li{
     padding-left: calc(var(--rhythm) * 0.35);
     padding-right: 0;
@@ -409,7 +467,7 @@ html{
     transition: all 0.5s ease-in-out;
 }
 
-.header__nav li:hover ul {
+.header__nav li a:hover + ul {
     top: 2.5rem;
     opacity: 1;
     z-index: 10;
@@ -461,6 +519,11 @@ html{
     padding-right: calc(var(--rhythm) * 0.15);
 }
 
+.header__wrapper.landscape{
+    max-width: 100%;
+}
+
+
 .header__wrapper.portrait{
     display: none;
 }
@@ -500,16 +563,17 @@ html{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding-top: 8px;
+        padding-top: 2px;
     }
 
-    .header__logo-mobile svg{
-        height: 2rem;
+    .header__logo-mobile img{
+        height: 2.9rem;
         width: auto;
+        padding-top: 0px;
     }
 
     .header__toggle-on .material-icons{
-        margin-top: -0.5rem;
+        margin-top: 0;
         font-size: 2.25rem;
         color: #FFFFFF;
         text-shadow: 0px 0px 8px #000000;
@@ -1121,6 +1185,81 @@ html{
 # Engines
 --------------------------------------------------------------*/
 
+.engines-filter-wrapper .column-3{
+    padding-left: 0;
+}
+
+.engines-filter-wrapper .column-9{
+    padding-right: 0;
+}
+
+#engines_filter_cat{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/*#engines_filter_cat label{
+    margin-right: 0.75rem;
+    white-space: nowrap;
+}
+
+#engines_filter_cat input[type=radio]{
+    margin-top: 0;
+    margin-right: 3px;
+    vertical-align: 2px;
+}*/
+
+
+#engines_filter_cat label{
+    padding-bottom: 0.75rem;
+}
+
+#engines_filter_cat label:last-child{
+    padding-right: 0;
+}
+
+#engines_filter_cat input[type=radio] {
+  display: none;
+}
+
+#engines_filter_cat input[type=radio] + .label-name {
+  display: inline-block;
+  position: relative;
+  border-radius: 0;
+  padding: 0.5em 1em;
+  width: auto;
+  background: #FFFFFF;
+  color: #000000;
+  border:1px solid #000000;
+  cursor: pointer;
+  line-height: 1;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  font-size: 16px;
+}
+
+#engines_filter_cat label:first-child input[type=radio] + .label-name{
+    border-radius: 6px 0 0 6px;
+}
+
+#engines_filter_cat label:last-child input[type=radio] + .label-name{
+    border-radius: 0 6px 6px 0 ;
+}
+
+#engines_filter_cat input[type=radio] + .label-name:hover {
+  background: #666666;
+  color:#FFFFFF;
+  border:1px solid #666666;
+}
+
+#engines_filter_cat input[type=radio]:checked + .label-name {
+  background: #000000;
+  color: #FFFFFF;
+  border:1px solid #000000;
+}
+
+
 #engines_filter_tag{
     display: flex;
     flex-direction: row;
@@ -1137,11 +1276,11 @@ html{
     padding-right: 0;
 }
 
-#engines_filter_tag input[type=checkbox] {
+#engines_filter_tag input[type=radio] {
   display: none;
 }
 
-#engines_filter_tag input[type=checkbox] + .label-name {
+#engines_filter_tag input[type=radio] + .label-name {
   display: inline-block;
   position: relative;
   border-radius: 6px;
@@ -1157,36 +1296,20 @@ html{
   font-size: 16px;
 }
 
-#engines_filter_tag input[type=checkbox] + .label-name:hover {
+#engines_filter_tag input[type=radio] + .label-name:hover {
   background: #666666;
   color:#FFFFFF;
   border:1px solid #666666;
 }
 
-#engines_filter_tag input[type=checkbox]:checked + .label-name {
+#engines_filter_tag input[type=radio]:checked + .label-name {
   background: #000000;
   color: #FFFFFF;
   border:1px solid #000000;
 }
 
-#engines_filter_cat label{
-    margin-right: 0.75rem;
-    white-space: nowrap;
-}
 
-#engines_filter_cat input[type=radio]{
-    margin-top: 0;
-    margin-right: 3px;
-    vertical-align: 2px;
-}
 
-.engines-filter-wrapper .column-3{
-    padding-left: 0;
-}
-
-.engines-filter-wrapper .column-9{
-    padding-right: 0;
-}
 
 .product-card__image img{
     border-radius: 6px;
@@ -1262,7 +1385,7 @@ html{
     }
 
     #engines_filter_cat{
-        text-align: center;
+        justify-content: center
     }
 
     #engines_filter_tag{

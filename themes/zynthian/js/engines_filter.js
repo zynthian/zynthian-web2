@@ -11,9 +11,14 @@ function do_engines_filter() {
 	});
 	$('article.product-card').each(function() {
 		var cat = $(this).attr('data-cat')
-		var taglist = $(this).attr('data-tag').split(',')
-		let inters = taglist.filter(x => chktaglist.includes(x));
-		if (cat==chkcat && inters.length==chktaglist.length) $(this).fadeIn(400);
+		var tag_condition = false
+		if (chktaglist.includes("")) tag_condition = true
+		else {
+			var taglist = $(this).attr('data-tag').split(',')
+			let inters = taglist.filter(x => chktaglist.includes(x));
+			if (inters.length==chktaglist.length) tag_condition = true
+		}
+		if (cat==chkcat && tag_condition) $(this).fadeIn(400);
 		else $(this).fadeOut(400);
 	});
 }
