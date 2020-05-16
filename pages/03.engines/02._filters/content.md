@@ -11,6 +11,8 @@ body_classes: 'engines-filter-wrapper use-case custom-list'
 limit_reveal: '0'
 ---
 
+{% do assets.addJs('theme://js/engines_filter.js') %}
+
 [column class="column-3"]
 <div id="engines_filter_cat">
     <label><input type="radio" name="engine_cat" id="cat" value="synthesizer" checked="checked"><span class="label-name">Synthesizers</span></label>
