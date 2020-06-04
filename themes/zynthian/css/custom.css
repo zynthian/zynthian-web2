@@ -1507,10 +1507,12 @@ header.header .portrait_hiden {
   display: block;
 }
 
+.first >p:first-child,
 .main-cases >p:first-child{
     margin-top: 1.5rem;
 }
 
+.first >p:first-child::first-letter,
 .main-cases >p:first-child::first-letter {
   font-family: var(--font-special);
   font-size: 400%;

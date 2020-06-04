@@ -1,0 +1,40 @@
+{% extends 'partials/modular.html.twig' %}
+{% set modular_name = 'engine_filter' %}
+{% set content_position = content_position|default(page.header.content_position) %}
+{% set position = position|default(page.header.position ?? 'center') %}
+
+{%- set computed_position -%}
+{%- if content_position == 'left' -%}content--left
+{%- elseif content_position == 'right' -%}content--right
+{%- else -%}content--center
+{%- endif -%}
+{%- endset -%}
+
+{% set limit_reveal = limit_reveal|default(page.header.limit_reveal) %}
+
+{% do assets.addJs('theme://js/engines_filter.js') %}
+
+{% block modular_content %}
+<div class="content__ctn {{ computed_position }}" data-reveal>
+	<div class="row">
+		<div class="column column-3">
+			<div id="engines_filter_cat">
+			    <label><input type="radio" name="engine_cat" id="cat" value="synthesizer" checked="checked"><span class="label-name">Synthesizers</span></label>
+			    <label><input type="radio" name="engine_cat" id="cat" value="effect"><span class="label-name">Effects</span></label>
+			</div>
+		</div>
+		<div class="column column-9">
+			<div id="engines_filter_tag">
+			    <label><input type="radio" name="tag" id="tag" value="" checked="checked"><span class="label-name">All</span></label>
+			    <label><input type="radio" name="tag" id="tag" value="synth-mono"><span class="label-name">Monophonic</span></label>
+			    <label><input type="radio" name="tag" id="tag" value="synth-sample"><span class="label-name">Sampler</span></label>
+			    <label><input type="radio" name="tag" id="tag" value="synth-add"><span class="label-name">Additive</span></label>
+			    <label><input type="radio" name="tag" id="tag" value="synth-sub"><span class="label-name">Subtractive</span></label>
+			    <label><input type="radio" name="tag" id="tag" value="synth-pad"><span class="label-name">Pad</span></label>
+			    <label><input type="radio" name="tag" id="tag" value="synth-phy"><span class="label-name">Physical</span></label>
+			    <label><input type="radio" name="tag" id="tag" value="synth-emu"><span class="label-name">Emulator</span></label>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

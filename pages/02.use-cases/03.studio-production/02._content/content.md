@@ -11,7 +11,7 @@ body_classes: 'use-case custom-list'
 limit_reveal: '0'
 ---
 
-[column class="column-offset-1 column-6 first"]
+[column class="column-offset-1 column-6 main-cases"]
 Zynthian is a tiny but powerful tool for production and fast song-prototyping. It includes more than 30 synth-engines, hundreds of effects and thousands of presets. It's fully multi-timbral, being able to manage up to 16 independent layers, composed of synthesizer + FX-chain. It supports the LV2-plugin standard, so the list of Synth Engines & Effects is ever growing.
 
 Zynthian can be controlled from DAWs and sequencers. It has standard MIDI-IN/THRU/OUT connectors, 4 USB ports, WIFI and wired networks, supporting MIDI over network (Apple/RTP-MIDI & IP-multicast) and TouchOSC protocols. Read the full specifications [here](/technical-specifications).
