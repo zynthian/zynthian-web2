@@ -501,8 +501,8 @@ html{
 }
 
 .header__logo img {
-    margin-top: -2px;
-    height: 2.8rem;
+    margin-top: 6px;
+    height: 2rem;
     width: auto;
     transition: all 0.6s ease-in-out;
 }
@@ -549,8 +549,8 @@ header.header .portrait_hiden {
 }
 
 .header__wrapper.landscape_sticky .header__logo img{
-    height: 2.5rem;
-    margin-top: -2px;
+    height: 1.7rem;
+    margin-top: 6px;
 }
 
 .header__wrapper.landscape_sticky .header__nav .inline-list {
@@ -659,7 +659,8 @@ header.header .portrait_hiden {
     }
 
     .header__logo-mobile img {
-        height: 2.8rem;
+        margin-top: 3px; 
+        height: 2.2rem;
         width: auto;
         padding-top: 0px;
     }
@@ -823,7 +824,8 @@ header.header .portrait_hiden {
 }
 
 .body--home .module--splash {
-    min-height: 900px !important;
+    /*min-height: 1180px !important;*/
+    min-height: 120vh !important;
     height: 100vh;
 }
 
@@ -837,6 +839,11 @@ header.header .portrait_hiden {
     :not(.body--home) .module--splash {
         height: 500px;
     }
+
+    :not(.body--home) .module--splash h1 {
+        margin-top: -3vh;
+        font-size: 7vh;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -845,14 +852,20 @@ header.header .portrait_hiden {
         height: 275px;
     }
 
+   .body--home .module--splash {
+        min-height: 910px !important;
+        height: 100vh;
+    }
+
     :not(.body--home) .module--splash h1 {
-        margin-top: 60px;
+        margin-top: 225px;
         padding-bottom: 0.5rem;
     }
 
-    /*:not(.body--home) .module--splash h2 {
-        display: none;
-    }*/
+    :not(.body--home) .module--splash h2 {
+        /*display: none;*/
+        padding-bottom: 6.6em;
+    }
 }
 
 :not(.body--home) .splash__content-ctn--hcenter.splash__content-ctn--vcenter{

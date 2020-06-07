@@ -1,6 +1,7 @@
 {% import 'partials/navigation.html.twig' as nav %}
 
 {% do assets.addJs('theme://js/topmenu.js') %}
+{% set site_logo = "<img src='/user/themes/zynthian/img/zynthian_logo_black_trans.png'>" %}
 
 <header class="header">
     <div class="header__wrapper landscape">
@@ -11,7 +12,6 @@
             </ul>
         </nav>
 
-        {% set site_logo = theme.site_logo ? theme.site_logo : site.title %}
         <a class="header__logo" href="{{ base_url == '' ? '/' : base_url }}">{{ site_logo }}</a>
 
         <nav class="header__nav second-menu">
@@ -23,9 +23,7 @@
 
     <div class="header__wrapper portrait">
         <div class="logo-burguer">
-            {% set site_logo = theme.site_logo ? theme.site_logo : site.title %}
             <a class="header__logo-mobile" href="{{ base_url == '' ? '/' : base_url }}">{{ site_logo }}</a>
-
             {# portrait #}
             <div class="header__toggle-on">
                 <span class="material-icons">menu</span>

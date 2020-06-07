@@ -36,8 +36,19 @@ footer h3{
     font-size: 16px;
 }
 
+.footer__logo {
+    text-align: left;
+}
+
 .footer__logo svg{
     width: 200px;
+    height: auto;
+    padding-bottom: 1.188em;
+}
+
+.footer__logo img{
+    margin-left: 0 !important;
+    max-width: 200px;
     height: auto;
     padding-bottom: 1.188em;
 }

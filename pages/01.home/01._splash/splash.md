@@ -11,7 +11,7 @@ min_height_landscape: 100
 reveal_content: '0'
 color_bg: '#000000'
 color_fg: '#FFFFFF'
-margin_top: full
+margin_top: none
 padding_top: none
 padding_bottom: none
 margin_bottom: none
