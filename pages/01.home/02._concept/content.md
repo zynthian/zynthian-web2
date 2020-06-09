@@ -13,19 +13,20 @@ limit_reveal: '0'
 ---
 
 [column class="column-offset-1 column-8"]
-[div class="pre-title"]<h2>Concept</h2> ![](circle-concept.svg?classes=show-small)[/div]Zynthian is a new class of musical device. A powerful **multi-timbric synthesizer and audio processor**, capable of managing up to 16 audio chains simultaneously. Also, it's a MIDI processor and router, equipped with standard MIDI ports, USB, WIFI & wired networks.
+[div class="pre-title"]<h2>Concept</h2> ![](circle-concept.svg?classes=show-small)[/div]Zynthian is a new class of musical device. A powerful **multi-timbric synthesizer and audio processor**, capable of managing up to 16 audio chains simultaneously. Also, it's a MIDI processor and router, equipped with standard MIDI ports, USB, WIFI & wired networks. It features:
 
-+ **Accurate Emulations of Classic Instruments**: Grand Pianos, Rhodes, Wurli, Pipe Organ, Hammond Organ, Combo Organ, Minimoog, DX-7, Oberheim OB-X, JX-10...
-+ **Amazing Virtual Analog Synthesizers**: ZynAddSubFX, Helm, NoizeMaker, AMSynth, SynthV1, PadthV1...
-+ **SoundFonts**: SF2, SF3, SFZ and GIG formats are supported. A 4GB collection of soundfonts is included.
-+ **Lots of Effects**: reverbs, delays, echoes, choruses, distortions, EQs, compressors, wahwah, flangers, granulators, vocoders, auto-tune...
++ **Accurate Emulations of Classic Instruments**: Grand piano, rhodes, wurli, pipe organ, hammond organ, combo organ, minimoog, DX-7, oberheim OB-X, JX-10...
++ **Amazing Virtual Analog Synthesizers**: ZynAddSubFX, helm, NoizeMaker, AMSynth, synthV1, padthV1...
++ **SoundFont support**: SF2, SF3, SFZ and GIG formats are supported. A 4GB collection of soundfonts is included.
++ **Lots of Effects**: reverb, delay, echo, chorus, distortion, EQ, compressor, wahwah, flanger, phaser, granulator, vocoder, auto-tune...
++ **MIDI filters & tools**: map, chorder, arpeggiator, quantization, split, ...
 + **[MOD-UI](https://wiki.moddevices.com/wiki/MOD_Web_GUI_User_Guide?target=_blank) & [Pure Data](http://www.pd-tutorial.com/english/index.html?target=_blank)**
 + **Step Sequencer, Audio & MIDI recorder/player, ...**
 
 You can use it for live performing, studio production or as a tool for sound exploration.
 
-Zynthian is a community-driven project and it's 100% open source. Free software on Open hardware. Completely configurable and fully hackable! **Free as in Freedom.**
+Zynthian is a [community-driven project](https://discourse.zynthian.org?target=_blank) and it's 100% open source. Free software on Open hardware. Completely configurable and fully hackable! **Free as in Freedom.**
 
-An Open Platform for Sound Synthesis & Processing. 
+An open platform for sound synthesis & processing. 
 [/column]
 [column  class="column-3  text-center show-large"]![](circle-concept.svg)[/column]

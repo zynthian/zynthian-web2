@@ -27,7 +27,7 @@ content:
 [span class="timeline__content"]
 ### Keyboard Expander
 ##### Let your fingers play the sound you want.
-Acoustic & Electric Pianos, Organs, Vintage Synthesizers, Virtual Analog Synthesizers, Soundfonts, ...<br>
+Acoustic & electric pianos, organs, vintage synthesizers, virtual analog synthesizers, soundfonts, ...<br>
 <br>
 Pianoteq is supported and a demo version included.<br>
 <br>
@@ -38,7 +38,7 @@ MIDI learning is quick & easy, allowing you to manage everything from your MIDI 
 [span class="timeline__content"]
 ### Effects Unit
 ##### Would you like a custom FX-chain for every song?
-Reverb, Echo, Delay, Chorus, Flanger, Distortion, EQ, Compressor, Wah, Grains, ...<br>
+reverb, echo, delay, chorus, flanger, phaser, distortion, EQ, compressor, wah, grains, vocoder, ...<br>
 <br>
 The Zynthian UI allows to create up to 16 audio FX-chains. With MOD-UI, you can create the more bizarre pedalboards you ever imagined.
 [[Learn More]](/use-cases/effects-unit)[/span]
@@ -47,7 +47,7 @@ The Zynthian UI allows to create up to 16 audio FX-chains. With MOD-UI, you can 
 [span class="timeline__content"]
 ### Studio / Production
 ##### A powerful tool in a small container
-Fully multi-timbral, MIDI learning, MIDI network, MIDI filter & router, Step-Sequencer, Audio & MIDI recorder, ...<br>
+Fully multi-timbral, MIDI learning, MIDI network, MIDI filter & tools, step-sequencer, audio & MIDI recorder, ...<br>
 <br>
 Explore sonic landscapes and go beyond the limits with Pure Data generative capabilities.
 [[Learn More]](/use-cases/studio-production)[/span]
