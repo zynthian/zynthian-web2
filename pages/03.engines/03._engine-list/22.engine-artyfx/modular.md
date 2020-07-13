@@ -1,7 +1,7 @@
 ---
 title: ArtyFX
 media_order: 'artyfx.png'
-description: 'Minimalistic Plugin Collection'
+description: 'A minimalistic but complete plugin collection'
 taxonomy:
     category: effect
     tag: [free-software,effect,fx-mod,fx-delay,fx-eq,fx-filter,fx-dynamics,fx-distortion,fx-other,ucase-pr,ucase-fx]

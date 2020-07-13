@@ -1,7 +1,7 @@
 ---
 title: MVerb
 media_order: 'mverb.png'
-description: 'High Quality Reverb'
+description: 'High quality reverb based on Dattorros figure-of-eight reverb structure'
 taxonomy:
     category: effect
     tag: [free-software,effect,fx-delay,fx-reverb,ucase-kb,ucase-pr,ucase-fx]

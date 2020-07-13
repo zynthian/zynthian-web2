@@ -1,7 +1,7 @@
 ---
 title: Calf Studio Gear
 media_order: 'calf.jpg'
-description: 'Plugin Collection'
+description: 'A plugin collection designed to give you a professional production environment'
 taxonomy:
     category: effect
     tag: [free-software,effect,fx-mod,fx-delay,fx-eq,fx-filter,fx-dynamics,fx-distortion,fx-other,ucase-pr]

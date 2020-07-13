@@ -1,7 +1,7 @@
 ---
 title: Argotlunar
 media_order: 'argotlunar.png'
-description: 'Granulator'
+description: 'A real-time delay-line granulator to create surreal transformations'
 taxonomy:
     category: effect
     tag: [free-software,effect,fx-delay,fx-mod,fx-other,ucase-pr,ucase-fx]

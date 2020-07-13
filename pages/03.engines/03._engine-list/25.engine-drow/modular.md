@@ -1,7 +1,7 @@
 ---
 title: dRowAudio
 media_order: 'redwave.jpg'
-description: 'Plugin Collection'
+description: 'JUCE-based plugin collection'
 taxonomy:
     category: effect
     tag: [free-software,effect,fx-mod,fx-delay,fx-distortion,ucase-pr,ucase-fx]
