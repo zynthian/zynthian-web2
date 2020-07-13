@@ -22,11 +22,11 @@ limit_reveal: '0'
 [landscape]
 # Open Synth Platform
 ## Imagine having all the sounds you ever dreamed of in the palm of your hand.
-[button-group][btn-secondary-ghost href="#concept"]Learn More[/btn-secondary-ghost]  [btn-primary-ghost href="https://shop.zynthian.org/"]Buy Kit[/btn-primary-ghost][/button-group]
+[button-group][btn-secondary-ghost href="#concept"]Learn More[/btn-secondary-ghost]  [btn-primary-ghost href="https://shop.zynthian.org/"]Kits[/btn-primary-ghost][/button-group]
 [/landscape]
 [portrait]
 # Open Synth Platform
 ## Imagine having all the sounds you ever dreamed of in the palm of your hand.
-[button-group][btn-secondary-ghost href="#concept"]Learn More[/btn-secondary-ghost]  [btn-primary-ghost href="https://shop.zynthian.org/"]Buy Kit[/btn-primary-ghost][/button-group]
+[button-group][btn-secondary-ghost href="#concept"]Learn More[/btn-secondary-ghost]  [btn-primary-ghost href="https://shop.zynthian.org/"]Kits[/btn-primary-ghost][/button-group]
 [/portrait]
 

@@ -32,7 +32,7 @@ sitemap:
 ## Kit v3
 ##### The easy way. Simply plug the wires & screw the bolts.
 [/content-group]
-[button-group][btn-secondary href="#"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/"]Buy Kit[/btn-primary][/button-group]
+[button-group][btn-secondary href="https://wiki.zynthian.org/index.php/Building_a_Zynthian_Box_using_an_official_Kit_v3"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/product/zynthian-bundle-all-kit-v3-326?category=13"]Buy Kit V3[/btn-primary][/button-group]
 [/div]
 [/column]
 [column class="kit__card"]
@@ -41,6 +41,6 @@ sitemap:
 ## Kit v2
 ##### Do it your way! Build your custom unit.
 [/content-group]
-[button-group][btn-secondary href="#"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/"]Buy Kit[/btn-primary][/button-group]
+[button-group][btn-secondary href="https://wiki.zynthian.org/index.php/Building_a_Zynthian_Box_using_an_official_Kit_v2"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/product/zynthian-basic-kit-v2-266?category=13"]Buy Kit V2[/btn-primary][/button-group]
 [/div]
 [/column]

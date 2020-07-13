@@ -10,7 +10,7 @@ CUSTOM CSS FOR ZYNTHIAN
 /*--------------------------------------------------------------
 SUMARY
 ----------------------------------------------------------------
-# Columns Grdi
+# Columns Grid
 # General & Tricks
 # Header & Nav
 # Buttons
@@ -210,7 +210,6 @@ NOT SUPPORTED: Safari 8 (MacOS X 10.10)
 }
 
 
-
 /*--------------------------------------------------------------
 # General & Tricks
 --------------------------------------------------------------*/
@@ -235,6 +234,20 @@ html{
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-sc);
+}
+
+h3, h4, h5 {
+  padding-top: 0.3em;
+  padding-bottom: 0.5em; 
+}
+
+h2::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -190px; 
+  height: 190px; 
+  visibility: hidden; 
+  pointer-events: none;
 }
 
 .text-right{
@@ -406,8 +419,8 @@ html{
 
 .header__nav a.nav-link:hover,
 .header__nav a.nav-link.nav-link--selected {
-    color: var(--color-sc) !important;
-    text-decoration: none !important;
+    /*color: var(--color-sc) !important;
+    text-decoration: none !important;*/
 }
 
 .header__nav li{
@@ -729,8 +742,6 @@ header.header .portrait_hiden {
     }
 
 }
-
-
 
 
 /*--------------------------------------------------------------
@@ -1285,7 +1296,6 @@ header.header .portrait_hiden {
 }
 
 
-
 /*--------------------------------------------------------------
 # Engines
 --------------------------------------------------------------*/
@@ -1563,12 +1573,9 @@ audio {
     margin-top: calc(var(--rhythm) * 0.75);
 }
 
-
 .use-case-engines .product-collection__grid {
     grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
 }
-
-
 
 
 /*--------------------------------------------------------------

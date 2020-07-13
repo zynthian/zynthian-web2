@@ -14,7 +14,7 @@ content:
     order:
         by: default
         dir: asc
-    limit: '16'
+    limit: '18'
 content_position: left
 ---
 

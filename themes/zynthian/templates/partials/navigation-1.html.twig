@@ -2,11 +2,11 @@
 	{% set p = page.find('/') %}
 	{% set sel = (p.active) ? 'nav-link--selected' : '' %}
 	{% set slash = (p.active) ? '' : '/' %}
-	<a class="nav-link {{ sel }}" href="{{ slash }}">Basics</a>
+	<a class="nav-link {{ sel }}" href="{{ slash }}#">Basics</a>
 	<ul>
 		<li><a class="nav-link" href="{{ slash }}#concept">Concept</a></li>
-		<li><a class="nav-link" href="{{ slash }}#use-cases">Use Cases</a></li>
-		<li><a class="nav-link" href="{{ slash }}#build-your-zynthian">Build</a></li>
+		<!--<li><a class="nav-link" href="{{ slash }}#use-cases">Use Cases</a></li>-->
+		<li><a class="nav-link" href="{{ slash }}#build-your-zynthian">Build yours!</a></li>
 		<li><a class="nav-link" href="{{ slash }}#hardware">Hardware</a></li>
 		<li><a class="nav-link" href="{{ slash }}#software">Software</a></li>
 	</ul>
@@ -22,9 +22,13 @@
 	{% endfor %}
 	</ul>
 </li>
-<li>
+<li class="haschildren">
 	{% set p = page.find('/engines') %}
 	{% set sel = (p.active or p.activeChild) ? 'nav-link--selected' : '' %}
 	<a class="nav-link {{ sel }}" href="{{ p.url }}">{{ p.menu }}</a>
+	<ul>
+		<li><a class="nav-link" href="{{ p.url }}#synthesizer">Synthesizers</a></li>
+		<li><a class="nav-link" href="{{ p.url }}#effect">Effects</a></li>
+	</ul>
 </li>
 
