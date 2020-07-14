@@ -829,7 +829,7 @@ header.header .portrait_hiden {
 # Splash
 --------------------------------------------------------------*/
 
-:not(.body--home) .module--splash {
+.module--splash {
     min-height: 100% !important;
     height: 350px;
 }
@@ -840,18 +840,18 @@ header.header .portrait_hiden {
     height: 100vh;
 }
 
-:not(.body--home) .module--splash h2{
+.module--splash h2 {
     line-height: 1.4;
 }
 
 
 @media only screen and (min-width: 768px) {
 
-    :not(.body--home) .module--splash {
+    .module--splash {
         height: 500px;
     }
 
-    :not(.body--home) .module--splash h1 {
+    .module--splash h1 {
         margin-top: -3vh;
         font-size: 7vh;
     }
@@ -859,7 +859,7 @@ header.header .portrait_hiden {
 
 @media only screen and (max-width: 480px) {
 
-    :not(.body--home) .module--splash {
+    .module--splash {
         height: 275px;
     }
 
@@ -868,18 +868,22 @@ header.header .portrait_hiden {
         height: 100vh;
     }
 
-    :not(.body--home) .module--splash h1 {
+    .module--splash h1 {
+        margin-top: 50px;
+    }
+
+    .body--home .module--splash h1 {
         margin-top: 225px;
         padding-bottom: 0.5rem;
     }
 
-    :not(.body--home) .module--splash h2 {
+    .body--home .module--splash h2 {
         /*display: none;*/
         padding-bottom: 6.6em;
     }
 }
 
-:not(.body--home) .splash__content-ctn--hcenter.splash__content-ctn--vcenter{
+.splash__content-ctn--hcenter.splash__content-ctn--vcenter{
     margin-top: 0;
 }
 
@@ -895,7 +899,7 @@ header.header .portrait_hiden {
     z-index: 10000;
 }
 
-:not(.body--home) .module--splash::before {
+.module--splash::before {
     height: 20%;
     background-image: linear-gradient(180deg, rgba(0,0,0,0.50) 1%, rgba(0,0,0,0.00) 100%);
 }
