@@ -847,13 +847,17 @@ header.header .portrait_hiden {
 
 @media only screen and (min-width: 768px) {
 
-    .module--splash {
+    .body--home .module--splash h1 {
+        margin-top: -3vh;
+        font-size: 7vh;
+    }
+
+    body:not(.body--home) .module--splash {
         height: 500px;
     }
 
-    .module--splash h1 {
-        margin-top: -3vh;
-        font-size: 7vh;
+    body:not(.body--home) .module--splash h1 {
+        margin-top: 50px;
     }
 }
 
