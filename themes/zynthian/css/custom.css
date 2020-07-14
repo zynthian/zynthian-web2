@@ -868,10 +868,6 @@ header.header .portrait_hiden {
         height: 100vh;
     }
 
-    .module--splash h1 {
-        margin-top: 50px;
-    }
-
     .body--home .module--splash h1 {
         margin-top: 225px;
         padding-bottom: 0.5rem;
@@ -880,6 +876,10 @@ header.header .portrait_hiden {
     .body--home .module--splash h2 {
         /*display: none;*/
         padding-bottom: 6.6em;
+    }
+
+    body:not(.body--home) .module--splash h1 {
+        margin-top: 50px;
     }
 }
 
