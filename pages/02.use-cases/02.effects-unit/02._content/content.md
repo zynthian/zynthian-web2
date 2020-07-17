@@ -12,17 +12,15 @@ limit_reveal: '0'
 ---
 
 [column class="column-offset-1 column-6 main-cases"]
-Stomp-box ..
-
-Zynthian includes hundreds of effects & filters that you can combine as you like. You can play the music style you want, recreating vintage sounds or exploring new textures. 
-
-The native Zynthian-UI allows you to manage up to 16 independent FX-chains. With the advanced MOD-UI web interface, you can create the more bizarre pedalboards. Limit is in your brain!
-
-Zynthian supports the LV2-plugin standard, so the list of supported effects is ever growing.
-
-The MIDI-learning workflow is quick & easy. You can adjust the parameters you want from your favorite MIDI controller. Buttons/pads (program-change) can be assigned to presets, and knobs/faders (CC) to parameters.
+Zynthian can be used as a powerful Audio Effects unit allowing to create a customized effect-chain for every available audio input.
 
 Official Zynthian Kits have 2 balanced audio-inputs with independent gain-control ranging from -12db to 32dB. Read the full specifications [here](/technical-specifications). You can connect directly a wide rage of input devices, like dynamic microphones, electric & acoustic guitars, piezos, line-in, etc.
+
+Zynthian supports the LV2-plugin standard and includes hundreds of audio-processing plugins. You can combine them as you like for sculpting the sound, recreating vintage landscapes or exploring new textures.
+
+The native Zynthian-UI allows you to manage up to 16 FX-chains. With the MOD-UI web interface, you can create the more bizarre pedalboards.
+
+The MIDI-learning workflow is quick & easy. You can adjust the parameters you want from your favorite MIDI controller. Buttons/pads (program-change) can be assigned to presets, and knobs/faders (CC) to parameters.
 
 Default latency and jitter is low enough for most of players, but if you are looking for extra-low latency, audio configuration can be tweaked.
 [/column]

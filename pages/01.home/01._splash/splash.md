@@ -1,9 +1,9 @@
 ---
 title: 'Open Synth Platform'
-media_order: 'zynthian-hero.jpg'
+media_order: 'zynthian-hero_v4.jpg'
 align_h: center
 align_v: center
-bg_image: zynthian-hero.jpg
+bg_image: zynthian-hero_v4.jpg
 bg_fit: cover
 bg_veil: 0
 min_height: 100
