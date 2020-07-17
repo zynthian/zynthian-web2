@@ -262,6 +262,7 @@ h2::before {
     text-align: center;
 }
 
+/*
 .custom-list ul{
   list-style: none;
 }
@@ -279,6 +280,7 @@ h2::before {
   content: "=>";
   padding-right: 6px;
 }
+*/
 
 .inline-list{
     display: flex;
@@ -969,6 +971,11 @@ header.header .portrait_hiden {
 
 .kit__card .content-group h5{
     padding-bottom: 0.25em;
+}
+
+.kitv4{
+    background: url(../../../pages/images/kit-v3.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .kitv3{

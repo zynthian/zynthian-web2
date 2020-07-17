@@ -27,9 +27,15 @@ content:
 [div class="pre-title"]<h2>Hardware</h2> ![](circle-hardware.svg?classes=show-small)[/div]
 
 * Based on Raspberry Pi and Open Hardware
-* Audio Input/Output Stereo 16 bits, up to 192 KHz
-* Touchscreen 3.5''
-* [[More...]](/technical-specifications)
+* Stereo Audio Input/Output, up to 192 KHz
+* MIDI-IN/THRU/OUT
+* Touchscreen 3.5"
+<br>
+[[More...]](/technical-specifications)
+
+[btn-primary href="https://shop.zynthian.org"]Buy Official Kits[/btn-primary]
+<br>
+[btn-primary href="https://wiki.zynthian.org/index.php/Zynthian_Box_Building"]Build Tutorials[/btn-primary]
 [/column]
 
 [column class="column-5 text-right-large"]
@@ -37,10 +43,14 @@ content:
 [div class="pre-title"]<h2>Software</h2> ![](circle-software.svg?classes=show-small)[/div]
 
 * Based on GNU-Linux and Free Software
-* Real-time processing for low latency and jitter
+* Real-time audio processing, low latency
+* Multi-engine / Multi-timbric / Multi-layer
 * Remote Control & Web Configuration Tool
-* [[More...]](/technical-specifications)
+<br>
+[[More...]](/technical-specifications)
 
-[btn-primary href="https://os.zynthian.org"]Download[/btn-primary]
+[btn-primary href="https://os.zynthian.org/2020-05-27-zynthianos-buster-lite-1.0.0-RC2.zip"]Download SD-image[/btn-primary]
+<br>
+[btn-primary href="https://os.zynthian.org"]Experimental Nightly Builds[/btn-primary]
 [/column]
 

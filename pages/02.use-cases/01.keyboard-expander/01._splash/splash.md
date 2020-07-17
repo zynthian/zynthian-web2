@@ -1,6 +1,6 @@
 ---
 title: Splash
-media_order: zynthian-hero.jpg
+media_order: keyboard-expander-hero_small.jpg, keyboard-expander-hero.jpg
 align_h: center
 align_v: center
 bg_image: keyboard-expander-hero.jpg

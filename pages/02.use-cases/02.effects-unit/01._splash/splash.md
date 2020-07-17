@@ -1,6 +1,6 @@
 ---
 title: Splash
-media_order: zynthian-hero.jpg
+media_order: effects-unit-hero_small.jpg, effects-unit-hero.jpg
 align_h: center
 align_v: center
 bg_image: effects-unit-hero.jpg
