@@ -1082,6 +1082,10 @@ header.header .portrait_hiden {
     text-decoration: underline;
 }
 
+.timeline__content audio {
+    padding-right: 10%;
+    margin-bottom: 0.5em;
+}
 
 @media only screen and (min-width: 901px){
     .timeline ul li{
@@ -1219,6 +1223,10 @@ header.header .portrait_hiden {
         margin-bottom: 2rem;
         line-height: 38px;
         max-width: calc(100% - 56px);
+    }
+
+    .timeline__content audio {
+        padding-right: 0;
     }
 
     .kit__card{
