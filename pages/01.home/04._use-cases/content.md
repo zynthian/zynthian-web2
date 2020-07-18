@@ -29,7 +29,7 @@ content:
 ##### Let your fingers play the sound you want.
 Acoustic & electric pianos, organs, vintage synthesizers, virtual analog synthesizers, soundfonts, ...<br>
 <br>
-Pianoteq is supported and a demo version included.<br>
+![Body & Soul, by Joost (Pianoteq Fender Rhodes)](BodySoulByJoostRhodes.mp3?preload=metadata)
 <br>
 MIDI learning is quick & easy, allowing you to manage everything from your MIDI keyboard/controller.
 [[Learn More]](/use-cases/keyboard-expander)[/span]
@@ -38,7 +38,9 @@ MIDI learning is quick & easy, allowing you to manage everything from your MIDI 
 [span class="timeline__content"]
 ### Effects Unit
 ##### Would you like a custom FX-chain for every song?
-reverb, echo, delay, chorus, flanger, phaser, distortion, EQ, compressor, wah, grains, vocoder, ...<br>
+Reverb, echo, delay, chorus, flanger, phaser, distortion, EQ, compressor, wah, grains, vocoder, ...<br>
+<br>
+![CrunchGuitarByRodrigoAmaral.mp3](CrunchGuitarByRodrigoAmaral.mp3?preload=metadata)
 <br>
 The Zynthian UI allows to create up to 16 audio FX-chains. With MOD-UI, you can create the more bizarre pedalboards you ever imagined.
 [[Learn More]](/use-cases/effects-unit)[/span]
@@ -48,6 +50,8 @@ The Zynthian UI allows to create up to 16 audio FX-chains. With MOD-UI, you can 
 ### Studio / Production
 ##### A powerful tool in a small container
 Fully multi-timbral, MIDI learning, MIDI network, MIDI filter & tools, step-sequencer, audio & MIDI recorder, ...<br>
+<br>
+![ZynthianicTranceByJtunes.mp3](ZynthianicTranceByJtunes.mp3?preload=metadata)
 <br>
 Explore sonic landscapes and go beyond the limits with Pure Data generative capabilities.
 [[Learn More]](/use-cases/studio-production)[/span]

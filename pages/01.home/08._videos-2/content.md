@@ -22,9 +22,12 @@ content:
     items: '@self.modular'
 ---
 
-[column class="column-6"]
-[youtube="https://www.youtube.com/watch?v=dFTSyUoUUTQ"]
+[column class="column-4"]
+[youtube="https://youtu.be/dj5jG5Xq834"]
 [/column]
-[column class="column-6"]
-[youtube="https://www.youtube.com/watch?v=e5gpAZL8kiE"]
+[column class="column-4"]
+[youtube="https://youtu.be/hiCLN25199M"]
+[/column]
+[column class="column-4"]
+[youtube="https://youtu.be/T3izkId4KS0"]
 [/column]

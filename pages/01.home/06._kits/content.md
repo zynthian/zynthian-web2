@@ -33,7 +33,7 @@ sitemap:
 ##### The easy way. Simply plug the wires & screw the bolts. 
 ### NEW!!
 [/content-group]
-[button-group][btn-secondary href="https://wiki.zynthian.org/index.php/Building_a_Zynthian_Box_using_an_official_Kit_v4"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/product/zynthian-bundle-all-kit-v4-358"]Buy Kit V4[/btn-primary][/button-group]
+[button-group][btn-secondary href="http://blog.zynthian.org/2020/07/new-zynthian-kit-v4"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/product/zynthian-bundle-all-kit-v4-358"]Buy Kit V4[/btn-primary][/button-group]
 [/div]
 [/column]
 [column class="kit__card"]
