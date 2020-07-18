@@ -969,6 +969,15 @@ header.header .portrait_hiden {
     padding-bottom: 0.25em;
 }
 
+.kit__card .content-group h3{
+    padding-top: 1.4em;
+    padding-bottom: 0.25em;
+    text-align: center;
+    font-size: 5vh;
+    font-family: var(--font-special);
+    text-shadow: 0px 0px 2px #000000;
+}
+
 .kit__card .content-group h5{
     padding-bottom: 0.25em;
 }
