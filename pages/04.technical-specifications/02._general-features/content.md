@@ -14,7 +14,7 @@ body_classes: custom-list
 [column class="column-5]
 ## General Features
 * Real-time audio processing, low latency & jitter
-* Multi-engine / Multi-timbric / Multi-layer
+* Multi-engine / Multitimbral / Multi-layer
 * Up to 16 independent Synth/FX chains
 * Snapshots
 * Step Sequencer, Arpeggiator, Chorder

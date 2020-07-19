@@ -13,7 +13,7 @@ limit_reveal: '0'
 ---
 
 [column class="column-offset-1 column-8"]
-[div class="pre-title"]<h2>Concept</h2> ![](circle-concept.svg?classes=show-small)[/div]Zynthian is a new class of musical device. A powerful **multi-timbric synthesizer and audio processor**, capable of managing up to 16 audio chains simultaneously. Also, it's a MIDI processor and router, equipped with standard MIDI ports, USB, WIFI & wired networks. It features:
+[div class="pre-title"]<h2>Concept</h2> ![](circle-concept.svg?classes=show-small)[/div]Zynthian is a new class of musical device. A powerful **multitimbral synthesizer and audio processor**, capable of managing up to 16 audio chains simultaneously. Also, it's a MIDI processor and router, equipped with standard MIDI ports, USB, WIFI & wired networks. It features:
 
 + **Accurate Emulations of Classic Instruments**: Grand piano, rhodes, wurli, pipe organ, hammond organ, combo organ, minimoog, DX-7, oberheim OB-X, JX-10...
 + **Amazing Virtual Analog Synthesizers**: ZynAddSubFX, helm, NoizeMaker, AMSynth, synthV1, padthV1...
