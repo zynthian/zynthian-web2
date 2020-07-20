@@ -2,7 +2,7 @@
 form:
     name: footer-contact-form
     classes: ajax-form
-    action: /
+    action: /home
     fields:
         email:
             label: Email
@@ -32,7 +32,7 @@ form:
             value: Submit
 
     process:
-        captcha: true
+        captcha: false
         email:
             from: '{{ config.plugins.email.from }}'
             to:
