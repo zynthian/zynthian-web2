@@ -1,6 +1,6 @@
 ---
 form:
-    name: contact-form
+    name: footer-contact-form
     classes: ajax-form
     action: /home
     fields:

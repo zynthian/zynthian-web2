@@ -1275,13 +1275,13 @@ header.header .portrait_hiden {
     margin-bottom: 0;
 }
 
-#contact-form .form-field{
+#footer-contact-form .form-field{
     margin-top: 0;
     margin-bottom: 1rem;
 }
 
 
-#contact-form button {
+#footer-contact-form button {
     width: auto;
     padding: 10px 35px;
     height: auto;
@@ -1292,7 +1292,7 @@ header.header .portrait_hiden {
     margin-top: 0.5rem !important;
 }
 
-#contact-form button:hover {
+#footer-contact-form button:hover {
     box-shadow: none;
     background: var(--color-sc);
     border: 1px solid var(--color-sc);
@@ -1300,21 +1300,21 @@ header.header .portrait_hiden {
     transform:none;
 }
 
-#contact-form form .required {
+#footer-contact-form form .required {
     display: none;
 }
 
 @media only screen and (min-width: 768px){
-    #contact-form .form-field{
+    #footer-contact-form .form-field{
         width: 48%;
         display: inline-block;
     }
 
-    #contact-form .form-field + .form-field{
+    #footer-contact-form .form-field + .form-field{
         margin-left: 3%;
     }
 
-    #contact-form .form-field + .form-field + .form-field{
+    #footer-contact-form .form-field + .form-field + .form-field{
         margin-left: 0;
         width: 100%;
         display: block;
