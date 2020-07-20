@@ -1,7 +1,0 @@
-enabled: true
-default_lang: en
-disable_css: false
-inject_template: true
-grecaptcha_sitekey: 
-grecaptcha_secret: 
-grecaptcha_callback: false
