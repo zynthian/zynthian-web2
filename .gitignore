@@ -10,4 +10,4 @@ config/media.yaml
 config/scheduler.yaml
 config/security.yaml
 config/streams.yaml
-config/plugins/form/form.yaml
+config/plugins/form.yaml
