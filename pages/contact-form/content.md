@@ -2,7 +2,6 @@
 form:
     name: footer-contact-form
     classes: ajax-form
-    action: /home
     fields:
         email:
             label: Email
@@ -24,6 +23,7 @@ form:
         g-recaptcha-response:
             type: captcha
             label: Captcha
+            recaptcha_not_validated: 'Captcha not valid!'
 
     buttons:
         submit:
