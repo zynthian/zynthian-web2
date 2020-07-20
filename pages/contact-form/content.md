@@ -22,9 +22,9 @@ form:
             label: Message
             placeholder: 'Write something...'
         -
-            g-recaptcha-response:
-                type: captcha
-                label: Captcha
+            name: g-recaptcha-response
+            type: captcha
+            label: Captcha
     buttons:
         -
             type: submit
