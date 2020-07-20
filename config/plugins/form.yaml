@@ -3,3 +3,8 @@ built_in_css: false
 inline_css: false
 refresh_prevention: true
 client_side_validation: true
+recaptcha:
+  version: 3
+  theme: dark
+  site_key:
+  secret_key:

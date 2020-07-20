@@ -10,4 +10,5 @@ config/media.yaml
 config/scheduler.yaml
 config/security.yaml
 config/streams.yaml
+config/plugins/form.yaml
 config/plugins/recaptchacontact.yaml

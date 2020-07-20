@@ -21,6 +21,10 @@ form:
             type: textarea
             label: Message
             placeholder: 'Write something...'
+        -
+            g-recaptcha-response:
+                type: captcha
+                label: Captcha
     buttons:
         -
             type: submit
