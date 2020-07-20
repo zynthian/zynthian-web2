@@ -2,6 +2,7 @@
 form:
     name: footer-contact-form
     classes: ajax-form
+    action: /
     fields:
         email:
             label: Email
