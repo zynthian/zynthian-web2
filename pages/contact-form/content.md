@@ -32,7 +32,7 @@ form:
             value: Submit
 
     process:
-        captcha: true
+        captcha: false
         email:
             from: '{{ config.plugins.email.from }}'
             to: '{{ config.plugins.email.to }}'
