@@ -46,6 +46,12 @@ form:
       label: Color Loader
       help: Will use the color-bg of current page if not set. You can also overwrite this value per page.
 
+    favicon:
+      type: file
+      label: Favicon
+      destination: 'user/assets/zynthian/favicon'
+      multiple: false
+
     navigation:
       type: section
       title: Header
@@ -124,7 +130,7 @@ form:
     org_logo:
       type: file
       label: Logo
-      destination: 'user/assets/hotdoy/organization'
+      destination: 'user/assets/zynthian/organization'
       multiple: false
       help: 'Used in schema.org implmentation to represent your organization. Will not appear on the front-end.'
 
@@ -162,7 +168,7 @@ form:
     google_maps_icon:
       type: file
       label: Icon
-      destination: 'user/assets/hotdoy/google-maps-icon'
+      destination: 'user/assets/zynthian/google-maps-icon'
       multiple: false
 
     facebook:

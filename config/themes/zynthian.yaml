@@ -28,12 +28,18 @@ lazyload: '1'
 placeholder: '1'
 links: dns-prefetch
 reveal_content: '1'
+favicon:
+  user/assets/zynthian/favicon/favicon.png:
+    name: favicon.png
+    type: image/png
+    size: 7126
+    path: user/assets/zynthian/favicon/favicon.png
 org_logo:
-  user/assets/hotdoy/organization/logo-schema.jpg:
-    name: logo-schema.jpg
-    type: image/jpeg
-    size: 46941
-    path: user/assets/hotdoy/organization/logo-schema.jpg
+  user/assets/zynthian/organization/zynthian_logo.svg:
+    name: zynthian_logo.svg
+    type: image/svg+xml
+    size: 7361
+    path: user/assets/zynthian/favicon/zynthian_logo.svg
 google_maps_icon: {  }
 org_desc: '<p>An Open Platform for Sound Synthesis. Based on Raspberry Pi and Linux, its hardware specification is public and software is Open Source.</p>'
 about_desc: "<h4>About Us</h4>\r\n<p>Zynthian software is developed by an open community of intrepid users around the world.</p>\r\n<p>Official kits are designed and sold by zynthian's project founder, Fernando Moyano (@jofemodo).</p>"

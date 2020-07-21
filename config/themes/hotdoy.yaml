@@ -28,11 +28,6 @@ lazyload: '1'
 placeholder: '1'
 links: dns-prefetch
 reveal_content: '1'
-org_logo:
-  user/assets/hotdoy/organization/zybthian-logo-white.svg:
-    name: zybthian-logo-white.svg
-    type: image/svg+xml
-    size: 7359
-    path: user/assets/hotdoy/organization/zybthian-logo-white.svg
+org_logo: { }
 google_maps_icon: {  }
 favicon: {  }
