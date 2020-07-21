@@ -44,7 +44,7 @@ content:
 
 * Based on GNU-Linux and Free Software
 * Real-time audio processing, low latency
-* Multi-engine / Multi-timbric / Multi-layer
+* Multi-engine / Multitimbral / Multi-layer
 * Remote Control & Web Configuration Tool
 <br>
 [[More...]](/technical-specifications)
