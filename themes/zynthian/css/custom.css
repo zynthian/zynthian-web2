@@ -1618,6 +1618,11 @@ audio {
 .splash__content h2 a.anchorjs-link,
 h1 a.anchorjs-link,
 h3 a.anchorjs-link {
-  display: none;
+    display: none;
+}
+
+.grecaptcha-badge{
+    /*z-index: 1000*/
+    display: none;
 }
 
