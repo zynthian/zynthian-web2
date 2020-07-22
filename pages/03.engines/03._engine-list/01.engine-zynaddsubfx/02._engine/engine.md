@@ -21,8 +21,8 @@ The "PADsynth" section produces pad sounds which can be exported.
 
 All three sections above include envelope stages for amp, filter and pitch can be switched to "freemode," where multiple steps and values can be set (reminiscent of the 8-stage Casio CZ series synths of the 80s). Several effects are included in ZynAddSubFX: Reverb, Echo, Chorus/Flange, Phaser, AlienWah, Distortion, EQ and Dynamic Filter. These can be applied to parts and globally. Several types of filters are provided in all three synthesis sections, including formant and state variable filters.
 
-ZynAddSubFX is an advanced Virtual Analog Synthesizer capable of modelling the more amazing sounds you can conceive. Its sound, warm and analog-like, will please the most exigent ears.
- 
+ZynAddSubFX is an advanced Virtual Analog Synthesizer capable of modelling the more amazing sounds you can conceive. Its warm and analogue-like sound will please the most exigent ears.
+
 It's a quite complex and very powerful tool that will satisfy the most experienced users. It also includes a  collection of more than 1000 presets organized in banks, so basic users will enjoy from the first moment and advanced users have an excelent base for creating new presets.
 <br>
 <br>
@@ -34,17 +34,13 @@ It's a quite complex and very powerful tool that will satisfy the most experienc
   + Subtractive Synthesis for creating variable bandwidth harmonics from filtered white noise
   + PAD synthesis for creating beautiful pads and other instruments
 + Powerful waveform generator with up to 128 sine/non-sine harmonics
-+ A variety of filters including analogue modeled filters, formant filters, and state variable filters.
++ A variety of filters including analogue modelled filters, formant filters, and state variable filters.
 + Envelopes can have ADSR (or ASR, etc..) modes or can be free modes (with any shape)
 + Internal Effects: Reverb, Echo, Chorus/Flange, Phasing, Wave-shaping, Equalizing, Dynamic Filtering with flexible signal routing
 + Instruments can be organized in kits, which allows you to make drum kits or layered instruments; this makes possible to use more than one instrument for a single part. It is possible to choose what items from the kit should be processed by the Part's effects.
 + Randomness settings to create subtle differences in each sound to help create that familiar analogue warmth.
 + Microtonal capabilities with any scale, up to 128 notes per octave, and key mapping
-+ Extensive MIDI/Audio driver support including JACK, ALSA, OSS, and PortAudio
-+ A built-in Virtual Keyboard which can be used even if you don't have a physical midi keyboard
 + The graphical user interface can be completely disabled if the user need so
-+ Session Management Support via LASH/NSM
-+ Plugin Support via DSSI/LV2/VST
 + Over 1100 high quality instruments included
 [/column]
 

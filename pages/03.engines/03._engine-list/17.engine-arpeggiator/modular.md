@@ -1,7 +1,7 @@
 ---
 title: Arpeggiator
 media_order: 'arpeggiator.jpg'
-description: 'A simple MIDI arpeggiator and MIDI patter plugin'
+description: 'A simple MIDI arpeggiator and MIDI pattern plugin'
 taxonomy:
     category: effect
     tag: [free-software,effect,fx-midi,ucase-kb,ucase-pr]
