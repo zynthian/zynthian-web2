@@ -1091,10 +1091,8 @@ header.header .portrait_hiden {
 .timeline__content audio {
     padding-right: 0;
     margin-bottom: 0.5em;
-    background: var(--color-sc);
+    background: #909090;
     width: calc(100% - 10%);
-    /*max-width: 440px;*/
-    border-radius: 5px;
 }
 
 @media only screen and (min-width: 901px){
