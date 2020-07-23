@@ -1234,7 +1234,7 @@ header.header .portrait_hiden {
     }
 
     .timeline__content audio {
-        padding-right: 0;
+        width: 100%
     }
 
     .kit__card{
@@ -1247,6 +1247,7 @@ header.header .portrait_hiden {
 
     .video-block + .video-block .column-6:first-child .embed.youtube{
         margin-top: -8px;
+        width: 100%;
     }
 
 }
