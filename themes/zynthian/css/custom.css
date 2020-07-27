@@ -250,9 +250,22 @@ h2::before {
   pointer-events: none;
 }
 
+a:hover {
+  /*text-decoration: none;*/
+}
+
+ul {
+    list-style-position: inside;
+}
+
 audio {
     background: #A0A0A0;
     border-radius: 5px;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: #A0A0A0;
+    border-color: #A0A0A0;
 }
 
 .text-right{
@@ -427,8 +440,14 @@ audio {
 
 .header__nav a.nav-link:hover,
 .header__nav a.nav-link.nav-link--selected {
-    /*color: var(--color-sc) !important;
-    text-decoration: none !important;*/
+    /*color: var(--color-sc) !important;*/
+    text-decoration: none;
+}
+
+.header__nav .haschildren ul a.nav-link:hover,
+.header__nav .haschildren ul a.nav-link.nav-link--selected {
+    /*color: var(--color-sc) !important;*/
+    text-decoration: underline;
 }
 
 .header__nav li{
@@ -1091,8 +1110,13 @@ header.header .portrait_hiden {
 .timeline__content audio {
     padding-right: 0;
     margin-bottom: 0.5em;
-    background: #909090;
     width: calc(100% - 10%);
+    background: #909090;
+}
+
+.timeline__content audio::-webkit-media-controls-panel{
+    background-color: #909090;
+    border-color: #909090;
 }
 
 @media only screen and (min-width: 901px){
