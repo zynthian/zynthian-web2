@@ -49,7 +49,7 @@ content:
 <br>
 [[More...]](/technical-specifications)
 
-[btn-primary href="https://os.zynthian.org/2020-05-27-zynthianos-buster-lite-1.0.0-RC2.zip"]Download SD-image[/btn-primary]
+[btn-primary href="https://os.zynthian.org/zynthianos-last-stable.zip"]Download SD-image[/btn-primary]
 <br>
 [btn-primary href="https://os.zynthian.org"]Experimental Nightly Builds[/btn-primary]
 [/column]
