@@ -33,7 +33,7 @@ sitemap:
 ##### The easy way. Simply plug the wires & tighten the screws.
 ### NEW!!
 [/content-group]
-[button-group][btn-secondary href="http://blog.zynthian.org/2020/07/new-zynthian-kit-v4"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/product/zynthian-bundle-all-kit-v4-358"]Buy Kit V4[/btn-primary][/button-group]
+[button-group][btn-secondary href="http://blog.zynthian.org/2020/07/new-zynthian-kit-v4"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/product/zynthian-kit-v4-358?category=13"]Buy Kit V4[/btn-primary][/button-group]
 [/div]
 [/column]
 [column class="kit__card"]
