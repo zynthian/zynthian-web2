@@ -1297,6 +1297,20 @@ header.header .portrait_hiden {
 }
 
 
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+footer p a {
+    text-decoration: none;
+    color: var(--color-hl-inverted) !important;
+}
+
+
+footer p a:hover {
+    text-decoration: underline !important;
+    color: var(--color-sc) !important;
+}
 
 /*--------------------------------------------------------------
 # Form footer
