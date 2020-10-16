@@ -8,20 +8,8 @@ notifications:
         fg_color: '#DD2020'
         target:
             - /home
-        visible: '1'
+        visible: '0'
         remember: '1'
-    -
-        id: UnfinishedArticles
-        content: "Oops! Looks like this article is incomplete.  \r\nYou can help the monkey writer by [sending money](https://www.paypal.com/paypalme2/hotdoy/)."
-        bg_color: '#ffffff'
-        fg_color: '#ff4c4c'
-        target:
-            - /learn/shortcodes
-            - /learn/adding-a-page
-            - /learn/plugins
-            - /learn/modular-hero
-        visible: '1'
-        remember: '0'
-date: '13:32 03-01-2020'
+date: '00:32 16-10-2020'
 ---
 
