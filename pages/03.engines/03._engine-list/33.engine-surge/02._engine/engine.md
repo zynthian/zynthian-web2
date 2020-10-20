@@ -56,11 +56,10 @@ It includes a rich library of factory sounds:
 [youtube="https://www.youtube.com/watch?v=a9vKAOwXyMc"]-->
 <br>
 ## Audio
-<small>2237 AD</small>
 ![2237 AD](https://soundcloud.com/user-589036812-258992427/surge-2237-ad)
-<small>Microtonal Soundscape</small>
+<br>
 ![Microtonal Soundscape](https://soundcloud.com/user-589036812-258992427/surge-demo-001-microtonal-soundscape-1-x-surge)
-<small>Resurgence</small>
+<br>
 ![Resurgence](https://soundcloud.com/theexponent/resurgence)
 <br>
 <p align="right">
