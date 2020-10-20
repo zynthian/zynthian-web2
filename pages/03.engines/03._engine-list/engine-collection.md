@@ -13,5 +13,5 @@ content:
         by: default
         dir: asc
     pagination: true
-    limit: '32'
+    limit: '36'
 ---
