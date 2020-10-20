@@ -55,15 +55,14 @@ It includes a rich library of factory sounds:
 <!--[youtube="https://www.youtube.com/watch?v=ryOhX7xFZ8g"]
 [youtube="https://www.youtube.com/watch?v=a9vKAOwXyMc"]-->
 <br>
-<br>
 ## Audio
-
 <small>2237 AD</small>
 ![2237 AD](https://soundcloud.com/user-589036812-258992427/surge-2237-ad)
 <small>Microtonal Soundscape</small>
 ![Microtonal Soundscape](https://soundcloud.com/user-589036812-258992427/surge-demo-001-microtonal-soundscape-1-x-surge)
 <small>Resurgence</small>
 ![Resurgence](https://soundcloud.com/theexponent/resurgence)
+<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
