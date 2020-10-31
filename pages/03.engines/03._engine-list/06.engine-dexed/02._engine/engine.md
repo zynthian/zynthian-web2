@@ -37,7 +37,6 @@ Dexed comes with 3 engine types:
 ## Video
 [youtube="https://youtu.be/wSs1-020nNY"]
 <br>
-<br>
 ## Audio
 ![mmoncur - Hexed (OSC74)](https://soundcloud.com/starling-studios/mmoncur-hexed-osc74)
 <br>
