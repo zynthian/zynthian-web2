@@ -40,17 +40,17 @@ body_classes: custom-list
     * Bluetooth 5.0, BLE.
     * 2 USB 3.0 ports, 2 USB 2.0 ports
     * 2 × micro-HDMI ports (up to 4kp60 supported)
-* [HifiBerry DAC+ADC PRO](https://www.hifiberry.com/docs/data-sheets/datasheet-dac-adc-pro/)
-    * Stereo input and output
+* [HifiBerry DAC+ADC STAGE](https://www.hifiberry.com/docs/data-sheets/datasheet-dac-adc-stage/)
+    * 2 x Balanced Audio Outputs (Stereo)
+    * 2 x Balanced Audio Inputs with adjustable gain (-12db to 32dB)
     * Dedicated 192kHz/24bit high-quality Burr-Brown DAC
     * Dedicated 192kHz/24bit high-quality Burr-Brown ADC
-    * Balanced Audio Input with adjustable gain (-12db to 32dB)
     * 3 ultra-low-noise linear voltage regulators for best audio quality
     * Low-jitter dual-domain clock for optimised clock decoupling
     * Mic bias voltage for the use with electret microphones
     * No anti-aliasing filter in the input path for best recording BW
 * Case Connectors:
-    * Audio-Out Connectors: 2 x TS-Jack 6.35mm
+    * Audio-Out Connectors: 2 x Balanced TRS-Jack 6.35mm
     * Audio-In Connectors: 2 x Balanced TRS-Jack 6.35mm
     * MIDI Standard DIN-5 connectors: IN/THRU/OUT
 * User Interface:
