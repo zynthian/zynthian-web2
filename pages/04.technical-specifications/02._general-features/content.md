@@ -41,7 +41,7 @@ body_classes: custom-list
     * 2 USB 3.0 ports, 2 USB 2.0 ports
     * 2 × micro-HDMI ports (up to 4kp60 supported)
 * [HifiBerry DAC+ADC STAGE](https://www.hifiberry.com/docs/data-sheets/datasheet-dac-adc-stage/)
-    * 2 x Balanced Audio Output (Stereo)
+    * 2 x Balanced Audio Outputs (Stereo)
     * 2 x Balanced Audio Inputs with adjustable gain (-12db to 32dB)
     * Dedicated 192kHz/24bit high-quality Burr-Brown DAC
     * Dedicated 192kHz/24bit high-quality Burr-Brown ADC
