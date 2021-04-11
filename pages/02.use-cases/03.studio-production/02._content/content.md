@@ -16,6 +16,8 @@ Zynthian is a tiny but powerful tool for production and fast song-prototyping. I
 
 It features an integrated Step-Sequencer designed for live-performing and song composing. The pads interface allows to launch and stop sequences easily. The arranger manage linear composing.
 
+[figure class=""]![Zynthian UI](ui_screenshots_sp.png)[/figure]
+
 Super-easy MIDI-learning, rule-based MIDI-filter, Audio & MIDI recorder with overdub, advanced Audio & MIDI routing. PureData & MOD-UI are integrated too.
 
 Zynthian can also be controlled from DAWs and external sequencers. It has standard MIDI-IN/THRU/OUT connectors, 4 USB ports, WIFI and wired networks, supporting MIDI over network (Apple/RTP-MIDI & IP-multicast) and TouchOSC protocols. 
