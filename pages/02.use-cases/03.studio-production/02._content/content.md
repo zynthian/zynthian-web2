@@ -12,11 +12,13 @@ limit_reveal: '0'
 ---
 
 [column class="column-offset-1 column-6 main-cases"]
-Zynthian is a tiny but powerful tool for production and fast song-prototyping. It includes more than 30 synth-engines, hundreds of effects and thousands of presets. It's fully multitimbral, being able to manage up to 16 independent layers including synthesizers and MIDI/Audio effects. It supports the LV2-plugin standard, so the list of Synth Engines & Effects is ever growing.
+Zynthian is a tiny but powerful tool for production and fast song-prototyping. It includes more than 30 synth-engines, hundreds of effects and thousands of presets. It's fully multitimbral, being able to manage up to 16 independent layers including synthesizers and MIDI/Audio effects and filters. It supports the LV2-plugin standard, so the list of Synth Engines & Effects is ever growing.
 
-Zynthian can be controlled from DAWs and sequencers. It has standard MIDI-IN/THRU/OUT connectors, 4 USB ports, WIFI and wired networks, supporting MIDI over network (Apple/RTP-MIDI & IP-multicast) and TouchOSC protocols. 
+It features an integrated Step-Sequencer designed for live-performing and song composing. The pads interface allows to launch and stop sequences easily. The arranger manage linear composing.
 
-It features an integrated Step-Sequencer, MIDI-learning, MIDI-filter, Audio & MIDI recorders, advanced Audio & MIDI routing. PureData & MOD-UI are integrated too.
+Super-easy MIDI-learning, rule-based MIDI-filter, Audio & MIDI recorder with overdub, advanced Audio & MIDI routing. PureData & MOD-UI are integrated too.
+
+Zynthian can also be controlled from DAWs and external sequencers. It has standard MIDI-IN/THRU/OUT connectors, 4 USB ports, WIFI and wired networks, supporting MIDI over network (Apple/RTP-MIDI & IP-multicast) and TouchOSC protocols. 
 
 Default latency and jitter is low enough for most use-cases, but if you are looking for extra-low latency, audio configuration can be tweaked.
 
