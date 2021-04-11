@@ -42,7 +42,7 @@ Reverb, echo, delay, chorus, flanger, phaser, distortion, EQ, compressor, wah, g
 <br>
 ![CrunchGuitarByRodrigoAmaral.mp3](CrunchGuitarByRodrigoAmaral.mp3?preload=metadata)
 <br>
-The Zynthian UI allows to create up to 16 audio FX-chains. With MOD-UI, you can create the more bizarre pedalboards you ever imagined.
+The Zynthian UI allows to create simple FX-chains. With MOD-UI you can create the more bizarre pedalboards you ever imagined.
 [[Learn More]](/use-cases/effects-unit)[/span]
 
 * [figure class="timeline__image"][![Zynthian connected](use-cases-3.jpg)](/use-cases/studio-production)[/figure]
@@ -50,7 +50,7 @@ The Zynthian UI allows to create up to 16 audio FX-chains. With MOD-UI, you can 
 ### Studio / Production
 ##### A powerful tool in a small container
 It's fully multi-timbral and it integrates a step-sequencer designed for live-performing and song composing.<br>
-MIDI learning, MIDI network, MIDI filter & tools, audio & MIDI recorder, ...<br>
+MIDI learning, MIDI network, MIDI filter & tools, audio & MIDI recorder ...<br>
 <br>
 ![ZynthianicTranceByJtunes.mp3](ZynthianicTranceByJtunes.mp3?preload=metadata)
 <br>

@@ -20,7 +20,7 @@ limit_reveal: '0'
 + **SoundFont support**: SF2, SF3, SFZ and GIG formats are supported. A 4GB collection of soundfonts is included.
 + **Lots of Effects**: Reverb, delay, echo, chorus, distortion, EQ, compressor, wahwah, flanger, phaser, granulator, vocoder, auto-tune...
 + **MIDI filters & tools**: Map, chorder, arpeggiator, LFO, sequencer, quantization, split, velocity map, ...
-**Step Sequencer**: A powerful step sequencer is integrated, allowing to use the unit as a groovebox.
++ **Step Sequencer**: A powerful step sequencer is integrated, allowing to use the unit as a groovebox.
 + **[MOD-UI](https://wiki.moddevices.com/wiki/MOD_Web_GUI_User_Guide?target=_blank) & [Pure Data](http://www.pd-tutorial.com/english/index.html?target=_blank)**
 **Audio & MIDI recorder/player**: You can record audio & MIDI tracks, play them and overdub.
 

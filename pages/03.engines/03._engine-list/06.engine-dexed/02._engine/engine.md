@@ -48,5 +48,6 @@ Dexed comes with 3 engine types:
 + [Project's Website](https://asb2m10.github.io/dexed)
 + [LinuxSynths Page](http://www.linuxsynths.com/DexedPatchesDemos/dexed.html)
 + [Source Code](https://github.com/asb2m10/dexed)
++ [Yamaha DX7 Info](https://yamahablackboxes.com/collection/yamaha-dx7-synthesizer/)
 [/column]
 
