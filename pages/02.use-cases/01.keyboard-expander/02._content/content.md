@@ -1,5 +1,6 @@
 ---
 title: Content
+media_order: ui_screenshots_kb.png
 content_position: center
 date: '09:57 09-03-2020'
 margin_top: half
@@ -15,6 +16,8 @@ limit_reveal: '0'
 Zynthian is a great tool for keyboardist wanting to expand their playing possibilities without having to carry heavy and expensive hardware.
 
 Zynthian includes more than 30 synth-engines, hundreds of effects and thousands of presets. You can play the music style you want, recreating vintage instruments or exploring new sounds and textures. You can combine several engines and presets, adjust synth parameters and add effects and filters.
+
+[figure class=""]![Zynthian UI](ui_screenshots_kb.png)[/figure]
 
 Zynthian supports the LV2 plugin-format, so the list of synth-engines & effects is ever growing. The amazing (but non-free) [Pianoteq](https://www.modartt.com/pianoteq?target=_blank) physical modeller is also supported and a demo version is included.
 
