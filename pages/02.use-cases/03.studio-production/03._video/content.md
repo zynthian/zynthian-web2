@@ -10,12 +10,18 @@ role: default
 body_classes: 'use-case custom-list'
 limit_reveal: '0'
 ---
+
+[column class="column-4"]
+[youtube="https://youtu.be/RgF4R2U1KTQ"]
+[/column]
 [column class="column-4"]
 [youtube="https://youtu.be/hiCLN25199M"]
 [/column]
+<!--
 [column class="column-4"]
 [youtube="https://youtu.be/eQQlt13YX00"]
 [/column]
+-->
 [column class="column-4"]
 [youtube="https://youtu.be/T3izkId4KS0"]
 [/column]

@@ -27,9 +27,10 @@ content:
 [div class="pre-title"]<h2>Hardware</h2> ![](circle-hardware.svg?classes=show-small)[/div]
 
 * Based on Raspberry Pi and Open Hardware
-* Stereo Audio Input/Output, up to 192 KHz
+* Balanced Stereo Audio Input/Output, up to 192 KHz
 * MIDI-IN/THRU/OUT
 * Touchscreen 3.5"
+* 4 x Rotary encoders + Push switches
 <br>
 [[More...]](/technical-specifications)
 
@@ -43,14 +44,16 @@ content:
 [div class="pre-title"]<h2>Software</h2> ![](circle-software.svg?classes=show-small)[/div]
 
 * Based on GNU-Linux and Free Software
-* Real-time audio processing, low latency
+* Real-time audio processing, low latency & jitter
 * Multi-engine / Multitimbral / Multi-layer
 * Remote Control & Web Configuration Tool
 <br>
 [[More...]](/technical-specifications)
 
 [btn-primary href="https://os.zynthian.org/zynthianos-last-stable.zip"]Download SD-image[/btn-primary]
+<!--
 <br>
 [btn-primary href="https://os.zynthian.org"]Experimental Nightly Builds[/btn-primary]
+-->
 [/column]
 

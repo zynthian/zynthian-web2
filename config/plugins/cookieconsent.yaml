@@ -10,4 +10,4 @@ theme: block
 content_message: 'The law obliges us to bother you with the obviousness that this page uses cookies.'
 content_dismiss: 'Got it!'
 content_link: 'Read our privacy policy'
-content_href: 'http://localhost:8000/privacy'
+content_href: '/privacy'
