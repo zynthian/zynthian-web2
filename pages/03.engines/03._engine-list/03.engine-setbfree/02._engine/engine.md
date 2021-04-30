@@ -40,7 +40,7 @@ Interaction with the synth is done can be done via mouse/PC-keyboard and MIDI. T
 </p>
 <br>
 ## Links:
-+ [Project's Website](https://setbree.org)
++ [Project's Website](https://setbfree.org)
 + [LinuxSynths Page](http://www.linuxsynths.com/SetBfreePatchesDemos/setbfree.html)
 + [Source Code](https://github.com/pantherb/setBfree)
 [/column]
