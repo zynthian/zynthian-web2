@@ -54,11 +54,29 @@ footer h3{
 }
 
 .footer__about{
-    padding-top: 2.25em;
+    padding-top: 0;
+    text-align: justify;
+}
+
+.footer__about h3{
+    padding-top: 0;
 }
 
 .footer__about p a{
     color: var(--color-hl-inverted)
+}
+
+.footer__contact{
+    padding-top: 0;
+    text-align: justify;
+}
+
+.footer__contact a{
+    color: var(--color-hl-inverted)
+}
+
+.footer__contact a:hover{
+    color: var(--color-sc);
 }
 
 .footer__secondary{
@@ -82,6 +100,13 @@ footer h3{
 .footer__secondary .inline-list li a:hover svg{
     stroke:var(--color-sc);
 }
+
+.footer__secondary .inline-list-left{
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: solid 1px var(--color-hl);
+}
+
 
 .footer__secondary p{
     width: 100%;
@@ -119,6 +144,18 @@ footer h3{
 
     .footer__secondary .inline-list li{
         margin-left: 1.188em;
+    }
+
+    .footer__secondary .inline-list-left{
+        padding-bottom: 0;
+        margin-bottom: 0;
+	border: none;
+        justify-content: flex-start;
+    }
+
+    .footer__secondary .inline-list-left li{
+        margin-right: 1.188em;
+        margin-left: 0;
     }
 
     .footer__main{

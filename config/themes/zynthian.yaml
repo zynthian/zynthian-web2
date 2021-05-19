@@ -41,8 +41,8 @@ org_logo:
     size: 7361
     path: user/assets/zynthian/favicon/zynthian_logo.svg
 google_maps_icon: {  }
-org_desc: '<p>An Open Platform for Sound Synthesis. Based on Raspberry Pi and Linux, its hardware specification is public and software is Open Source.</p>'
-about_desc: "<h4>About Us</h4>\r\n<p>Zynthian hardware & software is developed and maintained by an open community of intrepid users & developers around the world.</p>\r\n<p>Official kits are designed and sold by zynthian project founders on the <a href='https://shop.zynthian.org'>Zynthian Shop</a>.</p>"
+org_desc: '<p>An open Platform for Sound Synthesis & Processing.<br>Based on Raspberry Pi and Linux, its hardware specification is public and software is Open Source.</p>'
+about_desc: "<h3>About Us</h3>\n<p>Zynthian hardware & software is developed and maintained by an open community of intrepid users & developers around the world. Official kits are designed and sold by zynthian project founders on the <a href='https://shop.zynthian.org'>Zynthian Shop</a>.</p>"
 policy_linkt: '<h4> About Us</h4>'
 policy_link: /privacy
 github_link: 'https://github.com/zynthian'

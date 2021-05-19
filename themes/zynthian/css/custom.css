@@ -1672,3 +1672,8 @@ h3 a.anchorjs-link {
     display: none;
 }
 
+.legal-page h3 {
+    font-size: 110%;
+}
+
+

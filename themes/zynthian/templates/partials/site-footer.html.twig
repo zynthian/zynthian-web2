@@ -8,15 +8,19 @@
                         {{ site_logo }}
                         {{ theme.org_desc }}
                     </div>
+                </div>
+                <div class="column column-offset-3 column-5">
                     <div class="footer__about">
                         {{ theme.about_desc }}
                     </div>
-                </div>
-                <div class="column column-offset-1 column-7">
-                    <div class="footer__form">
+                    <div class="footer__contact">
+                         <h3>Contact</h3>   
+                         Send us an email to <a href="mailto:info@zynthian.org">info@zynthian.org</a>
+                    </div>
+                    <!--<div class="footer__form">
                         <h3>Contact</h3>
                         {% include "forms/form.html.twig" with { form: forms('footer-contact-form') } %}
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -25,7 +29,12 @@
         <div class="content__ctn">
             <div class="row">
                 <div class="column column-6">
-                    <p class="text-center"><a href="{{ theme.policy_link }}" rel="noopener noreferrer">Privacy Policy</a></p>
+                    <ul class="inline-list inline-list-left">
+                        <li><a href="/legal" rel="noopener noreferrer">Legal Note</a></li>
+                        <li><a href="/cookies" rel="noopener noreferrer">Cookie Policy</a></li>
+                        <li><a href="/privacy" rel="noopener noreferrer">Privacy Policy</a></li>
+                        <li><a href="/terms" rel="noopener noreferrer">Terms & Conditions</a></li>
+                    </ul>
                 </div>
                 <div class="column column-6">
                     <ul class="inline-list">
