@@ -22,7 +22,7 @@ We collect some personal data during the shopping process:
 + Phone Number
 + Email
 
-We need your email for sending order confirmation, order status updates, invoice and tracking code. We need your full name and address  for shipping your order. The shipping company needs your phone number for the courier, so it can contact with you for arranging delivery details.
+We need your email for sending order confirmation, order status updates, invoices and tracking codes. We need your full name and address  for shipping your order. The shipping company needs your phone number for the courier, so he can contact with you for arranging delivery details.
 
 We don't use this data for sending anything unrelated with your orders or questions. We don't share this information with anybody unrelated to the shopping process. Unrelated 3rd party companies wont get your personal data from us.
 
