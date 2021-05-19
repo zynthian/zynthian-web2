@@ -17,16 +17,16 @@ limit_reveal: '0'
 We collect some personal data during the shopping process:
 
 + Full Name
++ Full Address
 + Tax-ID
-+ Address
 + Phone Number
 + Email
 
 We need your email for sending order confirmation, order status updates, invoice and tracking code. We need your full name and address  for shipping your order. The shipping company needs your phone number for the courier, so it can contact with you for arranging delivery details.
 
-We don't use this data for sending anything unrelated with your orders or questions. We don't share this information with anybody. Mailchimp or any other 3rd party company wont get your personal data from us.
+We don't use this data for sending anything unrelated with your orders or questions. We don't share this information with anybody unrelated to the shopping process. Unrelated 3rd party companies wont get your personal data from us.
 
-We conserve the data after shipping the order, but if you want, you can contact with us at sales@zynthian.org and we will delete your data from our servers. We are not specially interested in keeping trace of you.
+We conserve the data after shipping the order. If you want, you can contact with us at info@zynthian.org to consult, modify or delete your personal data from our servers. We are not specially interested in keeping trace of you.
 
 ## Legal Details
 
@@ -84,23 +84,21 @@ Datos generados por el usuario, que se desglosan:
 
 ### Derechos sobre tus datos
 
-Tal y como estipula la ley tienes derecho a la gestión de tus datos en las modalidades de Acceso, Rectificación, Cancelación y Oposición, para cualquier consulta relacionado con los mismos por favor ponte en contacto con nosotros en info@zynthian.org
+Tal y como estipula la ley, tienes derecho a la gestión de tus datos en las modalidades de Acceso, Rectificación, Cancelación y Oposición, para cualquier consulta relacionado con los mismos por favor ponte en contacto con nosotros en info@zynthian.org
 
 ### Tratamiento de los datos con las empresas de transporte anteriormente mencionadas
 
 Es necesario que cedamos tus datos a las empresas arriba nombradas con el fin de un correcto funcionamiento de nuestro proceso interno. La información que se proporcionará cuando proceda será:
 
 + Nombre y apellidos
-+ Calle, número, escalera, piso, puerta, código postal, población y país.
++ Dirección completa: Calle, número, escalera, piso, puerta, código postal, población y país.
 + Número de teléfono
 + Correo electrónico
 + Número de pedido
 
 ### Aceptación y Consentimiento
 
-El Usuario declara haber sido informado de las condiciones sobre protección de datos de carácter personal, aceptando y consintiendo el tratamiento automatizado de los mismos por parte de SUSANA FORT MANCHA en la forma y para las finalidades indicadas en la presente Política de Protección de Datos Personales.
-
-A través de esta Política de Privacidad le informamos que las fotografías que estén colgadas en la web son propiedad de SUSANA FORT MANCHA incluyendo, en su caso,  las de los menores, en las que, para la obtención de estas, se ha obtenido el consentimiento previo de los padres, tutores o representantes legales mediante la firma de los formularios realizados al efecto. Sin embargo, los padres, tutores o representantes de los menores, como titulares del ejercicio de los derechos de estos, y siempre previo requerimiento formal por escrito, pueden indicar la negativa al uso de la imagen del menor; en este caso, la imagen se mostrará pixelada.
+El Usuario declara haber sido informado de las condiciones sobre protección de datos de carácter personal, aceptando y consintiendo el tratamiento automatizado de los mismos por parte de SUSANA FORT MANCHA en la forma y para las finalidades indicadas en la presente  Política de Protección de Datos Personales.
 
 ### Exactitud y veracidad delos datos
 
@@ -116,7 +114,7 @@ La presencia de “links” o enlaces sólo tienen finalidad informativa y en ni
 
 ### Correos comerciales
 
-De acuerdo con la LSSICE, SUSANA FORT MANCHA no realiza prácticas de  SPAM, por lo tanto, no envía correos comerciales por e-mail que no hayan sido previamente solicitados o autorizados por el Usuario. En consecuencia, en cada uno de los formularios de la Página Web, el Usuario tiene la posibilidad de dar su consentimiento expreso para recibir nuestro Boletín, con independencia de la información comercial puntualmente solicitada.
+De acuerdo con la LSSICE, SUSANA FORT MANCHA no realiza prácticas de SPAM, por lo tanto, no envía correos comerciales por e-mail que no hayan sido previamente solicitados o autorizados por el Usuario.
 
 ### Cambios en la presente política de privacidad
 
