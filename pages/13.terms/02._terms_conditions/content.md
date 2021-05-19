@@ -164,7 +164,7 @@ El Cliente, al aceptar los presentes condiciones y términos de venta acepta som
 
 Los gastos de envío aparecerán en un box inferior dentro de la página web con denominación “Carrito”, así como en un box inferior dentro de la página web con denominación “Gastos envío”, y se añadirán al precio final del producto. Será el Cliente quien decidirá cuál es el método de envío del producto/s.
 
-Los gastos de envío se pueden consultar en el siguiente [fichero PDF (el peso está expresado en gramos)](https://drive.google.com/file/d/1XvXl0Zz3iYV9uK_-6CYF6PJ2h0ngwnn9/view?usp=sharing). Si tu país no está en la lista o no tiene asignado un gasto de envío, puedes consultarnoslo en por email a info@zynthian.org.
+Los gastos de envío se pueden consultar en el siguiente [fichero PDF (el peso está expresado en gramos)](https://drive.google.com/file/d/1XvXl0Zz3iYV9uK_-6CYF6PJ2h0ngwnn9/view?usp=sharing). Si tu país no está en la lista o no tiene asignado un gasto de envío, puedes consultarnoslo por email a info@zynthian.org.
 
 ### 12. Derecho de desistimiento. Derecho legal a desistir de la compra. 
 
