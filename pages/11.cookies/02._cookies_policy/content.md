@@ -77,9 +77,9 @@ Opciones > Privacidad > Cookies [(+)](https://support.mozilla.org/es/kb/habilita
 Preferencias > Privacidad [(+)](https://support.apple.com/kb/ph21411?locale=es_ES)
 
 **Opera:**
-Configuración > Opciones > Avanzado > Cookies [(+)](http://help.opera.com/Windows/12.00/es-ES/cookies.html)
+Configuración > Opciones > Avanzado > Cookies [(+)](https://help.opera.com/Windows/12.00/es-ES/cookies.html)
 
-Estos navegadores están sometidos a actualizaciones o modificaciones, por lo que no podemos garantizar que se ajusten completamente a la versión de su navegador. También puede ser que utilice otro navegador no contemplado en estos enlaces como Konqueror, Arora, Flock, etc. Para evitar estos desajustes, puede acceder directamente desde las opciones de su navegador, generalmente en el menú de  “Opciones” en la sección de “Privacidad”. (Por favor, consulte la ayuda de su navegador para más información).
+Estos navegadores están sometidos a actualizaciones o modificaciones, por lo que no podemos garantizar que se ajusten completamente a la versión de su navegador. También puede ser que utilice otro navegador no contemplado en estos enlaces como Konqueror, Arora, Flock, etc. Para evitar estos desajustes, puede acceder directamente desde las opciones de su navegador, generalmente en el menú de  “Opciones” en la sección de “Privacidad”. Consulte la ayuda de su navegador para más información.
 
 ### Desactivación, activación y eliminicaión de cookies
 
@@ -93,7 +93,7 @@ Cada navegador posee un método distinto para adaptar la configuración. Si fuer
 
 Para desactivar las cookies en el teléfono móvil, consulte el manual del dispositivo para obtener más información.
 
-Puede obtener más información sobre las cookies en Internet: http://www.aboutcookies.org
+Puede obtener más [información sobre las cookies en Internet](https://www.aboutcookies.org).
 
 Teniendo en cuenta la forma en la que funciona Internet y los sitios web, no siempre contamos con información de las cookies que colocan terceras partes a través de nuestro sitio web. Esto se aplica especialmente a casos en los que nuestra página web contiene lo que se denominan elementos integrados: textos, documentos, imágenes o breves películas que se almacenan en otra parte, pero se muestran en nuestro sitio web o a través del mismo.
 

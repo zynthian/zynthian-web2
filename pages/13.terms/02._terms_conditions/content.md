@@ -331,7 +331,7 @@ Para la resolución de las controversias o cuestiones relacionadas con el presen
 
 Si usted tiene la condición de consumidor/usuario, en relación con la competencia de los Juzgados y Tribunales para resolver conflictos o discrepancias interpretativas de las presentes condiciones, será de aplicación lo dispuesto en el Real Decreto Legislativo 1/2007, de 16 de noviembre, por el que se aprueba el texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios y otras leyes complementarias, es decir, los Juzgados y Tribunales de su domicilio (domicilio del consumidor).
 
-Igualmente puede acudir a la plataforma para la resolución de litigios por compras en línea de la Comisión Europea (Online Dispute Resolution “O.D.R.” accediendo al siguiente link: https://cec.consumo.gob.es/CEC/web/home/index.htm. Todo ello sin perjuicio de acudir ala Junta Arbitral de Consumo de su demarcación.
+Igualmente puede acudir a la plataforma para la resolución de litigios por compras en línea de la Comisión Europea (Online Dispute Resolution “O.D.R.” accediendo al [siguiente link](https://cec.consumo.gob.es/CEC/web/home/index.htm). Todo ello sin perjuicio de acudir ala Junta Arbitral de Consumo de su demarcación.
 
 En el caso de que usted no tenga la condición de consumidor/usuario (persona jurídica o persona física que actúa en el marco de su actividad comercial), ambas partes se someten, con renuncia expresa a cualquier otro fuero, a los Juzgados y Tribunales de Reus (España).
 
