@@ -40,15 +40,14 @@ body_classes: custom-list
     * Bluetooth 5.0, BLE.
     * 2 USB 3.0 ports, 2 USB 2.0 ports
     * 2 x micro-HDMI ports (up to 4kp60 supported)
-* [HifiBerry DAC+ADC STAGE](https://www.hifiberry.com/docs/data-sheets/datasheet-dac-adc-stage/)
-    * 2 x Balanced Audio Outputs (Stereo)
-    * 2 x Balanced Audio Inputs with adjustable gain (-12db to 32dB)
-    * Dedicated 192kHz/24bit high-quality Burr-Brown DAC
-    * Dedicated 192kHz/24bit high-quality Burr-Brown ADC
-    * 3 ultra-low-noise linear voltage regulators for best audio quality
-    * Low-jitter dual-domain clock for optimised clock decoupling
-    * Mic bias voltage for the use with electret microphones
-    * No anti-aliasing filter in the input path for best recording BW
+* [ZynADAC v1.0](https://blog.zynthian.org/2021/05/zynadac-v1-0-an-open-hardware-soundcard-for-zynthian/)
+    * 2 x Balanced audio output channels
+    * 2 x Balanced audio input channels
+    * Adjustable input gain (-12 to 32 dB)
+    * DAC Burr-Brown PCM5242 (192kHz/24bit)
+    * ADC Burr-Brown PCM1862/63 (192kHz/24bit)
+    * Dedicated Ultra Low Noise LDOs for DAC & ADC
+    * Dedicated Ultra Low Jitter Oscillators
 * Case Connectors:
     * Audio-Out Connectors: 2 x Balanced TRS-Jack 6.35mm
     * Audio-In Connectors: 2 x Balanced TRS-Jack 6.35mm
