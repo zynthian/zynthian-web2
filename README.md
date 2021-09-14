@@ -11,6 +11,10 @@ Installation from scratch:
     mv user user.bak
     git clone git@github.com:zynthian/zynthian-web2.git user
     ./bin/grav install
+    
+The EmbedMedia must be installed by hand from this repo:
+
+    https://github.com/dfacto-lab/grav-plugin-mediaembed
 
 Local run:
 
