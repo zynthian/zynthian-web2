@@ -1,16 +1,8 @@
 state: enabled
 email: irene@ganeshaproduccions.con
 fullname: ganesha
-title: Admin
-access:
-  site:
-    login: 'true'
-  admin:
-    super: 'true'
-    login: 'true'
-  admin-addon-user-manager: {  }
+title: Designer
 hashed_password: $2y$10$mI33g0bBbIlqPBytnDP79e1yY54RzFCreYbCdGqYcXRvOaXgxKPki
-password: null
 language: en
 twofa_enabled: false
 twofa_secret: U4LW3OE4GXGORJ7QBPFRZMJPRWANVNQJ
@@ -20,5 +12,7 @@ avatar:
     type: image/png
     size: 469043
     path: user/accounts/avatars/nQYMyAKwLHDN8U1.png
-info: null
-groups: null
+content_editor: default
+access:
+  site:
+    login: false

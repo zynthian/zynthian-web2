@@ -1,0 +1,18 @@
+state: enabled
+email: susanna@zynthian.org
+fullname: 'Suisanna Fort'
+language: en
+content_editor: default
+twofa_enabled: false
+twofa_secret: V55YYV3ZLDMDE6THO3JUD2FIXKBQ2U45
+avatar: {  }
+hashed_password: $2y$10$AjiIPhGaUzyCbD9QpBY3PeGgnJ3QCKEiO3GL1Irpygtg0OYDCbxG.
+access:
+  site:
+    login: true
+  admin:
+    pages:
+      read: true
+      update: true
+      list: true
+    statistics: true
