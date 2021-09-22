@@ -11,11 +11,15 @@ content:
 body_classes: 'use-case custom-list'
 ---
 [column class="column-offset-1 column-6 first"]
-Sfizz is a software sampler synthesizer that supports SFZ soundfont file format.
+Sfizz is a sample-based musical synthesizer. 
 
-Among its goals are having high stability, high efficiency and very low latency, providing professional grade features comparable to both hardware and commercial Windows/Mac software samplers.
+It features the well-established SFZ instrument format at its core, which permits to use existing instrument libraries, or create personal instruments with ease.
 
-It's capable of streaming audio samples directly from disk, what allows to manage soundfont files much bigger than the available physical memory.
+Sfizz supports SFZv1, and is partially compatible with SFZv2, the current revision of the instrument specification. The objective is to achieve a high level of SFZ compatibility, and the quality improves with every release.
+
+The library allows developers to create instruments of their own, taking advantage of the abilities of SFZ. The hot reload ability helps you to design intruments. You are able to edit your custom instrument and test the change on the fly, without having to interact with the software manually.
+
+The streaming system loads the sounds on demand, and dynamically reclaims the memory of sounds which are no longer used. This keeps the RAM memory requirement at minimum.
 [/column]
 
 [column class="column-offset-1 column-4"]
