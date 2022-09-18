@@ -238,15 +238,15 @@ html{
 
 h3, h4, h5 {
   padding-top: 0.3em;
-  padding-bottom: 0.5em; 
+  padding-bottom: 0.5em;
 }
 
-h2::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -190px; 
-  height: 190px; 
-  visibility: hidden; 
+h2::before {
+  display: block;
+  content: " ";
+  margin-top: -190px;
+  height: 190px;
+  visibility: hidden;
   pointer-events: none;
 }
 
@@ -699,7 +699,7 @@ header.header .portrait_hiden {
     }
 
     .header__logo-mobile img {
-        margin-top: 3px; 
+        margin-top: 3px;
         height: 2.2rem;
         width: auto;
         padding-top: 0px;
@@ -1676,4 +1676,9 @@ h3 a.anchorjs-link {
     font-size: 110%;
 }
 
+
+div.kit__card h2::before {
+  margin-top: 0;
+  height: 0;
+}
 
