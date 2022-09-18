@@ -31,17 +31,16 @@ sitemap:
 [content-group]
 ## Kit v4
 ##### The easy way. Simply plug the wires & tighten the screws.
-### NEW!!
 [/content-group]
-[button-group][btn-secondary href="http://blog.zynthian.org/2020/07/new-zynthian-kit-v4"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/product/zynthian-kit-v4-358?category=13"]Buy Kit V4[/btn-primary][/button-group]
+[button-group][btn-secondary href="http://blog.zynthian.org/2020/07/new-zynthian-kit-v4"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/product/zynthian-kit-v4-358?category=13"]Buy Kit v4[/btn-primary][/button-group]
 [/div]
 [/column]
 [column class="kit__card"]
 [div class="kitv2"]
 [content-group]
-## Kit v2
+## Basic Kit v4
 ##### Do it your way! Build your custom unit.
 [/content-group]
-[button-group][btn-secondary href="https://wiki.zynthian.org/index.php/Building_a_Zynthian_Box_using_an_official_Kit_v2"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/product/zynthian-basic-kit-v2-266?category=13"]Buy Kit V2[/btn-primary][/button-group]
+[button-group][btn-secondary href="https://wiki.zynthian.org/index.php/Zynthian_Box_Building"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/product/zynthian-basic-kit-v4-447?category=13"]Buy Basic Kit v4[/btn-primary][/button-group]
 [/div]
 [/column]
