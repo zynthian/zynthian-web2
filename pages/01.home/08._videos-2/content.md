@@ -31,3 +31,13 @@ content:
 [column class="column-4"]
 [youtube="https://youtu.be/T3izkId4KS0"]
 [/column]
+
+[column class="column-4"]
+[youtube="https://youtu.be/3arcgoKu9T4"]
+[/column]
+[column class="column-4"]
+[youtube="https://youtu.be/-4YbrNM4zRo"]
+[/column]
+[column class="column-4"]
+[youtube="https://youtu.be/RgF4R2U1KTQ"]
+[/column]
