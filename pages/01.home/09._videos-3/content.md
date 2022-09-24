@@ -1,5 +1,5 @@
 ---
-title: 'Videos 2'
+title: 'Videos 3'
 media_order: circle-video.png
 content_position: center
 date: '10:14 09-03-2020'
@@ -23,12 +23,12 @@ content:
 ---
 
 [column class="column-4"]
-[youtube="https://youtu.be/dj5jG5Xq834"]
+[youtube="https://youtu.be/3arcgoKu9T4"]
 [/column]
 [column class="column-4"]
-[youtube="https://youtu.be/hiCLN25199M"]
+[youtube="https://youtu.be/-4YbrNM4zRo"]
 [/column]
 [column class="column-4"]
-[youtube="https://youtu.be/T3izkId4KS0"]
+[youtube="https://youtu.be/RgF4R2U1KTQ"]
 [/column]
 
