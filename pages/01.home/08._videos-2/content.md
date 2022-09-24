@@ -22,6 +22,7 @@ content:
     items: '@self.modular'
 ---
 
+[row]
 [column class="column-4"]
 [youtube="https://youtu.be/dj5jG5Xq834"]
 [/column]
@@ -31,7 +32,9 @@ content:
 [column class="column-4"]
 [youtube="https://youtu.be/T3izkId4KS0"]
 [/column]
+[/row]
 
+[row]
 [column class="column-4"]
 [youtube="https://youtu.be/3arcgoKu9T4"]
 [/column]
@@ -41,3 +44,4 @@ content:
 [column class="column-4"]
 [youtube="https://youtu.be/RgF4R2U1KTQ"]
 [/column]
+[/row]
