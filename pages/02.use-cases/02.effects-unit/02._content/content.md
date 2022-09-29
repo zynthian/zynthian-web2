@@ -20,6 +20,10 @@ Zynthian supports the LV2-plugin standard and includes hundreds of audio-process
 
 The native Zynthian-UI allows you to manage up to 16 FX-chains. With the MOD-UI web interface, you can create the more bizarre pedalboards.
 
+If you like looping, Sooper Looper engine is fully integrated, allowing to control up to 6 independet loops with instant record, overdub, reverse, multiply, replace, time-stretch, pitch-shift, and much more.
+
+[figure class=""]![Zynthian UI](ui_screenshots_sl.png)[/figure]
+
 The MIDI-learning workflow is quick & easy. You can adjust the parameters you want from your favorite MIDI controller. Buttons can be assigned to presets (program-change), and knobs/faders to parameters (CC).
 
 Default latency and jitter is low enough for most players, but if you are looking for extra-low latency, audio configuration can be tweaked.

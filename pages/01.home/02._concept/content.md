@@ -17,14 +17,15 @@ limit_reveal: '0'
 
 + **Accurate Emulations of Classic Instruments**: Grand piano, Rhodes, Wurlitzer, pipe organ, Hammond organ, combo organ, Minimoog, DX-7, Oberheim OB-X, JX-10...
 + **Amazing Virtual Analog Synthesizers**: ZynAddSubFX, Helm, NoizeMaker, Surge, AMSynth, SynthV1, PadthV1, ...
-+ **SoundFont support**: SF2, SF3, SFZ and GIG formats are supported. A 4GB collection of soundfonts is included.
++ **SoundFont support**: SF2, SF3, SFZ and GIG formats are supported. A >4GB collection of soundfonts is included.
 + **Lots of Effects**: Reverb, delay, echo, chorus, distortion, EQ, compressor, wahwah, flanger, phaser, granulator, vocoder, auto-tune...
 + **MIDI filters & tools**: Map, chorder, arpeggiator, LFO, sequencer, quantization, split, velocity map, ...
-+ **Step Sequencer**: A powerful step sequencer is integrated, allowing to use the unit as a groovebox.
++ **Step Sequencer**: A powerful step sequencer is integrated, allowing to use the unit as a standalone groovebox or to drive external synthesizers.
++ **Live Looping Sampler**: It integrates the [Sooper Looper](https://sonosaurus.com/sooperlooper/features.html) engine, capable of immediate loop recording, overdubbing, multiplying, reversing and much more.
 + **[MOD-UI](https://wiki.moddevices.com/wiki/MOD_Web_GUI_User_Guide?target=_blank) & [Pure Data](http://www.pd-tutorial.com/english/index.html?target=_blank)**
-+ **Audio & MIDI recorder/player**: You can record audio & MIDI tracks, play them and overdub.
++ **Audio & MIDI recorder/player**: Easy audio & MIDI recording. Multi-track audio recording is supported too.
 
-You can use it for live performing, studio production or as a tool for sound exploration.
+You can use it for live performing, studio production or as a tool for sound discovering and exploration.
 
 Zynthian is a [community-driven project](https://discourse.zynthian.org?target=_blank) and it's 100% open source. Free software on Open hardware. Completely configurable and fully hackable! **Free as in Freedom.**
 

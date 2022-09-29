@@ -37,8 +37,8 @@ MIDI learning is quick & easy, allowing you to manage everything from your MIDI 
 * [figure class="timeline__image"][![Zynthian & Mic](use-cases-2.jpg)](/use-cases/effects-unit)[/figure]
 [span class="timeline__content"]
 ### Effects Unit
-##### Would you like a custom FX-chain for every song?
-Reverb, echo, delay, chorus, flanger, phaser, distortion, EQ, compressor, wah, grains, vocoder, ...<br>
+##### Would you like a custom FX-chain for every song?<br>A full-featured looper?
+Sooper Looper, reverbs, echoes, delays, choruses, flangers, phasers, distortions, EQs, compressors, wahs, grains, vocoders, autotune, ...<br>
 <br>
 ![CrunchGuitarByRodrigoAmaral.mp3](CrunchGuitarByRodrigoAmaral.mp3?preload=metadata)
 <br>
