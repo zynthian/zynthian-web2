@@ -44,7 +44,7 @@ body_classes: custom-list
 [/column]
 
 [column  class="column-offset-1 column-6"]
-## Hardware (official kit v4)
+## Hardware (kit v4)
 * [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/specifications/)
     * BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz.
     * 2GB, 4GB or 8GB LPDDR4-3200 SDRAM (depending on model)
