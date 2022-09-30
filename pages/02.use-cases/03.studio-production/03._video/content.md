@@ -12,17 +12,12 @@ limit_reveal: '0'
 ---
 
 [column class="column-4"]
-[youtube="https://youtu.be/RgF4R2U1KTQ"]
+[youtube="https://youtu.be/3arcgoKu9T4"]
 [/column]
 [column class="column-4"]
-[youtube="https://youtu.be/hiCLN25199M"]
+[youtube="https://youtu.be/-4YbrNM4zRo"]
 [/column]
-<!--
-[column class="column-4"]
-[youtube="https://youtu.be/eQQlt13YX00"]
-[/column]
--->
 [column class="column-4"]
 [youtube="https://youtu.be/T3izkId4KS0"]
 [/column]
-<!--[youtube="https://youtu.be/dj5jG5Xq834"]-->
+
