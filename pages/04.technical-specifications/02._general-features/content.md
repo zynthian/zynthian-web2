@@ -13,17 +13,30 @@ body_classes: custom-list
 
 [column class="column-5]
 ## General Features
-* Real-time audio processing, low latency & jitter
-* Multi-engine / Multitimbral / Multi-layer
-* Up to 16 independent Synth/FX chains
-* Snapshots
-* Step Sequencer, Arpeggiator, Chorder
-* Recorder/Player for Audio & MIDI
-* MIDI learning for controllers & programs
+* Real-time audio processing: low latency & jitter
+* Multi-engine & multi-timbral
+* Up to 16 chains (MIDI+Synth+FXs)
+* Audio Mixer
+* Master FXs
+* Snapshots & ZS3 subsnapshots
+* Soundfont support: SF2, SF3, SFZ & GIG
+* Included Synth Engines: > 50
+* Included Sounfonts: > 100
+* Included Audio FXs: > 500
+* Included MIDI FXs: > 50
+* Included Audio Generators: > 40
+* Automation: Arpeggiator, Chorder, LFO
++ Autotune (talantedhack & x42-autotune)
+* Step Sequencer + Launch Grid
+* Live Looping Sampler (Sooper Looper)
+* Keyboard splitting, scale & semitone transposing
+* Metronome & tuner
+* Multitrack Audio Record/Play
+* MIDI Record/Play
+* MIDI learning for parameters & programs
+* Advanced Audio & MIDI routing
 * Web Configuration tool
 * Remote Control & GUI
-* MIDI filters & tools
-* Advanced Audio & MIDI routing
 * MIDI over Network / TouchOSC
 * MIDI feedback (motorized faders integration)
 * Experimental Audio to MIDI conversion
@@ -51,10 +64,12 @@ body_classes: custom-list
 * Case Connectors:
     * Audio-Out Connectors: 2 x Balanced TRS-Jack 6.35mm
     * Audio-In Connectors: 2 x Balanced TRS-Jack 6.35mm
-    * MIDI Standard DIN-5 connectors: IN/THRU/OUT
+    * MIDI DIN-5 connectors: IN/THRU/OUT
 * User Interface:
     * Touch-display Zynscreen 3.5"
     * 4 x increamental rotary encoders with switch
     * 4 x assignable push-buttons
     * MF-A01 bakelite knobs
+* Case: 
+    * Black Anodized Aluminum
 [/column]
