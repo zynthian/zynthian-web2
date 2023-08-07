@@ -1007,6 +1007,31 @@ header.header .portrait_hiden {
     padding-bottom: 0.25em;
 }
 
+
+.kit__card .button-group .btn--primary > a {
+    border: solid 1px #202020;
+}
+.kit__card .button-group .btn--primary:hover > a {
+    border: 1px solid var(--color-sc);
+}
+
+.kit__card .button-group .btn--secondary > a {
+    border: solid 1px #808080;
+}
+.kit__card .button-group .btn--secondary:hover > a {
+    border: 1px solid var(--color-sc);
+}
+
+.kitv5{
+    background: url(../../../pages/images/kit-v5b.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.kitv5mb{
+    background: url(../../../pages/images/mb-v5.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 .kitv4{
     background: url(../../../pages/images/kit-v3.jpg) no-repeat center center;
     background-size: cover;

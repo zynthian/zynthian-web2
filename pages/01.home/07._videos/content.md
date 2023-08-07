@@ -26,8 +26,9 @@ content:
 ![videocamera icon](circle-video.png)
 [/column]
 [column class="column-4"]
-[youtube="https://youtu.be/wI4YZeFnt58"]
+[youtube="https://youtu.be/4wJpog5Z5qQ"]
 [/column]
-[column class="column-4"]
-[youtube="https://www.youtube.com/watch?v=e5gpAZL8kiE"]
+[column]
+[youtube="https://youtu.be/9pLUSaFH_7Y"]
 [/column]
+
