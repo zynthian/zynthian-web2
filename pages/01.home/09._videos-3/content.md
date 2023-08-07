@@ -23,12 +23,12 @@ content:
 ---
 
 [column class="column-4"]
-[youtube="https://youtu.be/3arcgoKu9T4"]
+[youtube="https://youtu.be/dj5jG5Xq834"]
 [/column]
 [column class="column-4"]
-[youtube="https://youtu.be/-4YbrNM4zRo"]
+[youtube="https://youtu.be/hiCLN25199M"]
 [/column]
 [column class="column-4"]
-[youtube="https://youtu.be/RgF4R2U1KTQ"]
+[youtube="https://youtu.be/T3izkId4KS0"]
 [/column]
 

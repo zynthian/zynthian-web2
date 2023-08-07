@@ -1,5 +1,5 @@
 enabled: true
-cdn: true
+cdn: false
 popup_background_color: '#000000'
 popup_text_color: '#ffffff'
 button_background_color: '#C00127'
@@ -10,4 +10,4 @@ theme: block
 content_message: 'The law obliges us to bother you with the obviousness that this page uses cookies.'
 content_dismiss: 'Got it!'
 content_link: 'Read our privacy policy'
-content_href: '/privacy'
+content_href: /privacy

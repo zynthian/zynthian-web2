@@ -27,20 +27,20 @@ sitemap:
 ---
 
 [column class="kit__card"]
-[div class="kitv4"]
+[div class="kitv5"]
 [content-group]
-## Kit v4
+## V5 Kit
 ##### The easy way. Simply plug the wires & tighten the screws.
 [/content-group]
-[button-group][btn-secondary href="http://blog.zynthian.org/2020/07/new-zynthian-kit-v4"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/product/zynthian-kit-v4-358?category=13"]Buy Kit v4[/btn-primary][/button-group]
+[button-group][btn-secondary href="https://blog.zynthian.org/2023/07/zynthian-kit-v5-is-here"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org"]Buy V5 Kit[/btn-primary][/button-group]
 [/div]
 [/column]
 [column class="kit__card"]
-[div class="kitv2"]
+[div class="kitv5mb"]
 [content-group]
-## Basic Kit v4
-##### Do it your way! Build your custom unit.
+## V5 Main Board
+##### Do it your way! Build your custom zynthian.
 [/content-group]
-[button-group][btn-secondary href="https://wiki.zynthian.org/index.php/Zynthian_Box_Building"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/product/zynthian-basic-kit-v4-447?category=13"]Buy Basic Kit v4[/btn-primary][/button-group]
+[button-group][btn-secondary href="https://wiki.zynthian.org/index.php/Zynthian_Box_Building"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/main-board-kit-v5-347?category=10"]Buy V5 Main Board[/btn-primary][/button-group]
 [/div]
 [/column]

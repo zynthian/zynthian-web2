@@ -12,12 +12,12 @@ limit_reveal: '0'
 ---
 
 [column class="column-4"]
+[youtube="https://youtu.be/4wJpog5Z5qQ"]
+[/column]
+[column class="column-4"]
 [youtube="https://youtu.be/3arcgoKu9T4"]
 [/column]
 [column class="column-4"]
 [youtube="https://youtu.be/-4YbrNM4zRo"]
-[/column]
-[column class="column-4"]
-[youtube="https://youtu.be/T3izkId4KS0"]
 [/column]
 
