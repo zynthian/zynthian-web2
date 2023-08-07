@@ -47,14 +47,15 @@ Read the full specifications [here](/technical-specifications).
 ![ZynthianicTranceByJtunes.mp3](ZynthianicTranceByJtunes.mp3?preload=metadata)
 <small>PPG13, by Can Trell</small>
 ![PPG13ByCanTrell.mp3](PPG13ByCanTrell.mp3?preload=metadata)
-
-<!--
 <small>The Weight, by BaggyPants</small>
 ![TheWeightByBaggyPants.mp3](TheWeightByBaggyPants.mp3?preload=metadata)
 <small>Monsieur The Actor, by R.Generalov</small>
 ![MonsieurTheActorByRomanGeneralov.mp3](MonsieurTheActorByRomanGeneralov.mp3?preload=metadata)
 <small>Vasculab COMPD, by Can Trell</small>
 ![VasculabCOMPDByCanTrell.mp3](VasculabCOMPDByCanTrell.mp3?preload=metadata)
+
+
+<!--
 
 <small>Trip Jazz Demo, by Humi</small>
 ![TripJazzdemoByHumi.mp3](TripJazzdemoByHumi.mp3?preload=metadata)
