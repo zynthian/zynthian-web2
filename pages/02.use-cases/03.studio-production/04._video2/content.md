@@ -12,9 +12,9 @@ limit_reveal: '0'
 ---
 
 [column class="column-6"]
-[youtube="https://youtu.be/4wJpog5Z5qQ"]
+[youtube="https://youtu.be/3arcgoKu9T4"]
 [/column]
 [column class="column-6"]
-[youtube="https://youtu.be/vpkRrzg_h-Q"]
+[youtube="https://youtu.be/-4YbrNM4zRo"]
 [/column]
 
