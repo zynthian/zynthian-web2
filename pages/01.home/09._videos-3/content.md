@@ -23,7 +23,7 @@ content:
 ---
 
 [column class="column-4"]
-[youtube="https://youtu.be/dj5jG5Xq834"]
+[youtube="https://youtu.be/QPQT5gviZbo"]
 [/column]
 [column class="column-4"]
 [youtube="https://youtu.be/hiCLN25199M"]
