@@ -30,6 +30,11 @@ Default latency and jitter is low enough for most players, but if you are lookin
 [/column]
 
 [column class="column-offset-1 column-4 sidebar-cases"]
+
+## Video
+[youtube="https://youtu.be/QPQT5gviZbo"]
+<br>
+
 ## Audio
 <small>Clean Guitar, by Rodrigo Amaral</small>
 ![CleanGuitarByRodrigoAmaral.mp3](CleanGuitarByRodrigoAmaral.mp3?preload=metadata)
