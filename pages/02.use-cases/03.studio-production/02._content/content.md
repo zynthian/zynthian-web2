@@ -53,16 +53,11 @@ Read the full specifications [here](/technical-specifications).
 ![MonsieurTheActorByRomanGeneralov.mp3](MonsieurTheActorByRomanGeneralov.mp3?preload=metadata)
 <small>Vasculab COMPD, by Can Trell</small>
 ![VasculabCOMPDByCanTrell.mp3](VasculabCOMPDByCanTrell.mp3?preload=metadata)
-
-
 <!--
-
 <small>Trip Jazz Demo, by Humi</small>
 ![TripJazzdemoByHumi.mp3](TripJazzdemoByHumi.mp3?preload=metadata)
-
 <small>BlueBox is Roughly Great, by Nicolaz</small>
 ![BlueBoxIsRoughlyGreatByNicolaz.mp3](BlueBoxIsRoughlyGreatByNicolaz.mp3?preload=metadata)
-
 <small>RTPMidi Celebration, by JTunes</small>
 ![RTPMidiCelebrationByJTunes.mp3](RTPMidiCelebrationByJTunes.mp3)
 <small>Epic EnteR, by R.Generalov</small>

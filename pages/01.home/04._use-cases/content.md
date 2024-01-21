@@ -25,36 +25,38 @@ content:
 [div class="timeline"]
 * [figure class="timeline__image"][![Zynthian over a Keayboard](use-cases-1.jpg)](/use-cases/keyboard-expander)[/figure]
 [span class="timeline__content"]
-### Keyboard Expander
+### [Keyboard Expander](/use-cases/keyboard-expander)
 ##### Let your fingers play the sound you want.
 Acoustic & electric pianos, organs, vintage synthesizers, virtual analog synthesizers, soundfonts, ...<br>
 <br>
 ![Body & Soul, by Joost (Pianoteq Fender Rhodes)](BodySoulByJoostRhodes.mp3?preload=metadata)
 <br>
-MIDI learning is quick & easy, allowing you to manage everything from your MIDI keyboard/controller.
+MIDI learning is quick & easy, allowing you to manage everything from your MIDI keyboard/controller, including fast instrument changes and controlling the sound parameters you want.
 [[Learn More]](/use-cases/keyboard-expander)[/span]
 
 * [figure class="timeline__image"][![Zynthian & Mic](use-cases-2.jpg)](/use-cases/effects-unit)[/figure]
 [span class="timeline__content"]
-### Effects Unit
+### [Effects Unit](/use-cases/effects-unit)
 ##### Would you like a custom FX-chain for every song?<br>A full-featured looper?
 Sooper Looper, reverbs, echoes, delays, choruses, flangers, phasers, distortions, EQs, compressors, wahs, grains, vocoders, autotune, ...<br>
 <br>
 ![CrunchGuitarByRodrigoAmaral.mp3](CrunchGuitarByRodrigoAmaral.mp3?preload=metadata)
 <br>
-The Zynthian UI allows to create simple FX-chains. With MOD-UI you can create the more bizarre pedalboards you ever imagined.
+Create FX-chains arranging processors in series/parallel. With MOD-UI you can create the more bizarre pedalboards you ever imagined. Infinite fun with the live looping sampler!
 [[Learn More]](/use-cases/effects-unit)[/span]
 
 * [figure class="timeline__image"][![Zynthian connected](use-cases-3.jpg)](/use-cases/studio-production)[/figure]
 [span class="timeline__content"]
-### Studio / Production
-##### A powerful tool in a small container
-It's fully multi-timbral and it integrates a step-sequencer designed for live-performing and song composing.<br>
-MIDI learning, MIDI network, MIDI filter & tools, audio & MIDI recorder ...<br>
+### [Grovebox / micro-DAW](/use-cases/studio-production)
+##### A powerful production tool in a small container
+It's fully multi-timbral and it features multitrack recording, audio sampler and a powerful step-sequencer designed for live-performing and song composing.<br>
 <br>
-![ZynthianicTranceByJtunes.mp3](ZynthianicTranceByJtunes.mp3?preload=metadata)
+![zcontest23-01-Zynesthesia_by_kosro.mp3](zcontest23-01-Zynesthesia_by_kosro.mp3?preload=metadata)
 <br>
+ Plug & play control with a growing list of supported midi controllers:
+[Novation Launchpad, Akai APC, Akai MIDI Mix, ...](https://wiki.zynthian.org/index.php/Supported_MIDI_controllers)<br>
 Explore sonic landscapes and go beyond the limits with Pure Data generative capabilities.
+<br>
 [[Learn More]](/use-cases/studio-production)[/span]
-
 [/div]
+
