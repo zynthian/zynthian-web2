@@ -20,10 +20,10 @@ limit_reveal: '0'
 ---
 
 [landscape]
-# Studio / Production
-## A powerful tool in a small container
+# Groovebox / micro-DAW
+## A powerful production tool in a small container
 [/landscape]
 [portrait]
-# Studio / Production
+# Groovebox / micro-DAW
 [/portrait]
 

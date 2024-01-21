@@ -12,17 +12,20 @@ limit_reveal: '0'
 ---
 
 [column class="column-offset-1 column-6 main-cases"]
-Zynthian is a tiny but powerful tool for production and fast song-prototyping. It includes more than 30 synth-engines, hundreds of effects and thousands of presets. It's fully multitimbral, being able to manage up to 16 independent layers including synthesizers and MIDI/Audio effects and filters. It supports the LV2-plugin standard, so the list of Synth Engines & Effects is ever growing.
+Zynthian is a powerful tool for live-production and fast song-prototyping. It includes more than 30 synth-engines, hundreds of effects and thousands of presets. It's fully multitimbral, being able to manage up to 16 independent chains including synthesizers, midi processors and audio effects. It supports the LV2-plugin standard, so the list of engines FXs & processors is ever growing.
 
 [figure class=""]![Zynthian UI](v5_mixer.png)[/figure]
 
-It features an integrated Step-Sequencer designed for live-performing and song composing. The pads interface allows to launch and stop sequences easily. The arranger manage linear composing.
+It features a step-sequencer with live-performing and song composing modes. The pads interface allows to launch and stop sequences in real-time, having several syncing modes, one-time, loops, etc. The arranger interface manages linear composing.
 
 [figure class=""]![Zynthian UI](zynseq_combined.png)[/figure]
 
-Super-easy MIDI-learning, rule-based MIDI-filter, Audio & MIDI recorder with overdub, advanced Audio & MIDI routing. PureData & MOD-UI are integrated too.
+Super-easy midi-learning, rule-based midi-filter, multi-track audio recorder, audio sampler, midi file recorder & player, customized audio & midi routing. PureData & MOD-UI are integrated too.
 
-Zynthian can also be controlled from DAWs and external sequencers. It has standard MIDI-IN/THRU/OUT connectors, 4 USB ports, WIFI and wired networks, supporting MIDI over network (Apple/RTP-MIDI & IP-multicast) and TouchOSC protocols. 
+A growing list of supported midi controllers can be used to control zynthian without configuration, totally plug & play:
+[Novation Launchpad, Akai APC, Akai MIDI Mix, ...](https://wiki.zynthian.org/index.php/Supported_MIDI_controllers)<br>
+
+Zynthian can also be controlled from DAWs and external sequencers. It has standard MIDI-IN/OUT/THRU connectors, 4 USB ports, WIFI and wired networks, supporting MIDI over network: Apple/RTP-MIDI, IP-multicast and TouchOSC protocols. 
 
 Default latency and jitter is low enough for most use-cases, but if you are looking for extra-low latency, audio configuration can be tweaked.
 
