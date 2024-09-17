@@ -11,7 +11,7 @@ limit_reveal: '0'
 align_h: center
 align_v: center
 bg_image: ''
-bg_image_landscape: kit-v3.jpg
+bg_image_landscape: kit-v5d.jpg
 bg_fit: cover
 bg_veil: '0'
 min_height: '80'
@@ -29,10 +29,10 @@ sitemap:
 [column class="kit__card"]
 [div class="kitv5"]
 [content-group]
-## V5 Kit
+## V5.1 Kit
 ##### The easy way. Simply plug the wires & tighten the screws.
 [/content-group]
-[button-group][btn-secondary href="https://blog.zynthian.org/2023/07/zynthian-kit-v5-is-here"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org"]Buy V5 Kit[/btn-primary][/button-group]
+[button-group][btn-secondary href="https://blog.zynthian.org/2023/07/zynthian-kit-v5-is-here"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org"]Buy V5.1 Kit[/btn-primary][/button-group]
 [/div]
 [/column]
 [column class="kit__card"]
@@ -41,6 +41,6 @@ sitemap:
 ## V5 Main Board
 ##### Do it your way! Build your custom zynthian.
 [/content-group]
-[button-group][btn-secondary href="https://wiki.zynthian.org/index.php/Zynthian_Box_Building"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/main-board-kit-v5-347?category=10"]Buy V5 Main Board[/btn-primary][/button-group]
+[button-group][btn-secondary href="https://wiki.zynthian.org/index.php/Zynthian_Box_Building"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/main-board-v5-37?category=10"]Buy V5 Main Board[/btn-primary][/button-group]
 [/div]
 [/column]
