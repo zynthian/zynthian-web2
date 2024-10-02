@@ -47,7 +47,7 @@ Create FX-chains arranging processors in series/parallel. With MOD-UI you can cr
 
 * [figure class="timeline__image"][![Zynthian connected](use-cases-3.jpg)](/use-cases/groovebox-udaw)[/figure]
 [span class="timeline__content"]
-### [Grovebox / micro-DAW](/use-cases/groovebox-udaw)
+### [Groovebox / micro-DAW](/use-cases/groovebox-udaw)
 ##### A powerful production tool in a small container
 It's fully multi-timbral and it features multitrack recording, audio sampler and a powerful step-sequencer designed for live-performing and song composing.<br>
 <br>
