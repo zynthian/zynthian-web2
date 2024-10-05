@@ -27,10 +27,11 @@ content:
 [div class="pre-title"]<h2>Hardware</h2> ![](circle-hardware.svg?classes=show-small)[/div]
 
 * Based on Raspberry Pi and Open Hardware
-* Balanced Stereo Audio Input/Output, up to 192 KHz
+* Balanced Stereo Audio Input/Output
 * MIDI-IN/THRU/OUT
-* Touchscreen 3.5"
-* 4 x Rotary encoders + Push switches
+* Touchscreen
+* Rotary encoders + Push switches
+* Push buttons with RGB LEDs
 <br>
 [[More...]](/technical-specifications)
 
@@ -45,8 +46,9 @@ content:
 
 * Based on GNU-Linux and Free Software
 * Real-time audio processing, low latency & jitter
-* Multi-engine / Multitimbral / Multi-layer
-* Remote Control & Web Configuration Tool
+* Multi-timbral, multi-chain, master FX-chain
++ Step-sequencer, looper & sampler
+* Remote control & Web configuration tool
 <br>
 [[More...]](/technical-specifications)
 

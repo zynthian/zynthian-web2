@@ -11,7 +11,7 @@ content:
 body_classes: 'use-case custom-list'
 ---
 [column class="column-offset-1 column-6 first"]
-Pianoteq is an award-winning virtual instrument capable of recreating the sound of a wide range of acoustic & electro-acoustic instruments.
+Pianoteq is a proprietary, award-winning virtual instrument capable of recreating the sound of a wide range of acoustic & electro-acoustic instruments. Zynthian software includes a limited demo version that can be upgraded to the licensed version.
 
 What makes Pianoteq superior to other virtual instruments is that the instruments are physically modelled and thus can simulate the playability and complex behaviour of real acoustic instruments. By omitting usage of samples, the file size is just a tiny fraction of that offered by other virtual instruments, perfect for use on any modern laptop.
 

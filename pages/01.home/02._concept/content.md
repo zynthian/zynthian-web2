@@ -28,13 +28,13 @@ pianos, electric pianos (rhodes, wurly, etc.), hammond organ, combo organ, pipe 
  SF2, SF3, SFZ & GIG formats are supported. 4GB of soundfonts included.
 + **over 500 audio effects**, including reverb, delay, echo, chorus, distortion, EQ, compressor, wahwah, flanger, phaser, granulator, vocoder, auto-tune...
 + **midi filters & tools:** map, chorder, strum, arpeggiator, LFO, sequencer, quantization, split, velocity map, ...
-+ **step sequencer:** zynseq is a well endowed step sequencer that turns zynthian into a limitless groovebox.
++ **step sequencer:** zynseq is a full featured step sequencer that turns zynthian into a powerful groovebox. It features live capture, quantization, swing, humanization, playing chance and much more.
 + **live looping sampler:** the [sooper looper](https://sonosaurus.com/sooperlooper/features.html) engine, capable of immediate loop recording, overdubbing, multiplying, reversing and much more.
-+ **[mod-ui](https://wiki.moddevices.com/wiki/MOD_Web_GUI_User_Guide?target=_blank):** a powerfull canvas environment for designing crazy arrangements of sound processors.
++ **[mod-ui](https://wiki.moddevices.com/wiki/MOD_Web_GUI_User_Guide?target=_blank):** a fancy canvas environment for designing crazy arrangements of sound processors.
 + **[pure data](http://www.pd-tutorial.com/english/index.html?target=_blank):** a visual language for sound & midi programming
 + **multitrack audio recorder:** chain's output can be recorded independently in a multitrack WAV file.
-+ **midi file recorder/player:** standard midi files can be easily recorderd and played back.
-+ **audio sampler engine:** the experimental audio sampler engine, that is being actively developed, will be the next big thing in zynthian. Pitch shifting, time stretching, stem processing and much more!
++ **midi file recorder/player:** standard midi files can be easily recorded and played back.
++ **audio sampler engine:** zynsampler is an innovative audio sampler that is being actively developed. It features crop & loop points, ADSR, pitch shifting, time stretching, varispeed and much more!
 
 [/column]
 [column  class="column-3  text-center show-large"]![](circle-concept.svg)[/column]
