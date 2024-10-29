@@ -1,0 +1,15 @@
+{%- set computed_position -%}
+{%- if content_position == 'left' -%}content--left
+{%- elseif content_position == 'right' -%}content--right
+{%- else -%}content--center
+{%- endif -%}
+{%- endset -%}
+
+<div class="content__ctn {{ computed_position }}" data-reveal>
+	<div class="product__wrapper">
+		<div class="row">
+            {{ page.content }}
+        </div>
+	</div>
+</div>
+

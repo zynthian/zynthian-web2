@@ -1,0 +1,63 @@
+title: Engine
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        engineHeader:
+          type: tab
+          title: Engine Heading
+
+          fields:
+            header.id:
+              type: text
+              label: ID
+            header.title:
+              type: text
+              label: Títol
+            header.subtitle:
+              type: text
+              label: Subtítol
+            header.description:
+              type: text
+              label: Short Description
+
+            header.date:
+                type: datetime
+                label: Data
+                default: today
+            header.splash.bg_image_landscape:
+                type : pagemediaselect
+                preview_images: true
+                label: Choose engine image
+                accept:
+                  - .png
+                  - .jpg
+            header.media_thumb:
+              type: pagemediaselect
+              preview_images: true
+              label: Choose card-engine image
+              accept:
+                - .png
+                - .jpg
+            header.taxonomies:
+                type: section
+                title: PLUGIN_ADMIN.TAXONOMIES
+                underline: true
+                fields:
+                  header.taxonomy:
+                    type: taxonomy
+                    label: PLUGIN_ADMIN.TAXONOMY
+                    multiple: true
+                    validate:
+                      type: array
+            header.media_order:
+                title: Galeria
+                type: pagemedia
+                label: PLUGIN_ADMIN.PAGE_MEDIA
+            content:
+              type: markdown
+              label: Content
