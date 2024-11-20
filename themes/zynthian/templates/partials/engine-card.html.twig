@@ -1,8 +1,8 @@
-<article class="product-card" data-cat="{{ page.header.taxonomy.category }}" data-tag="{{ page.header.taxonomy.tag|join(',') }}">
+<article class="product-card" data-cat="{{ page.header.taxonomy.category|join(',') }}" data-tag="{{ page.header.taxonomy.tag|join(',') }}">
 	<a class="product-card__link" href="{{ page.url }}">
 		<div class="product-card__image">
 			<div class="fill">
-				{% include 'partials/img.html.twig' with {'image': page.media.images|first} %}
+				{% include 'partials/img.html.twig' with {'image':  page.media[page.header.media_thumb]} %}
 			</div>
 		</div>
 		<div class="product-card__info">
