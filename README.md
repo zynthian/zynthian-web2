@@ -5,7 +5,7 @@ For better maintainance, [inheritance is used for theme customization](https://g
 
 Installation from scratch:
 
-    wget https://getgrav.org/download/core/grav-admin/1.6.23 -O grav.zip
+    wget https://getgrav.org/download/core/grav-admin/1.7.48 -O grav.zip
     unzip grav.zip
     cd grav-admin
     mv user user.bak
