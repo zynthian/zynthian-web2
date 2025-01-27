@@ -5,16 +5,19 @@ For better maintainance, [inheritance is used for theme customization](https://g
 
 Installation from scratch:
 
+    apt install php php-curl php-gd php-mbstring php-dom php-zip 
     wget https://getgrav.org/download/core/grav-admin/1.7.48 -O grav.zip
     unzip grav.zip
     cd grav-admin
     mv user user.bak
     git clone git@github.com:zynthian/zynthian-web2.git user
+    mkdir user/plugins
     ./bin/grav install
     
 The EmbedMedia plugin must be installed by hand from this repo:
 
-    https://github.com/dfacto-lab/grav-plugin-mediaembed
+    cd user/plugins
+    git clone https://github.com/dfacto-lab/grav-plugin-mediaembed
 
 Local run:
 
