@@ -30,14 +30,6 @@ Monique is a very special girl with rare features and a deep and powerful sound 
 [youtube="https://youtu.be/naAmy840FAA"]
 [youtube="https://youtu.be/KmXA1HR-4V4"]
 <br>
-## Audio
-<br>
-[Mystery](https://static.kvraudio.com/files/2360/mystery.mp3)
-<br>
-[Wakeup](https://static.kvraudio.com/files/2360/wake_up.mp3)
-<br>
-[Let's go](https://static.kvraudio.com/files/2360/lets_go.mp3)
-<br>
 <p align="right">
  <a href="https://wiki.zynthian.org/index.php/Zynthian_Sound_Demos" target="_blank">more video/audio demos...</a>
 </p>
