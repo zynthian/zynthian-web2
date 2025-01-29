@@ -4,7 +4,7 @@ media_order: 'odin2.jpg'
 description: 'The sound of this 24-voice polyphonic beast will take you from your studio right to Valhalla.'
 taxonomy:
     category: synthesizer
-    tag: [free-software,synth-emu,synth-sub,ucase-kb,ucase-pr]
+    tag: [free-software,synth-sub,ucase-kb,ucase-pr]
 date: '17:38 29-01-2025'
 subtitle: 'Hybrid Synthesizer'
 splash:
