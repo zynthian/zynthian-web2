@@ -36,6 +36,16 @@ Argotlunar is free software. Licensed under the GPL v2.
 [/column]
 
 [column class="column-offset-1 column-4"]
+
+## Audio:
+![Argotlunar, by t800infiltrator](https://soundcloud.com/t800infiltrator/argotlunar)
+<br>
+![ 20110912, by ioflow](https://soundcloud.com/t800infiltrator/argotlunar)
+<br>
+![RPM 2012: lagrange, by pneuman](https://soundcloud.com/pneuman/rpm-2012-lagrange) 
+<br>
+![Internal Processing (disquiet0301) by plusch](https://soundcloud.com/plusch/internal-processing-disquiet0301)
+<br>
 ## Links:
 + [Argotlunar's Website](http://mourednik.github.io/argotlunar/)
 + [KVRAudio's Page](https://www.kvraudio.com/product/argotlunar-by-michael-ourednik)
