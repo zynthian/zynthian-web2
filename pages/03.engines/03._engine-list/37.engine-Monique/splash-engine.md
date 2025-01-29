@@ -35,7 +35,7 @@ Monique is a very special girl with rare features and a deep and powerful sound 
 </p>
 <br>
 ## Links:
-+ [Monique's Website]()
++ [Monique's Website](https://surge-synth-team.org/monique/)
 + [Source Code](https://github.com/surge-synthesizer/monique-monosynth)
 [/column]
 
