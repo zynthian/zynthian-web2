@@ -4,7 +4,7 @@ media_order: 'jc303.png'
 description: 'Roland TB-303 Audio Plugin clone. Unlock the iconic sound of the legendary Roland TB-303!'
 taxonomy:
     category: synthesizer
-    tag: [free-software,synth-sub,ucase-kb,ucase-pr]
+    tag: [free-software,synth-mono,synth-sub,ucase-pr]
 date: '17:38 29-01-2025'
 subtitle: 'Bassline Synthesizer'
 splash:
