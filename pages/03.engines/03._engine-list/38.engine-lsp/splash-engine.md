@@ -14,9 +14,9 @@ media_thumb: lsp.jpg
 [column class="column-offset-1 column-6 first"]
 LSP (Linux Studio Plugins) is a collection of open-source plugins designed to fill the lack of good and useful plugins under the GNU/Linux platform.
 
-After some contributions to other open source projects the decision was made to implement separate and independent plugin distribution.
+After some contributions to other open source projects the decision was made to implement an independent plugin distribution.
 
-Currently the project is developed and maintained by LSP Project Team with the main founder and developer at the head – Vladimir Sadovnikov.
+Currently the project is developed and maintained by the LSP Project Team with the main founder and developer at head – Vladimir Sadovnikov.
 
 ## Equalizers
 
