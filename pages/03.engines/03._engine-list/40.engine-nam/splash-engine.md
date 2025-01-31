@@ -8,6 +8,7 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'powering the next generation of digital audio effects'
 splash:
+    bg_image: nam-hero.jpg
     bg_image_landscape: nam-hero.jpg
 media_thumb: nam.jpg
 ---

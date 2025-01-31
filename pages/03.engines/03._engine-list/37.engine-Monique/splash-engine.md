@@ -8,6 +8,7 @@ taxonomy:
 date: '17:38 29-01-2025'
 subtitle: 'Monomorphic Synthesizer'
 splash:
+    bg_image: monique-hero_small.jpg
     bg_image_landscape: monique-hero.jpg
 media_thumb: monique.jpg
 ---

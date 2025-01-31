@@ -11,6 +11,7 @@ date: '17:38 24-04-2020'
 subtitle: '4 band Parametric Equalizer'
 splash:
     bg_image_landscape: x42-fil4-hero_small.png
+    bg_image: x42-fil4-hero_small.png
 media_thumb: x42-fil4.png
 ---
 [column class="column-offset-1 column-6 first"]

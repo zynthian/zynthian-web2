@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 10-03-2020'
 subtitle: 'SFZ Soundfont Synthesizer'
 splash:
-    bg_image_landscape: redwave-hero_small.jpg
+    bg_image_landscape: redwave-hero.jpg
+    bg_image: redwave-hero_small.jpg
 media_thumb: redwave-card.jpg
 ---
 [column class="column-offset-1 column-6 first"]

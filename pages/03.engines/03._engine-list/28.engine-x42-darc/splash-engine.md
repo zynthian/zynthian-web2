@@ -11,6 +11,7 @@ date: '17:38 24-04-2020'
 subtitle: 'General Purpose Dynamic Audio Range Compressor'
 splash:
     bg_image_landscape: x42-darc-hero_small.png
+    bg_image: x42-darc-hero_small.png
 media_thumb: x42-darc.png
 ---
 [column class="column-offset-1 column-6 first"]

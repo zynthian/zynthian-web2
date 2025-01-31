@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'Plugin Collection'
 splash:
-    bg_image_landscape: calf-hero_small.jpg
+    bg_image_landscape: calf-hero.jpg
+    bg_image: calf-hero_small.jpg
 media_thumb: calf.jpg
 ---
 [column class="column-offset-1 column-6 first"]

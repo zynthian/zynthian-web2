@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'Minimoog Emulator'
 splash:
-    bg_image_landscape: minimoog-hero_small.jpg
+    bg_image_landscape: minimoog-hero.jpg
+    bg_image: minimoog-hero_small.jpg
 media_thumb: minimoog.jpg
 ---
 [column class="column-offset-1 column-6 first"]

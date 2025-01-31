@@ -8,6 +8,7 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'Plugin Collection'
 splash:
+    bg_image: lsp-hero_small.jpg
     bg_image_landscape: lsp-hero.jpg
 media_thumb: lsp.jpg
 ---

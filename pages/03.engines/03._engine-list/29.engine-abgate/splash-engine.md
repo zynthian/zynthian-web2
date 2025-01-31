@@ -9,6 +9,7 @@ date: '17:38 24-04-2020'
 subtitle: 'Noise Gate'
 splash:
     bg_image_landscape: abgate-hero_small.png
+    bg_image: abgate-hero_small.png
 media_thumb: abgate.png
 ---
 [column class="column-offset-1 column-6 first"]

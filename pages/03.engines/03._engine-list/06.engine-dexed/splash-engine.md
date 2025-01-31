@@ -9,7 +9,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'FM Synthesizer'
 splash:
-    bg_image_landscape: dexed-hero_small.png
+    bg_image_landscape: dexed-hero.png
+    bg_image: dexed-hero_small.png
 media_thumb: dexed.jpg
 ---
 [column class="column-offset-1 column-6 first"]

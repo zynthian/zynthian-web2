@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 20-10-2020'
 subtitle: 'Hybrid Synthesizer'
 splash:
-    bg_image_landscape: surge-hero_small.png
+    bg_image_landscape: surge-hero.png
+    bg_image: surge-hero_small.png
 media_thumb: surge.png
 ---
 [column class="column-offset-1 column-6 first"]

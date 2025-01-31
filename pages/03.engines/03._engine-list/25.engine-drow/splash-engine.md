@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'Plugin Collection'
 splash:
-    bg_image_landscape: redwave-hero_small.jpg
+    bg_image: redwave-hero_small.jpg
+    bg_image_landscape: redwave-hero.jpg
 media_thumb: redwave.jpg
 ---
 [column class="column-offset-1 column-6 first"]

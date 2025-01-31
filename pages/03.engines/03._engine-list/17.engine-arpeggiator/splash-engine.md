@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'A simple arpeggiator & MIDI pattern plugin'
 splash:
-    bg_image_landscape: arpeggiator-hero_small.jpg
+    bg_image_landscape: arpeggiator-hero.jpg
+    bg_image: arpeggiator-hero_small.jpg
 media_thumb: arpeggiator.jpg
 ---
 [column class="column-offset-1 column-6 first"]

@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'Plugin Collection'
 splash:
-    bg_image_landscape: x42-whirl-hero_small.png
+    bg_image_landscape: x42-whirl-hero.png
+    bg_image: x42-whirl-hero_small.png
 media_thumb: x42-whirl.png
 ---
 [column class="column-offset-1 column-6 first"]

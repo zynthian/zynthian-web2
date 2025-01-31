@@ -10,7 +10,8 @@ content:
 date: '17:38 24-04-2020'
 subtitle: 'GNU/Linux Virtual Guitar Amplifier'
 splash:
-    bg_image_landscape: guitarix-hero_small.jpg
+    bg_image_landscape: guitarix-hero.jpg
+    bg_image: guitarix-hero_small.jpg
 media_thumb: guitarix.jpg
 ---
 [column class="column-offset-1 column-6 first"]

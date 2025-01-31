@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'Minimalistic Plugin Collection'
 splash:
-    bg_image_landscape: artyfx-hero_small.png
+    bg_image_landscape: artyfx-hero.png
+    bg_image: artyfx-hero_small.png
 media_thumb: artyfx.png
 ---
 [column class="column-offset-1 column-6 first"]

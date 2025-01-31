@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 10-03-2020'
 subtitle: 'Pipe Organ Emulator'
 splash:
-    bg_image_landscape: aeolus-hero_small.jpg
+    bg_image: aeolus-hero_small.jpg
+    bg_image_landscape: aeolus-hero.jpg
 media_thumb: aeolus.jpg
 ---
 [column class="column-offset-1 column-6 first"]

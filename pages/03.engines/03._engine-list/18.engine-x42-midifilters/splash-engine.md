@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'A powerful collection of simple MIDI filters & tools'
 splash:
-    bg_image_landscape: x42-midifilter-hero_small.jpg
+    bg_image_landscape: x42-midifilter-hero.jpg
+    bg_image: x42-midifilter-hero_small.jpg
 media_thumb: x42-midifilter.jpg
 ---
 [column class="column-offset-1 column-6 first"]

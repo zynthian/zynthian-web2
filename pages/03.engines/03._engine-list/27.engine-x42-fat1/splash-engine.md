@@ -9,6 +9,7 @@ date: '17:38 24-04-2020'
 subtitle: 'Auto-tuner based on Fons Adriaensen's zita-at1'
 splash:
     bg_image_landscape: x42-fat1-hero_small.png
+    bg_image: x42-fat1-hero_small.png
 media_thumb: x42-fat1.png
 ---
 [column class="column-offset-1 column-6 first"]

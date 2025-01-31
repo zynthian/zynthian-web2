@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'Oberheim Emulator'
 splash:
-    bg_image_landscape: obxd-hero_small.png
+    bg_image: obxd-hero_small.png
+    bg_image_landscape: obxd-hero.png
 media_thumb: obxd.jpg
 ---
 [column class="column-offset-1 column-6 first"]

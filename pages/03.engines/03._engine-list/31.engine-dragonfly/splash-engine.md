@@ -8,6 +8,7 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'Reverb Plugin Suit'
 splash:
+    bg_image: dragonfly-hero_small.png
     bg_image_landscape: dragonfly-hero_small.png
 media_thumb: dragonfly.png
 ---

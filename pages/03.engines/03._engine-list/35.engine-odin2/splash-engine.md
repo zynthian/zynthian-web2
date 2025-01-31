@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 29-01-2025'
 subtitle: 'Hybrid Synthesizer'
 splash:
-    bg_image_landscape: odin2-hero_small.jpg
+    bg_image_landscape: odin2-hero.jpg
+    bg_image: odin2-hero_small.jpg
 media_thumb: odin2.jpg
 ---
 [column class="column-offset-1 column-6 first"]

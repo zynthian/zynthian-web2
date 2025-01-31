@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 10-03-2020'
 subtitle: 'Tonewheel Organ Emulator'
 splash:
-    bg_image_landscape: setbfree-hero_small.jpg
+    bg_image: setbfree-hero_small.jpg
+    bg_image_landscape: setbfree-hero.jpg
 media_thumb: setbfree.jpg
 ---
 [column class="column-offset-1 column-6 first"]

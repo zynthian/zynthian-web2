@@ -9,7 +9,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'Virtual Analog Synthesizer'
 splash:
-    bg_image_landscape: helm-hero_small.png
+    bg_image_landscape: helm-hero.png
+    bg_image: helm-hero_small.png
 media_thumb: helm.png
 ---
 [column class="column-offset-1 column-6 first"]

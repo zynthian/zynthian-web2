@@ -9,6 +9,7 @@ date: '17:38 24-04-2020'
 subtitle: 'Reverb Plugin'
 splash:
     bg_image_landscape: mverb-hero_small.png
+    bg_image: mverb-hero_small.png
 media_thumb: mverb.png
 ---
 [column class="column-offset-1 column-6 first"]

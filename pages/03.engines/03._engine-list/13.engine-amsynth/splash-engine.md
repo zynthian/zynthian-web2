@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'Virtual Analog Synthesizer'
 splash:
-    bg_image_landscape: amsynth-hero_small.png
+    bg_image_landscape: amsynth-hero.png
+    bg_image: amsynth-hero_small.png
 media_thumb: amsynth.png
 ---
 [column class="column-offset-1 column-6 first"]

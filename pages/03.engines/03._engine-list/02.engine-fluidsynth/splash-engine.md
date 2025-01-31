@@ -5,7 +5,8 @@ subtitle: 'SF2 Soundfont Synthesizer'
 description: 'Sample-based synthesizer that supports the SF2 format'
 date: '17-03-2020 00:00'
 splash:
-    bg_image_landscape: redwave-hero_small.jpg
+    bg_image: redwave-hero_small.jpg
+    bg_image_landscape: redwave-hero.jpg
 media_thumb: redwave.jpg
 taxonomy:
     category:

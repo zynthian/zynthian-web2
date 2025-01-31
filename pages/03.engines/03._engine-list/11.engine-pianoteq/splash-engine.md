@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'Physical Modeler'
 splash:
-    bg_image_landscape: pianoteq-hero_small.jpg
+    bg_image_landscape: pianoteq-hero.jpg
+    bg_image: pianoteq-hero_small.jpg
 media_thumb: pianoteq6.jpg
 ---
 [column class="column-offset-1 column-6 first"]

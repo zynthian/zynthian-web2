@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'Granulator'
 splash:
-    bg_image_landscape: argotlunar-hero_small.png
+    bg_image_landscape: argotlunar-hero.png
+    bg_image: argotlunar-hero_small.png
 media_thumb: argotlunar.png
 ---
 [column class="column-offset-1 column-6 first"]

@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'JX-8p/JX-10 Emulator'
 splash:
-    bg_image_landscape: djx10-hero_small.jpg
+    bg_image_landscape: djx10-hero.jpg
+    bg_image: djx10-hero_small.jpg
 media_thumb: djx10.jpg
 ---
 [column class="column-offset-1 column-6 first"]

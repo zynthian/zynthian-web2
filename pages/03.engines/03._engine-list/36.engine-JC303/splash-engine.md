@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 29-01-2025'
 subtitle: 'Bassline Synthesizer'
 splash:
-    bg_image_landscape: jc303-hero_small.png
+    bg_image_landscape: jc303-hero.png
+    bg_image: jc303-hero_small.png
 media_thumb: jc303.png
 ---
 [column class="column-offset-1 column-6 first"]

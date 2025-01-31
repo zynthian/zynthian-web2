@@ -8,6 +8,7 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: '06-onuJ Chorus'
 splash:
+    bg_image: redwave-hero_small.jpg
     bg_image_landscape: redwave-hero_small.jpg
 media_thumb: ykchorus.jpg
 ---

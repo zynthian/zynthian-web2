@@ -5,7 +5,8 @@ description: 'Multi-engine soft-synth capable of modelling the more amazing soun
 subtitle: 'Additive + Substractive + Pad + FXs'
 date: '17:38 10-03-2020'
 splash:
-    bg_image_landscape: zynaddsubfx-hero_small.png
+    bg_image: zynaddsubfx-hero_small.png
+    bg_image_landscape: zynaddsubfx-hero.png
 sitemap:
     lastmod: '23-10-2024 12:43'
 published: true

@@ -8,7 +8,8 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'Electric Piano Emulator'
 splash:
-    bg_image_landscape: rhodes-hero_small.jpg
+    bg_image_landscape: rhodes-hero.jpg
+    bg_image: rhodes-hero_small.jpg
 media_thumb: rhodes.jpg
 ---
 [column class="column-offset-1 column-6 first"]

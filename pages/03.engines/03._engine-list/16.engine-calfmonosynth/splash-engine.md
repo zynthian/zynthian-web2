@@ -10,7 +10,8 @@ content:
 date: '17:38 24-04-2020'
 subtitle: 'Monophonic Synthesizer'
 splash:
-    bg_image_landscape: calfmonosynth-hero_small.jpg
+    bg_image_landscape: calfmonosynth-hero.jpg
+    bg_image: calfmonosynth-hero_small.jpg
 media_thumb: calfmonosynth.jpg
 ---
 [column class="column-offset-1 column-6 first"]

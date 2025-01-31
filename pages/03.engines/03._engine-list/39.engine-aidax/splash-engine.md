@@ -8,6 +8,7 @@ taxonomy:
 date: '17:38 24-04-2020'
 subtitle: 'AI Crafted Tone'
 splash:
+    bg_image: aidax-hero.jpg
     bg_image_landscape: aidax-hero.jpg
 media_thumb: aidax.jpg
 ---
