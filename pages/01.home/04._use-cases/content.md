@@ -37,12 +37,13 @@ MIDI learning is quick & easy, allowing you to manage everything from your MIDI 
 * [figure class="timeline__image"][![Zynthian & Mic](use-cases-2.jpg)](/use-cases/effects-unit)[/figure]
 [span class="timeline__content"]
 ### [Effects Unit](/use-cases/effects-unit)
-##### Would you like a custom FX-chain for every song?<br>A full-featured looper?
-Sooper Looper, reverbs, echoes, delays, choruses, flangers, phasers, distortions, EQs, compressors, wahs, grains, vocoders, autotune, ...<br>
+##### Would you like a custom FX-chain for every song?
+Reverbs, echoes, delays, choruses, flangers, phasers, distortions, EQs, compressors, wahs, grains, vocoders, autotune, ...
+Play neural models of legendary amplifiers, distortion, fuzz & overdrive pedals. IR models for reverb and cabinets. <br><br>
+![Always with me, always with you (Joe Satriani, played by Stojos)](always-with-me-always-with-you.wav?preload=metadata)
+<!--[CrunchGuitarByRodrigoAmaral.mp3](CrunchGuitarByRodrigoAmaral.mp3?preload=metadata)-->
 <br>
-![CrunchGuitarByRodrigoAmaral.mp3](CrunchGuitarByRodrigoAmaral.mp3?preload=metadata)
-<br>
-Create FX-chains arranging processors in series/parallel. With MOD-UI you can create the more bizarre pedalboards you ever imagined. Infinite fun with the live looping sampler!
+Create FX-chains arranging processors in series/parallel. Infinite fun with the live looping sampler!
 [[Learn More]](/use-cases/effects-unit)[/span]
 
 * [figure class="timeline__image"][![Zynthian connected](use-cases-3.jpg)](/use-cases/groovebox-udaw)[/figure]

@@ -36,6 +36,9 @@ Default latency and jitter is low enough for most players, but if you are lookin
 <br>
 
 ## Audio
+<small></small>
+<small>Always with me, always with you (Joe Satriani, by Stojos)</small>
+![Always with me, always with you (Joe Satriani, played by Stojos)](always-with-me-always-with-you.wav?preload=metadata)
 <small>Clean Guitar, by Rodrigo Amaral</small>
 ![CleanGuitarByRodrigoAmaral.mp3](CleanGuitarByRodrigoAmaral.mp3?preload=metadata)
 <small>Crunch Guitar, by Rodrigo Amaral</small>

@@ -19,14 +19,16 @@ Zynthian is a [community-driven project](https://discourse.zynthian.org?target=_
 <br>
 Zynthian's software includes:
 
-+ **over 30 synth engines:**:
++ **[over 30 synth engines](/engines#synthesizers)**:
  + **accurate emulations of classic instruments:**<br>
 pianos, electric pianos (rhodes, wurly, etc.), hammond organ, combo organ, pipe organ, yamaha DX7, oberheim OBX, ...
  + **amazing virtual analog synthesizers:**<br>
  zynaddsubfx, helm, noizemaker, surge, amsynth, synthv1, padthv1, ...
  + **soundfonts:**<br>
  SF2, SF3, SFZ & GIG formats are supported. 4GB of soundfonts included.
-+ **over 500 audio effects**, including reverb, delay, echo, chorus, distortion, EQ, compressor, wahwah, flanger, phaser, granulator, vocoder, auto-tune...
++ **[over 500 audio effects](/engines#effects)**, including reverb, delay, echo, chorus, distortion, EQ, compressor, wahwah, flanger, phaser, granulator, vocoder, auto-tune...
++ **[neural network modelling](/engines/_engine-list/engine-aidax)** for accurate emulation of non-linear gear like amplifiers, distortion, fuzz, overdrive stomp-boxes, etc.
++ **[impulse response modelling](/engines/_engine-list/engine-aidax)** for reverb and cabinet emulation.
 + **midi filters & tools:** map, chorder, strum, arpeggiator, LFO, sequencer, quantization, split, velocity map, ...
 + **step sequencer:** zynseq is a full featured step sequencer that turns zynthian into a powerful groovebox. It features live capture, quantization, swing, humanization, playing chance and much more.
 + **live looping sampler:** the [sooper looper](https://sonosaurus.com/sooperlooper/features.html) engine, capable of immediate loop recording, overdubbing, multiplying, reversing and much more.
