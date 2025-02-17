@@ -4,7 +4,7 @@ id: linuxsampler
 description: 'Sample-based synthesizer that supports GIG & SFZ soundfont formats'
 taxonomy:
     category: synthesizer
-    tag: [free-software,synth-sample,ucase-kb,ucase-pr]
+    tag: [free-software,synth-sample,ucase-kb]
 subtitle: 'SFZ/GIG Soundfont Synthesizer'
 splash:
     bg_image_landscape: redwave-hero.jpg

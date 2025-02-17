@@ -4,7 +4,7 @@ media_order: 'artyfx.png'
 description: 'A minimalistic but complete plugin collection'
 taxonomy:
     category: effect
-    tag: [free-software,effect,fx-mod,fx-delay,fx-eq,fx-filter,fx-dynamics,fx-distortion,fx-other,ucase-pr,ucase-fx]
+    tag: [free-software,effect,fx-mod,fx-delay,fx-eq,fx-filter,fx-dynamics,fx-distortion,fx-other,ucase-kb,ucase-fx]
 date: '17:38 24-04-2020'
 subtitle: 'Minimalistic Plugin Collection'
 splash:

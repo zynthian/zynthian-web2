@@ -4,7 +4,7 @@ media_order: 'ratatouille.jpg'
 description: 'Dual neural-network modeler. Blend 2 neural models + IRs'
 taxonomy:
     category: effect
-    tag: [free-software,effect,fx-distortion,fx-other,ucase-kb,ucase-pr,ucase-fx]
+    tag: [free-software,effect,fx-distortion,ucase-pr,ucase-fx]
 date: '17:38 24-04-2020'
 subtitle: 'Blend 2 neural models and 2 IRs'
 splash:

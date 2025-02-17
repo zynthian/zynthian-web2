@@ -4,7 +4,7 @@ media_order: 'arpeggiator.jpg'
 description: 'A simple MIDI arpeggiator and MIDI pattern plugin'
 taxonomy:
     category: effect
-    tag: [free-software,effect,fx-midi,ucase-kb,ucase-pr]
+    tag: [free-software,effect,fx-midi,ucase-kb]
 date: '17:38 24-04-2020'
 subtitle: 'A simple arpeggiator & MIDI pattern plugin'
 splash:
@@ -30,7 +30,7 @@ The arpeggiator has the following modes:
  + Played
  + Random
 
-**Octave Modes:** 
+**Octave Modes:**
 The arpeggiator has octave spread control. The arpeggiator can iterate the incoming notes over multiple octaves. This control sets the range of the octaves that will be iterated over the original pitch. The way how this octaves will be added to the original notes is determent by the octave mode control.
 
 ####MIDI-pattern

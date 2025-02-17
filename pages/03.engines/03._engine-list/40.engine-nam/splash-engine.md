@@ -4,7 +4,7 @@ media_order: 'nam.jpg'
 description: 'Neural-network modeler for amplifiers, stompboxes and other non-linear gear.'
 taxonomy:
     category: effect
-    tag: [free-software,effect,fx-distortion,fx-other,ucase-kb,ucase-pr,ucase-fx]
+    tag: [free-software,effect,fx-distortion,ucase-pr,ucase-fx]
 date: '17:38 24-04-2020'
 subtitle: 'powering the next generation of digital audio effects'
 splash:

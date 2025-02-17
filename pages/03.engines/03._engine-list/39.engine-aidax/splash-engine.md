@@ -4,7 +4,7 @@ media_order: 'aidax.jpg'
 description: 'Neural-network and IR modeler for amplifiers, stompboxes, cabinets and other gear.'
 taxonomy:
     category: effect
-    tag: [free-software,effect,fx-distortion,fx-delay,fx-other,ucase-kb,ucase-pr,ucase-fx]
+    tag: [free-software,effect,fx-distortion,fx-other,ucase-pr,ucase-fx]
 date: '17:38 24-04-2020'
 subtitle: 'AI Crafted Tone'
 splash:
@@ -19,7 +19,7 @@ Its main intended use is to provide high fidelity simulations of amplifiers. How
 
 #### Get models from a large community
 
-[Tonehunt.org](https://tonehunt.org/models?tags%5B0%5D=aida-x) has become the place to get the best models for Neural Amp Modeler, Aida-X and Proteus, while expanding to support more platforms in the future. Not only models, but our collection of IRs is also growing and becoming very popular within the platform. 
+[Tonehunt.org](https://tonehunt.org/models?tags%5B0%5D=aida-x) has become the place to get the best models for Neural Amp Modeler, Aida-X and Proteus, while expanding to support more platforms in the future. Not only models, but our collection of IRs is also growing and becoming very popular within the platform.
 
 [[figure class="center"]![Tonehunt.org](tonehunt.png)[/figure]](https://tonehunt.org/models?tags%5B0%5D=aida-x)
 

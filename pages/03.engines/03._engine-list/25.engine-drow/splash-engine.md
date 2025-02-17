@@ -4,7 +4,7 @@ media_order: 'redwave.jpg'
 description: 'JUCE-based plugin collection'
 taxonomy:
     category: effect
-    tag: [free-software,effect,fx-mod,fx-delay,fx-distortion,ucase-pr,ucase-fx]
+    tag: [free-software,effect,fx-mod,fx-delay,fx-distortion,ucase-fx]
 date: '17:38 24-04-2020'
 subtitle: 'Plugin Collection'
 splash:

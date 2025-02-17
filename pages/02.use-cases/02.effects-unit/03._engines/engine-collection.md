@@ -9,12 +9,12 @@ margin_bottom: none
 role: default
 limit_reveal: '0'
 content:
-    items: 
+    items:
         '@taxonomy.tag': ucase-fx
     order:
         by: default
         dir: asc
-    limit: '18'
+    limit: '24'
 content_position: left
 ---
 

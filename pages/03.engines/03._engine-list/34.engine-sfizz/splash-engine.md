@@ -4,7 +4,7 @@ id: sfizz
 description: 'Sample-based synthesizer that supports SFZ soundfont format'
 taxonomy:
     category: synthesizer
-    tag: [free-software,synth-sample,ucase-kb,ucase-pr]
+    tag: [free-software,synth-sample,ucase-kb]
 date: '17:38 10-03-2020'
 subtitle: 'SFZ Soundfont Synthesizer'
 splash:
@@ -13,7 +13,7 @@ splash:
 media_thumb: redwave-card.jpg
 ---
 [column class="column-offset-1 column-6 first"]
-Sfizz is a sample-based musical synthesizer. 
+Sfizz is a sample-based musical synthesizer.
 
 It features the well-established SFZ instrument format at its core, which permits to use existing instrument libraries, or create personal instruments with ease.
 

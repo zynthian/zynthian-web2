@@ -4,7 +4,7 @@ media_order: 'TAL-U-NO-LX.jpg'
 description: 'Accurately recreates the iconic sound of the analog Juno 60 synth.'
 taxonomy:
     category: synthesizer
-    tag: [free-software,synth-sub,ucase-kb,ucase-pr]
+    tag: [synth-sub,ucase-kb,ucase-pr]
 date: '17:38 05-02-2025'
 subtitle: 'Juno 60 emulator'
 splash:
