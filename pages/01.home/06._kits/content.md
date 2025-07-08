@@ -29,18 +29,18 @@ sitemap:
 [column class="kit__card"]
 [div class="kitv5"]
 [content-group]
-## V5.1 Kit
-##### The easy way. Simply plug the wires & tighten the screws.
+## V5.1 Assembled
+##### The easy way. Jump to music making!
 [/content-group]
-[button-group][btn-secondary href="https://blog.zynthian.org/2023/07/zynthian-kit-v5-is-here"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org"]Buy V5.1 Kit[/btn-primary][/button-group]
+[button-group][btn-secondary href="https://shop.zynthian.org"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/zynthian-v5-1-assembled-437?category=11"]Buy V5.1 Assembled[/btn-primary][/button-group]
 [/div]
 [/column]
 [column class="kit__card"]
 [div class="kitv5mb"]
 [content-group]
-## V5 Main Board
-##### Do it your way! Build your custom zynthian.
+## V5.1 DIY Kit
+##### Build your Zynthian V5.1 and learn how it works.
 [/content-group]
-[button-group][btn-secondary href="https://wiki.zynthian.org/index.php/Zynthian_Box_Building"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/main-board-v5-37?category=10"]Buy V5 Main Board[/btn-primary][/button-group]
+[button-group][btn-secondary href="https://shop.zynthian.org"]Learn More[/btn-secondary]  [btn-primary href="https://shop.zynthian.org/shop/zynthian-v5-1-kit-383?category=5"]Buy V5.1 KIT[/btn-primary][/button-group]
 [/div]
 [/column]
