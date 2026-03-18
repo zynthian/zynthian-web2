@@ -32,6 +32,8 @@ Interaction with the synth is done can be done via mouse/PC-keyboard and MIDI. T
 <br>
 
 ## Audio
+<small>Georgia on my waltzin mind, by TKC (MDA EPiano + setBfree)</small>
+![Georgia on my waltzin mind, by TKC (MDA EPiano + setBfree)](georgia_on_my_waltzin_mind.ogg?preload=metadata)
 <small>Drawbars Manipulations, by Baggypants</small>
 ![Hammond Drawbars Manipulations, by Baggypants (setBfree)](setBfreeDrawbarsManipulationByBaggypants.mp3)
 <small>Rhodes & Hammond, by Humi</small>
