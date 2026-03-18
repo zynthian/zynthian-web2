@@ -29,7 +29,8 @@ content:
 ##### Let your fingers play the sound you want.
 Acoustic & electric pianos, organs, vintage synthesizers, virtual analog synthesizers, soundfonts, ...<br>
 <br>
-![Body & Soul, by Joost (Pianoteq Fender Rhodes)](BodySoulByJoostRhodes.mp3?preload=metadata)
+<!--![Body & Soul, by Joost (Pianoteq Fender Rhodes)](BodySoulByJoostRhodes.mp3?preload=metadata)-->
+![Night Track, by tkc (MDA EPiano + ZASFX + SooperLooper)](night_track.ogg?preload=metadata)
 <br>
 MIDI learning is quick & easy, allowing you to manage everything from your MIDI keyboard/controller, including fast instrument changes and controlling the sound parameters you want.
 [[Learn More]](/use-cases/keyboard-expander)[/span]
