@@ -33,7 +33,7 @@ body_classes: custom-list
 * Metronome, tuner, ...
 * Arpeggiator, chorder, LFO, autotune, vocoder, ...
 * Included Synth Engines: > 50
-* Included Sounfonts: > 100
+* Included Soundfonts: > 100
 * Included Audio FXs: > 500
 * Included MIDI FXs: > 50
 * Included Audio Generators: > 40
@@ -68,7 +68,7 @@ body_classes: custom-list
     * Integrated power switch
 * [V5 Control Board](https://shop.zynthian.org)
     * Display 5" DSI, capacitive touch
-    * 20 x silicone push-buttons with RGB LED feedcak
+    * 20 x silicone push-buttons with RGB LED feedback
     * 4 x rotary encoders with switches
     * Mechanized aluminum knobs
 * [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/)
