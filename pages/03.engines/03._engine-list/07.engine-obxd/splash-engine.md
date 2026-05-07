@@ -1,7 +1,7 @@
 ---
 title: OBX-D
 id: obxd
-description: 'Soft-synth inspired on some classic devices manufactured by Oberheim on 1980s'
+description: 'Soft-synth inspired by some classic devices manufactured by Oberheim on 1980s'
 taxonomy:
     category: synthesizer
     tag: [free-software,synth-emu,synth-sub,ucase-kb,ucase-pr]
