@@ -1,7 +1,7 @@
 ---
 title: Raffo
 id: raffo
-description: '4-oscillator subtractive monophonic soft-synth inspired on the classic Minimoog'
+description: '4-oscillator subtractive monophonic soft-synth inspired by the classic Minimoog'
 taxonomy:
     category: synthesizer
     tag: [free-software,synth-emu,synth-sub,synth-mono,ucase-kb]
