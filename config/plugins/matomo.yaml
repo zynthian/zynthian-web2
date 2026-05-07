@@ -1,0 +1,17 @@
+enabled: false
+active: true
+matomo_url: 'https://matomo.evolus.net'
+site_id: 1
+token: b4f342c2e80a765c8bffa39c61ade2c5
+respect_do_not_track: true
+enable_cookies: true
+enable_javascript: true
+blockedIpAddresses: null
+blockedIpRanges:
+  - private
+  - loopback
+  - link-local
+blockingCookie: blockMatomo
+dashboard_token: null
+dashboard_site_id: null
+debug: false

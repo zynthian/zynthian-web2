@@ -1,32 +1,40 @@
 ---
-title: MDA ePiano
+title: 'MDA ePiano'
 id: mda-epiano
 description: 'A simple but good electric-piano virtual instrument based on Fender Rhodes samples'
 taxonomy:
-    category: synthesizer
-    tag: [free-software,synth-emu,synth-sample,ucase-kb]
+    category:
+        - synthesizer
+    tag:
+        - free-software
+        - ucase-kb
+        - synth-sample
+        - synth-emu
 date: '17:38 24-04-2020'
 subtitle: 'Electric Piano Emulator'
 splash:
     bg_image_landscape: rhodes-hero.jpg
     bg_image: rhodes-hero_small.jpg
 media_thumb: rhodes.jpg
+sitemap:
+    lastmod: '07-05-2026 16:22'
 ---
+
 [column class="column-offset-1 column-6 first"]
-MDA ePiano is a simple but good Electric Piano virtual instrument. It emulates quite nicely the warm sound of a Fender Rhodes, while consuming very little resources. It has a few options only, but it's all you need. Simplicity is beauty.
+MDA ePiano is a simple but good Electric Piano virtual instrument. It quite nicely emulates the warm sound of a Fender Rhodes, while consuming very little resources. It only has a few options, but it's all you need. Simplicity is beauty.
  
-Back in the 20th century, plugins from Maxim Digital Audio (mda) were among the early VST plugins available for Windows. They have a reputation for being high quality with low CPU usage. Several years ago the source code for these plugins was released and David Robillard ported the mda plugins to LV2 format. Most of the mda plugins are effects but there are also four instruments: DX10, JX10, Piano, and ePiano.
+ Back in the 20th century, plugins from Maxim Digital Audio (MDA, aka Paul Kellett) were among the early VST plugins available for Windows. They gained a reputation of high quality with low CPU usage. Several years ago the source code for these plugins was released (GPL / MIT license, thanks Paul!) and David Robillard ported the MDA plugins to LV2 format. Most of the MDA plugins are audio effects but there are also four virtual instruments: DX10, JX10, Piano, and the remarkable **ePiano**. 
 <br>
 <br>
 
 ## Features:
 + Based around 12 carefully sampled and mastered Rhodes Piano samples.
-+ 1-32 voice polyphony
++ 32 voice polyphony
 + Unique width control
-+ Decay, Release
-+ Stereo Width
++ Decay, release
++ Stereo width
 + Velocity sensitivity
-+ muffle and hardness amount adjustable
++ Adjustable muffle and hardness amount
 + Gentle muffling filter
 [/column]
 
@@ -44,7 +52,6 @@ Back in the 20th century, plugins from Maxim Digital Audio (mda) were among the 
 </p>
 <br>
 ## Links:
-+ [MDA's Website](http://mda.smartelectronix.com)
-+ [MDA-LV2 Source Code](https://github.com/moddevices/mda-lv2)
++ [MDA-LV2 Source Code](https://gitlab.com/drobilla/mda-lv2)
 [/column]
 

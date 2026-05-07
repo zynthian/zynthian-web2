@@ -1,23 +1,31 @@
 ---
-title: TAL NoizeMaker
+title: 'TAL NoizeMaker'
 id: noizemaker
 description: 'Subtractive mono/polyphonic soft-synth with up to 6 voices per sound'
 taxonomy:
-    category: synthesizer
-    tag: [free-software,synth-sub,ucase-kb,ucase-pr]
+    category:
+        - synthesizer
+    tag:
+        - free-software
+        - synth-sub
+        - ucase-kb
+        - ucase-pr
 date: '17:38 24-04-2020'
 subtitle: 'Virtual Analog Synthesizer'
 splash:
     bg_image_landscape: noizemaker-hero.png
     bg_image: noizemaker-hero_small.png
 media_thumb: noizemaker.png
+sitemap:
+    lastmod: '07-05-2026 16:46'
 ---
+
 [column class="column-offset-1 column-6 first"]
 TAL-NoizeM4k3r is a subtractive type, mono/polyphonic synth with up to 6 voices per sound, developed by Togu Audio Line (TAL). Its structure is divided into two synth modules, although what is denominated "synth 1" actually controls the two oscillators and LFO 1, whereas _synth 2_ only controls LFO 2 and the filter and amplitude envelopes.
 
 TAL-NoizeM4k3r comes with 256 preset patches, divided into categories such as Lead, Pad, FX, Percussion, Bass. Oscillator 1 can select from among three waveforms: saw, pulse and noise. Oscillator 2 has four waveforms: saw, rectangle, triangle, sine. The "master" section controls polyphony, portamento, tuning, oscillator volume amounts, ring modulation, syncing and sub (LFO) volume.
 
-TAL-NoizeM4k3r is particularly powerful in creating bass, effects and arpeggiator-type sounds, very common in modern tecno-dance music. It has four low-pass, high-pass, bandpass and notch filter types. The envelope editor allows manual configuration that can be applied to the oscillators, filters, etc. One-shot and multiple repetition of this envelope is possible, and an amount control is also provided.
+TAL-NoizeM4k3r is particularly powerful in creating bass, effects and arpeggiator-type sounds, very common in modern techno-dance music. It has four low-pass, high-pass, bandpass and notch filter types. The envelope editor allows manual configuration that can be applied to the oscillators, filters, etc. One-shot and multiple repetition of this envelope is possible, and an amount control is also provided.
 
 Another powerful section of the TAL-NoizeM4k3r is the control section, which includes two types of chorus, a bit crusher, reverb and delay. A very nice "vintage noise" effect is included, as well as a feedback knob and a filter drive control. There is a pitchwheel control area which allows the external pitchwheel to control the cutoff point and pitchbend amount.
 <br>
@@ -30,7 +38,7 @@ Another powerful section of the TAL-NoizeM4k3r is the control section, which inc
 + Sub Osc (rectangle).
 + Osc 1 PM for pulse waveform.
 + Osc 2 FM controled by Osc 1.
-+ Osc 1 & Osc 2 sync to sub osc (saw, pulse, rectangle, triangle(bipolar sync)).
++ Osc 1 & Osc 2 sync to sub osc (saw, pulse, rectangle, triangle, bipolar sync).
 + Adjustable master tune and transpose.
 + Up to 6 voices.
 + Portamento in mono and poly mode (off, auto, on).
@@ -89,7 +97,7 @@ Another powerful section of the TAL-NoizeM4k3r is the control section, which inc
 ## Links:
 + [Official Website](https://tal-software.com/products/tal-noisemaker)
 + [LinuxSynths page](http://linuxsynths.com/TALNoizeM4k3r-BanksDemos/talnoizem4k3r.html) 
-+ [LV2 Source Code](https://github.com/DISTRHO/DISTRHO-Ports/tree/master/ports/tal-noisemaker)
++ [LV2 Source Code](https://github.com/DISTRHO/DISTRHO-Ports/tree/master/ports-juce5/tal-noisemaker/source)
 [/column]
 
 

@@ -3,20 +3,28 @@ title: LinuxSampler
 id: linuxsampler
 description: 'Sample-based synthesizer that supports GIG & SFZ soundfont formats'
 taxonomy:
-    category: synthesizer
-    tag: [free-software,synth-sample,ucase-kb]
+    category:
+        - synthesizer
+    tag:
+        - free-software
+        - ucase-kb
+        - synth-sample
 subtitle: 'SFZ/GIG Soundfont Synthesizer'
 splash:
     bg_image_landscape: redwave-hero.jpg
     bg_image: redwave-hero_small.jpg
 media_thumb: redwave-card.jpg
+date: '07-05-2026 00:00'
+sitemap:
+    lastmod: '07-05-2026 14:59'
 ---
+
 [column class="column-offset-1 column-6 first"]
 LinuxSampler is a software sampler synthesizer (ROMpler) that supports several soundfont file formats, specially GIG & SFZ.
 
 Among its goals are having high stability, high efficiency and very low latency, providing professional grade features comparable to both hardware and commercial Windows/Mac software samplers.
 
-It's capable of streaming audio samples directly from disk, what allows to manage soundfont files much bigger than the available physical memory.
+It's capable of directly streaming audio samples from disk, supporting soundfont files much bigger than the available physical memory.
 [/column]
 
 [column class="column-offset-1 column-4"]

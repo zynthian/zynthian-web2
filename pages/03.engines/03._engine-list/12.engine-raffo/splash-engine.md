@@ -1,17 +1,26 @@
 ---
 title: Raffo
 id: raffo
-description: '4-oscillator subtractive monophonic soft-synth inspired on the classic Minimoog'
+description: '4-oscillator subtractive monophonic soft-synth inspired by the classic Minimoog'
 taxonomy:
-    category: synthesizer
-    tag: [free-software,synth-emu,synth-sub,synth-mono,ucase-kb]
+    category:
+        - synthesizer
+    tag:
+        - free-software
+        - synth-sub
+        - ucase-kb
+        - synth-emu
+        - synth-mono
 date: '17:38 24-04-2020'
 subtitle: 'Minimoog Emulator'
 splash:
     bg_image_landscape: minimoog-hero.jpg
     bg_image: minimoog-hero_small.jpg
 media_thumb: minimoog.jpg
+sitemap:
+    lastmod: '07-05-2026 17:02'
 ---
+
 [column class="column-offset-1 column-6 first"]
 Raffo Synth is a 4-oscillator subtractive software synthesizer emulator of the classic Minimoog, developed by Julián Palladino and Nicolas Roulet. It runs as an LV2 plug-in and is currently available with some audio-production linux distros.
 

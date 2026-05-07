@@ -1,17 +1,26 @@
 ---
 title: Monique
-media_order: 'monique.jpg'
-description: 'Substractive monophonic synth with morphing. Excelent for deep basses and aggressive lead sounds.'
+media_order: monique.jpg
+description: 'Substractive monophonic synth with morphing. Excellent for deep basses and aggressive lead sounds.'
 taxonomy:
-    category: synthesizer
-    tag: [free-software,synth-mono,synth-sub,ucase-kb,ucase-pr]
+    category:
+        - synthesizer
+    tag:
+        - free-software
+        - synth-sub
+        - ucase-kb
+        - ucase-pr
+        - synth-mono
 date: '17:38 29-01-2025'
 subtitle: 'Monomorphic Synthesizer'
 splash:
     bg_image: monique-hero_small.jpg
     bg_image_landscape: monique-hero.jpg
 media_thumb: monique.jpg
+sitemap:
+    lastmod: '07-05-2026 16:56'
 ---
+
 [column class="column-offset-1 column-6 first"]
 Monique is a monophonic synth from Thomas Arndt which, in December 2021 became open source as part of the surge-synth-team family of products. 
 

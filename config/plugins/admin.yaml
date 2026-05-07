@@ -11,7 +11,7 @@ sidebar:
   hover_delay: 100
   size: auto
 dashboard:
-  days_of_stats: 30
+  days_of_stats: 366
 widgets_display:
   dashboard-maintenance: 'true'
   dashboard-statistics: 'true'
@@ -27,7 +27,6 @@ session:
 edit_mode: normal
 frontend_preview_target: _blank
 show_github_msg: false
-pages_list_display_field: title
 admin_icons: line-awesome
 enable_auto_updates_check: true
 notifications:
@@ -91,6 +90,7 @@ whitelabel:
   custom_footer: null
   custom_css: null
   custom_presets: null
+pages_list_display_field: title
 log_viewer_files:
   - grav
   - email
