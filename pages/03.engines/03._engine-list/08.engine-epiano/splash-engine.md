@@ -13,7 +13,7 @@ splash:
 media_thumb: rhodes.jpg
 ---
 [column class="column-offset-1 column-6 first"]
-MDA ePiano is a simple but good Electric Piano virtual instrument. It emulates quite nicely the warm sound of a Fender Rhodes, while consuming very little resources. It has a few options only, but it's all you need. Simplicity is beauty.
+MDA ePiano is a simple but good Electric Piano virtual instrument. It quite nicely emulates the warm sound of a Fender Rhodes, while consuming very little resources. It only has a few options, but it's all you need. Simplicity is beauty.
  
 Back in the 20th century, plugins from Maxim Digital Audio (mda) were among the early VST plugins available for Windows. They have a reputation for being high quality with low CPU usage. Several years ago the source code for these plugins was released and David Robillard ported the mda plugins to LV2 format. Most of the mda plugins are effects but there are also four instruments: DX10, JX10, Piano, and ePiano.
 <br>
@@ -26,7 +26,7 @@ Back in the 20th century, plugins from Maxim Digital Audio (mda) were among the 
 + Decay, Release
 + Stereo Width
 + Velocity sensitivity
-+ muffle and hardness amount adjustable
++ Adjustable muffle and hardness amount
 + Gentle muffling filter
 [/column]
 
