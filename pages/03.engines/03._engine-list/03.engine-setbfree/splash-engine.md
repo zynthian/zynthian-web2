@@ -13,16 +13,16 @@ splash:
 media_thumb: setbfree.jpg
 ---
 [column class="column-offset-1 column-6 first"]
-setBfree is a MIDI-controlled, software synthesizer designed to imitate the sound and properties of the electromechanical organs and sound modification devices that brought world-wide fame to the names and products of Laurens Hammond and Don Leslie.
+setBfree is a MIDI-controlled software synthesizer designed to imitate the sound and properties of the electromechanical organs and sound modification devices that brought world-wide fame to the names and products of Laurens Hammond and Don Leslie.
 <br>
 <br>
 
 ## Features:
 setBfree is a _Tonewheel Organ Construction Kit_, a physical model with over 1000 configurable parameters. Like a real B3 one can 'open it' and tweak parameters from mint'53 condition (default) to dusty tube 80's run-down.
 
-By default setBfree expects two manuals (midi channel 1,2) and pedals (midi channel 3). All controls can be dynamically bound to MIDI-CC messages as needed (there are default config files for common keyboards such as the Kurzweil 2500 or Oxygen61 included).
+By default setBfree expects two manuals (midi channel 1,2) and pedals (midi channel 3). All controls can be dynamically bound to MIDI-CC messages as needed. Default config files for common keyboards such as the Kurzweil 2500 or Oxygen 61 are included.
 
-Interaction with the synth is done can be done via mouse/PC-keyboard and MIDI. The communication is bidirectional: GUI updates will be sent as feedback to the MIDI output, incoming MIDI message update the GUI. The GUI lends itself as quick visual feedback in case the midi-keyboard cannot provide it. 
+Interaction with the synth is possible via mouse/PC-keyboard and MIDI. The communication is bidirectional: GUI updates will be sent as feedback to the MIDI output, incoming MIDI messages update the GUI. The GUI lends itself as quick visual feedback in case the MIDI-keyboard cannot provide it. 
 [/column]
 
 [column class="column-offset-1 column-4"]
