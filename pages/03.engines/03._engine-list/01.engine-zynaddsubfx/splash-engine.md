@@ -24,7 +24,7 @@ taxonomy:
 ---
 
 [column class="column-offset-1 column-6 first"]
-ZynAddSubFX is a realtime software synthesizer created by Paul Octavian Nasca in 2002. It is a realtime, polyphonic/monophonic, multitimbral, microtonal synthesizer capable of rescaling to up to 128 microtones per octave, as well as key mapping. Although it incorporates the traditional additive and subtractive methods of sound synthesis, as well as a PAD synth capability, it really is in a category all its own, because of how it expands, enriches and compresses harmonic spectrums, thereby obtaining extraordinarily rich sound timbres. It can be run standalone and also as an LV2 plugin.
+ZynAddSubFX is a realtime software synthesizer created by Paul Octavian Nasca in 2002. It is a realtime, polyphonic/monophonic, multitimbral, microtonal synthesizer capable of rescaling to up to 128 microtones per octave, as well as key mapping. Although it incorporates the traditional additive and subtractive methods of sound synthesis, as well as a PAD synth capability, it really is in a category of its own, because of how it expands, enriches and compresses harmonic spectrums, thereby obtaining extraordinarily rich sound timbres. It can be run standalone and also as an LV2 plugin.
 
 The "ADDsynth" section (which I oddly prefer to think of as the subtractive synthesis section) functions by adding voices together, each one provided with "traditional" features such as filters and LFOs, but also including morphing and modulation capability. Each voice has a waveform generator capable of reproducing up to 128 wave types. These waves can be reshaped, and Fourier synthesis is also provided.
 
@@ -36,7 +36,7 @@ All three sections above include envelope stages for amp, filter and pitch can b
 
 ZynAddSubFX is an advanced Virtual Analog Synthesizer capable of modelling the most amazing sounds you can conceive. Its warm and analogue-like sound will please the most exigent ears.
 
-It's a quite complex and very powerful tool that will satisfy the most experienced users. It also includes a  collection of more than 1000 presets organized in banks, so basic users will enjoy from the first moment and advanced users have an excellent base for creating new presets.
+It's a quite complex and very powerful tool that will satisfy the most experienced users. It also includes a  collection of more than 1000 presets organized in banks, so basic users will enjoy it from the first moment and advanced users have an excellent base for creating new presets.
 <br>
 <br>
 
@@ -50,7 +50,7 @@ It's a quite complex and very powerful tool that will satisfy the most experienc
 + A variety of filters including analogue modelled filters, formant filters, and state variable filters.
 + Envelopes can have ADSR (or ASR, etc..) modes or can be free modes (with any shape)
 + Internal Effects: Reverb, Echo, Chorus/Flange, Phasing, Wave-shaping, Equalizing, Dynamic Filtering with flexible signal routing
-+ Instruments can be organized in kits, which allows you to make drum kits or layered instruments; this makes possible to use more than one instrument for a single part. It is possible to choose what items from the kit should be processed by the Part's effects.
++ Instruments can be organized in kits, which allows you to make drum kits or layered instruments; this makes possible to use more than one instrument for a single part. It is possible to choose what items from the kit should be processed by the part's effects.
 + Randomness settings to create subtle differences in each sound to help create that familiar analogue warmth.
 + Microtonal capabilities with any scale, up to 128 notes per octave, and key mapping
 + The graphical user interface can be completely disabled if the user need so
@@ -75,7 +75,7 @@ It's a quite complex and very powerful tool that will satisfy the most experienc
 </p>
 <br>
 ## Links:
-+ [Project's Website](https://zynaddsubfx.net)
++ [Project's Website](https://zynaddsubfx.sourceforge.io)
 + [LinuxSynths Page](http://www.linuxsynths.com/ZynaddsubfxBanksDemos/zynaddsubfx.html)
 + [Source Code](https://github.com/zynaddsubfx)
 [/column]
