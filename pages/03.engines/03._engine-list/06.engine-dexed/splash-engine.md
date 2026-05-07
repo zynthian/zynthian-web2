@@ -2,7 +2,7 @@
 title: Dexed
 id: dexed
 image: dexed.jpg
-description: 'FM soft-synth inspired on the classic Yamaha DX7 & TX7 synthesizers from the 1980s'
+description: 'FM soft-synth inspired by the classic Yamaha DX7 & TX7 synthesizers from the 1980s'
 taxonomy:
     category: synthesizer
     tag: [free-software,synth-emu,synth-fm,ucase-kb,ucase-pr]
