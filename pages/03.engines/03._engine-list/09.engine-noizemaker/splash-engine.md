@@ -17,7 +17,7 @@ TAL-NoizeM4k3r is a subtractive type, mono/polyphonic synth with up to 6 voices 
 
 TAL-NoizeM4k3r comes with 256 preset patches, divided into categories such as Lead, Pad, FX, Percussion, Bass. Oscillator 1 can select from among three waveforms: saw, pulse and noise. Oscillator 2 has four waveforms: saw, rectangle, triangle, sine. The "master" section controls polyphony, portamento, tuning, oscillator volume amounts, ring modulation, syncing and sub (LFO) volume.
 
-TAL-NoizeM4k3r is particularly powerful in creating bass, effects and arpeggiator-type sounds, very common in modern tecno-dance music. It has four low-pass, high-pass, bandpass and notch filter types. The envelope editor allows manual configuration that can be applied to the oscillators, filters, etc. One-shot and multiple repetition of this envelope is possible, and an amount control is also provided.
+TAL-NoizeM4k3r is particularly powerful in creating bass, effects and arpeggiator-type sounds, very common in modern techno-dance music. It has four low-pass, high-pass, bandpass and notch filter types. The envelope editor allows manual configuration that can be applied to the oscillators, filters, etc. One-shot and multiple repetition of this envelope is possible, and an amount control is also provided.
 
 Another powerful section of the TAL-NoizeM4k3r is the control section, which includes two types of chorus, a bit crusher, reverb and delay. A very nice "vintage noise" effect is included, as well as a feedback knob and a filter drive control. There is a pitchwheel control area which allows the external pitchwheel to control the cutoff point and pitchbend amount.
 <br>
