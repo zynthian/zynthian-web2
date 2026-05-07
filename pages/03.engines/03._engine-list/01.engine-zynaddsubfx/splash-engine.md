@@ -34,9 +34,9 @@ The "PADsynth" section produces pad sounds which can be exported.
 
 All three sections above include envelope stages for amp, filter and pitch can be switched to "freemode," where multiple steps and values can be set (reminiscent of the 8-stage Casio CZ series synths of the 80s). Several effects are included in ZynAddSubFX: Reverb, Echo, Chorus/Flange, Phaser, AlienWah, Distortion, EQ and Dynamic Filter. These can be applied to parts and globally. Several types of filters are provided in all three synthesis sections, including formant and state variable filters.
 
-ZynAddSubFX is an advanced Virtual Analog Synthesizer capable of modelling the more amazing sounds you can conceive. Its warm and analogue-like sound will please the most exigent ears.
+ZynAddSubFX is an advanced Virtual Analog Synthesizer capable of modelling the most amazing sounds you can conceive. Its warm and analogue-like sound will please the most exigent ears.
 
-It's a quite complex and very powerful tool that will satisfy the most experienced users. It also includes a  collection of more than 1000 presets organized in banks, so basic users will enjoy from the first moment and advanced users have an excelent base for creating new presets.
+It's a quite complex and very powerful tool that will satisfy the most experienced users. It also includes a  collection of more than 1000 presets organized in banks, so basic users will enjoy from the first moment and advanced users have an excellent base for creating new presets.
 <br>
 <br>
 
