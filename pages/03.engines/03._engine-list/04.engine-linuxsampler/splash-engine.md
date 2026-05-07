@@ -16,8 +16,9 @@ LinuxSampler is a software sampler synthesizer (ROMpler) that supports several s
 
 Among its goals are having high stability, high efficiency and very low latency, providing professional grade features comparable to both hardware and commercial Windows/Mac software samplers.
 
-It's capable of streaming audio samples directly from disk, what allows to manage soundfont files much bigger than the available physical memory.
+It's capable of directly streaming audio samples from disk, supporting soundfont files much bigger than the available physical memory.
 [/column]
+
 
 [column class="column-offset-1 column-4"]
 ## Audio

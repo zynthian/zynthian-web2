@@ -1,7 +1,7 @@
 ---
 title: Monique
 media_order: 'monique.jpg'
-description: 'Substractive monophonic synth with morphing. Excelent for deep basses and aggressive lead sounds.'
+description: 'Substractive monophonic synth with morphing. Excellent for deep basses and aggressive lead sounds.'
 taxonomy:
     category: synthesizer
     tag: [free-software,synth-mono,synth-sub,ucase-kb,ucase-pr]
